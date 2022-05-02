@@ -1,0 +1,14 @@
+- commits:
+    - subject: "recipes-support/resin-init: Add template init recipes and files"
+      hash: 3252cb2b6cd51eee0560ba7f4d4f4ab428ab08f2
+      body: ""
+      footer:
+        Changelog-entry: "recipes-support/resin-init: Add template init recipes and files"
+        changelog-entry: "recipes-support/resin-init: Add template init recipes and files"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 2.98.11
+  title: "'Add template device layer for balenaOS integration'"
+  date: 2022-05-02T11:19:45.259Z
