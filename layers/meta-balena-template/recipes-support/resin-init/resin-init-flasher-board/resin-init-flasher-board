@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+# This can be used to write necessary boot firmware during initial provisioning on flasher images
+echo 0 > /sys/block/mmcblk0boot0/force_ro
+dd if=/opt/custom-bootfiles/boot0.img of=/dev/mmcblk0boot0 ; sync
+echo 1 > /sys/block/mmcblk0boot0/force_ro
+
