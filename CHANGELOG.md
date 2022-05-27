@@ -1,0 +1,20 @@
+# v2.98.31
+## (2022-05-27)
+
+* Add build and deploy workflow [Alex Gonzalez]
+* Update layers/meta-balena to 7ae427858052ddad086a32a7458e301103d02013 [Renovate Bot]
+* Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67 [Renovate Bot]
+* Update layers/meta-balena to c8f7eb1fdd6b342cc816e7b2b7e0c60634de2e87 [Renovate Bot]
+* Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0 [Renovate Bot]
+* Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4 [Renovate Bot]
+* Update layers/meta-balena to 7e98e8f49aee1f5538da16ff564c7d8fb009800e [Renovate Bot]
+* Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f [Renovate Bot]
+* Update layers/meta-balena to 5399363b3758860b22ac93a4406d62de5d88b229 [Renovate Bot]
+* Update layers/meta-balena to b6e9352e8784e433c647811d532d7ab3e2ee05e2 [Renovate Bot]
+* Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4 [Renovate Bot]
+* Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab [Renovate Bot]
+* Update layers/meta-balena to 96599b31001fc8f7e4eac7fc650a12d43ca39d21 [Renovate Bot]
+* Update layers/meta-balena to c98cda89f0be6c168599a2a155ec42a148d0a6cc [Renovate Bot]
+* Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141 [Renovate Bot]
+* Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566 [Renovate Bot]
+* Update layers/meta-balena to 42c71bfea112ba44e59488fe93284a583654622f [Renovate Bot]
