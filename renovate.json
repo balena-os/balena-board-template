@@ -1,5 +1,6 @@
 {
 	"extends": [
 		"github>balena-os/renovate-config"
-	]
+	],
+	"includeForks": true
 }
