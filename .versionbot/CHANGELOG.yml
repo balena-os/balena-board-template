@@ -1,0 +1,642 @@
+- commits:
+    - subject: Update contracts to 9db49d2fbb34542f53bf496135c32cccf5df487c
+      hash: abbd3d55f4950eb3bcd03913506a1d9c5a4542c9
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 9db49d2fbb34542f53bf496135c32cccf5df487c
+        changelog-entry: Update contracts to 9db49d2fbb34542f53bf496135c32cccf5df487c
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: fix tdpzu9 device name"
+              hash: acb15b0bc5d545447881d327977d7901e88a8dea
+              body: |
+                Remove "V1R2" version from Topic Device Name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+                signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+              author: Francois
+          version: contracts-2.0.7
+          title: "'hw.device-type: fix tdpzu9 device name'"
+          date: 2022-07-19T11:11:57.633Z
+    - subject: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
+      hash: b3aa8512299150e655ecfb80f4243d8a5c61c72f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
+        changelog-entry: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
+      author: renovate[bot]
+      nested: []
+    - subject: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
+      hash: 02e843345f60786b38895bfe3bb7a5255b265ebb
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
+        changelog-entry: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      hash: 0ed8a02bf3448ac202e5e50ba583bfa9fd90cc81
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+        changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to a2ed558c6d2d8362da0b8242ca3b54d1b49acb9c
+      hash: 68b207577c577e1b1a82887ff9d6036114a4d18c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a2ed558c6d2d8362da0b8242ca3b54d1b49acb9c
+        changelog-entry: Update layers/meta-balena to a2ed558c6d2d8362da0b8242ca3b54d1b49acb9c
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 9b7bbeaffe87b8dab49eb98163188c77c1934f8e
+      hash: 1efa3718a2f9d44258de729cb216bc3f4b27ef14
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9b7bbeaffe87b8dab49eb98163188c77c1934f8e
+        changelog-entry: Update layers/meta-balena to 9b7bbeaffe87b8dab49eb98163188c77c1934f8e
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 39681bd5d8a584784c385a042a707bf1c35b2369
+      hash: 474ee529666d428b6908c6d69c5caf8a2beae50c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 39681bd5d8a584784c385a042a707bf1c35b2369
+        changelog-entry: Update layers/meta-balena to 39681bd5d8a584784c385a042a707bf1c35b2369
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 2438d75a2515240ef254b956da08094b3f4e2d61
+      hash: 8ea7656e4f5f2bbb71b56626e6cb3d7749e0d806
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 2438d75a2515240ef254b956da08094b3f4e2d61
+        changelog-entry: Update layers/meta-balena to 2438d75a2515240ef254b956da08094b3f4e2d61
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 5eb7bb59aaeab9e80ea540f122f44057a64ade92
+      hash: 78c8f186030194cc95f516d9b6e50cfd0e9c61ba
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5eb7bb59aaeab9e80ea540f122f44057a64ade92
+        changelog-entry: Update layers/meta-balena to 5eb7bb59aaeab9e80ea540f122f44057a64ade92
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to c34abd0168622b7766004de8a27f0e96f556b035
+      hash: 15b4700c0fdf2b2929333a4c9b31d32747cbd91b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c34abd0168622b7766004de8a27f0e96f556b035
+        changelog-entry: Update layers/meta-balena to c34abd0168622b7766004de8a27f0e96f556b035
+      author: renovate[bot]
+      nested: []
+    - subject: Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f
+      hash: faaada3307b22ca80fe3e4ef2420755b6b89e071
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f
+        changelog-entry: Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: fix tdpzu9 device name"
+              hash: acb15b0bc5d545447881d327977d7901e88a8dea
+              body: |
+                Remove "V1R2" version from Topic Device Name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+                signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+              author: Francois
+          version: contracts-2.0.7
+          title: "'hw.device-type: fix tdpzu9 device name'"
+          date: 2022-07-19T11:11:57.633Z
+    - subject: Update layers/meta-balena to 7d1109f4319315955a5ef56d062252bbfcdce6f5
+      hash: a6f68f7b5bc5f5a72dfeea6e142f37e8b2232d12
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7d1109f4319315955a5ef56d062252bbfcdce6f5
+        changelog-entry: Update layers/meta-balena to 7d1109f4319315955a5ef56d062252bbfcdce6f5
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 904cf6fe2654cc58f831e8ff9b553470916d3874
+      hash: d2e9e71c33adb6af396ef5721c97069733beb162
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 904cf6fe2654cc58f831e8ff9b553470916d3874
+        changelog-entry: Update layers/meta-balena to 904cf6fe2654cc58f831e8ff9b553470916d3874
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to d824f26f501ed881ae048c709f14792ee8d657ca
+      hash: 0c962f65762d7342a4ee7a775a66e434196e741d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d824f26f501ed881ae048c709f14792ee8d657ca
+        changelog-entry: Update layers/meta-balena to d824f26f501ed881ae048c709f14792ee8d657ca
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 34b2d6eb5407194f5bd7151176c6fd252c98d308
+      hash: 9aeaa61a4617b64ca807e47dd30b827fc9cb3466
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 34b2d6eb5407194f5bd7151176c6fd252c98d308
+        changelog-entry: Update layers/meta-balena to 34b2d6eb5407194f5bd7151176c6fd252c98d308
+      author: renovate[bot]
+      nested: []
+    - subject: Update contracts to e6f7ecd2977facdc5ee141b4bb7dc2719001df45
+      hash: ec66e5e6176049e54e1f76ae8ea833ac729c2c52
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to e6f7ecd2977facdc5ee141b4bb7dc2719001df45
+        changelog-entry: Update contracts to e6f7ecd2977facdc5ee141b4bb7dc2719001df45
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: fix tdpzu9 device name"
+              hash: acb15b0bc5d545447881d327977d7901e88a8dea
+              body: |
+                Remove "V1R2" version from Topic Device Name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+                signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+              author: Francois
+          version: contracts-2.0.7
+          title: "'hw.device-type: fix tdpzu9 device name'"
+          date: 2022-07-19T11:11:57.633Z
+    - subject: Update layers/meta-balena to e25da86814cf073f06a45186609ca053955219c7
+      hash: 8127823b837655b1b191e6f59e3560e229b56e8e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e25da86814cf073f06a45186609ca053955219c7
+        changelog-entry: Update layers/meta-balena to e25da86814cf073f06a45186609ca053955219c7
+      author: renovate[bot]
+      nested: []
+    - subject: Remove forks configuration from renovate
+      hash: 39a4af04a75cfba359ac72fb68e58695083aa695
+      body: |
+        It's not needed now that we agreed not to use forks.
+      footer:
+        Changelog-entry: Remove forks configuration from renovate
+        changelog-entry: Remove forks configuration from renovate
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update build and deploy workflow to v0.0.7
+      hash: bf760c97005599f411ffd28b3b324266bbc1c65d
+      body: |
+        This adds support not to wait for jobs completion.
+      footer:
+        Changelog-entry: Update build and deploy workflow to v0.0.7
+        changelog-entry: Update build and deploy workflow to v0.0.7
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Move renovate configuration back to .github directory
+      hash: cb80d888c4c2cea49c4977c123005adf21f24c8c
+      body: |
+        Forked repositories have other problems with balena CI so we agreed we
+        will just not use them. Hence, the configuration file can go back to the
+        .github folder which is where most device repositories have it already.
+      footer:
+        Changelog-entry: Move renovate configuration back to .github directory
+        changelog-entry: Move renovate configuration back to .github directory
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update build and deploy workflow to support ESR tags
+      hash: b17f1f9da9d0b05ae44cbdb121539f5a3c1ab382
+      body: |
+        This adds support for build and deploy of ESR tags.
+      footer:
+        Changelog-entry: Update build and deploy workflow to support ESR tags
+        changelog-entry: Update build and deploy workflow to support ESR tags
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update layers/meta-balena to d748c184c7348683378b4e8f0dbc2cfc014b65de
+      hash: 83b46a50e1c2285b374a38b6176b8e4dee29d27d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d748c184c7348683378b4e8f0dbc2cfc014b65de
+        changelog-entry: Update layers/meta-balena to d748c184c7348683378b4e8f0dbc2cfc014b65de
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 1f79bcbb751f8715c49b207fdf737a2a089aff4c
+      hash: 4def1ae938125e3482ff3851927ff8ce140d2079
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1f79bcbb751f8715c49b207fdf737a2a089aff4c
+        changelog-entry: Update layers/meta-balena to 1f79bcbb751f8715c49b207fdf737a2a089aff4c
+      author: renovate[bot]
+      nested: []
+    - subject: Update balena-yocto-scripts to 5e003d52ac8e118af3cce662362d45f780ade704
+      hash: 75112741b78208727c794a4ac330ee482afa0d7f
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 5e003d52ac8e118af3cce662362d45f780ade704
+        changelog-entry: Update balena-yocto-scripts to 5e003d52ac8e118af3cce662362d45f780ade704
+      author: renovate[bot]
+      nested: []
+    - subject: Update balena-yocto-scripts to 29b218350eb1553f0f2c4da2753e9f6722226f41
+      hash: 0e55e6c2f84678c651ab5574c4c766e2a83c2d4f
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 29b218350eb1553f0f2c4da2753e9f6722226f41
+        changelog-entry: Update balena-yocto-scripts to 29b218350eb1553f0f2c4da2753e9f6722226f41
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
+      hash: 4d7cee1727d66c2e9392e0333429e71e61dfaf44
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
+        changelog-entry: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
+      hash: 90e7e48868580b8214ed9912b387a337aa56c4e2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
+        changelog-entry: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to d44b153e75f61c8a18d5149f37412f1fc1e577d9
+      hash: 83451ab82292f0eb0883261e67e114d5883969e5
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d44b153e75f61c8a18d5149f37412f1fc1e577d9
+        changelog-entry: Update layers/meta-balena to d44b153e75f61c8a18d5149f37412f1fc1e577d9
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
+      hash: 4b1fbec1dd4dabc74815232876bd886fb122b351
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
+        changelog-entry: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to b266b1a4ebeb269145192f8412fa12c902a30812
+      hash: 8a75beeca7e142d8b674f5528f3774c5a0d63250
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b266b1a4ebeb269145192f8412fa12c902a30812
+        changelog-entry: Update layers/meta-balena to b266b1a4ebeb269145192f8412fa12c902a30812
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 34e139b190f7aef385f9d7a831fe90e5efee007d
+      hash: b204a0260c4f8d4437dafaa44656f6806e766c2c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 34e139b190f7aef385f9d7a831fe90e5efee007d
+        changelog-entry: Update layers/meta-balena to 34e139b190f7aef385f9d7a831fe90e5efee007d
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 85c5bf992befbdd5b4f88978aeb7acd1a206bf9b
+      hash: d28fc5f2f216e8895cf87c6f3b96a70cbc470a79
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 85c5bf992befbdd5b4f88978aeb7acd1a206bf9b
+        changelog-entry: Update layers/meta-balena to 85c5bf992befbdd5b4f88978aeb7acd1a206bf9b
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
+      hash: dcff29a9e660e6bc052d2c8ffb0fcc570e3509f1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
+        changelog-entry: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to 1c9301223cfcf611347b13e07f9058602af975c1
+      hash: 92308bc2d3047c39f3b193f498ed598ca430b796
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1c9301223cfcf611347b13e07f9058602af975c1
+        changelog-entry: Update layers/meta-balena to 1c9301223cfcf611347b13e07f9058602af975c1
+      author: renovate[bot]
+      nested: []
+    - subject: Update layers/meta-balena to c1656294fcae050821257383049e4b608765516e
+      hash: 5b3071db8fd92d1d35ea6df26dacee79d9e19370
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c1656294fcae050821257383049e4b608765516e
+        changelog-entry: Update layers/meta-balena to c1656294fcae050821257383049e4b608765516e
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 6db02b204e1a33c90fa6f2e8f81f5f45eb9359ca
+      hash: 4aae242ce0555ef5bc68b0875d3e56c9ea1b1ff5
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6db02b204e1a33c90fa6f2e8f81f5f45eb9359ca
+        changelog-entry: Update layers/meta-balena to 6db02b204e1a33c90fa6f2e8f81f5f45eb9359ca
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+      hash: 748752a9584a16b520275ebe9f63f50d45075cbd
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+        changelog-entry: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
+      hash: 91faa3bb0709dabcc21bca2c779ae9d0addccc66
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
+        changelog-entry: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 202e9c71433434b1f2bd5e658c7f7f216a364ad5
+      hash: db516297cfd71b271d58fd270cc2f8b97ffc5602
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 202e9c71433434b1f2bd5e658c7f7f216a364ad5
+        changelog-entry: Update layers/meta-balena to 202e9c71433434b1f2bd5e658c7f7f216a364ad5
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979
+      hash: cb742a3585c95b16d5de11a3ec7de3dc666f6ad2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979
+        changelog-entry: Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 5dcea5e5b39876e832538800441f494ce884e8f9
+      hash: 2cc2333dbc4905fab1c3557633ed8e433bf1d969
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5dcea5e5b39876e832538800441f494ce884e8f9
+        changelog-entry: Update layers/meta-balena to 5dcea5e5b39876e832538800441f494ce884e8f9
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 3a62a83ec12b05377b46d46bee9661b8b6b4a090
+      hash: bdd2a3ca3a6e0f5094c49e9d7f8e3615dd18d89b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3a62a83ec12b05377b46d46bee9661b8b6b4a090
+        changelog-entry: Update layers/meta-balena to 3a62a83ec12b05377b46d46bee9661b8b6b4a090
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to dafd28999c58f4b4ae7e6fb28a4923e0b65d4a54
+      hash: 4fe613ee2ed0e2ba9f86c0332deda0f800efbd65
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dafd28999c58f4b4ae7e6fb28a4923e0b65d4a54
+        changelog-entry: Update layers/meta-balena to dafd28999c58f4b4ae7e6fb28a4923e0b65d4a54
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
+      hash: e7f80436b5590a772b77f3472b4759797d7b5b44
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
+        changelog-entry: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 82f6128a170dd68e671e30278a4f98398f5d1034
+      hash: cb71b9bb0acda864d5036091d9472d5d57e7f539
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 82f6128a170dd68e671e30278a4f98398f5d1034
+        changelog-entry: Update layers/meta-balena to 82f6128a170dd68e671e30278a4f98398f5d1034
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5
+      hash: f60451edaa7aeca7cc9838660a7337e813618971
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5
+        changelog-entry: Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+      hash: 93686beee8ee10bde6049102afeeed659aa186cc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+        changelog-entry: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 17a4e839adefeedbe603b9b007800656588c6d77
+      hash: b1107cdf00979453373b99e73142340777d4b62a
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 17a4e839adefeedbe603b9b007800656588c6d77
+        changelog-entry: Update layers/meta-balena to 17a4e839adefeedbe603b9b007800656588c6d77
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+      hash: de614cd2ed8e17de9c3c34f166580905ee2d21eb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+        changelog-entry: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 5bd9f32d3ac9eb7eafb6eca9dd7ccc700fdacea3
+      hash: fc614ba0c34c3c208bf3eafbcc3fe6970bffedda
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5bd9f32d3ac9eb7eafb6eca9dd7ccc700fdacea3
+        changelog-entry: Update layers/meta-balena to 5bd9f32d3ac9eb7eafb6eca9dd7ccc700fdacea3
+      author: Renovate Bot
+      nested: []
+    - subject: Update balena-yocto-scripts to 8cce34e9763389eb59e4e375c532c81eb592fc1e
+      hash: 363bf524d3c3b61842227dd882185fea24537bbd
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 8cce34e9763389eb59e4e375c532c81eb592fc1e
+        changelog-entry: Update balena-yocto-scripts to 8cce34e9763389eb59e4e375c532c81eb592fc1e
+      author: Renovate Bot
+      nested: []
+    - subject: Update balena-yocto-scripts to 2df9e2ae2084a293e7b729eb0538f69b221bc0be
+      hash: 9bbc96c6f4dd4e05430f9d3f244bbfd5e6498733
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 2df9e2ae2084a293e7b729eb0538f69b221bc0be
+        changelog-entry: Update balena-yocto-scripts to 2df9e2ae2084a293e7b729eb0538f69b221bc0be
+      author: Renovate Bot
+      nested: []
+    - subject: Update balena-yocto-scripts to 8c132cde993d3a8d9e4eea2517edf27b53b47ef3
+      hash: 6b6d343f8e6ee6249270ed251e7fec67fe59c8d6
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 8c132cde993d3a8d9e4eea2517edf27b53b47ef3
+        changelog-entry: Update balena-yocto-scripts to 8c132cde993d3a8d9e4eea2517edf27b53b47ef3
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 95c96e0624507fd9701912c67d3ae5ec5dbdf6f9
+      hash: 41dd74c985e04355caf29d11fc346f5ced7475c8
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 95c96e0624507fd9701912c67d3ae5ec5dbdf6f9
+        changelog-entry: Update layers/meta-balena to 95c96e0624507fd9701912c67d3ae5ec5dbdf6f9
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to cc2bc321c33d9c2af1f4566793e16b075e425a7c
+      hash: 4b4ac146a1489e62b23ce33da9f5f3265adcab3c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cc2bc321c33d9c2af1f4566793e16b075e425a7c
+        changelog-entry: Update layers/meta-balena to cc2bc321c33d9c2af1f4566793e16b075e425a7c
+      author: Renovate Bot
+      nested: []
+    - subject: Add build and deploy workflow
+      hash: 909c872fee85ea4d9ba67a8d20202dd27286c383
+      body: >
+        This workflow will launch a Jenkins build and draft deploy job when a
+        new
+
+        tag is made.
+      footer:
+        Changelog-entry: Add build and deploy workflow
+        changelog-entry: Add build and deploy workflow
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update layers/meta-balena to 7ae427858052ddad086a32a7458e301103d02013
+      hash: 6fc836db93e3f07d80c0ce3aaa096962f609454c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7ae427858052ddad086a32a7458e301103d02013
+        changelog-entry: Update layers/meta-balena to 7ae427858052ddad086a32a7458e301103d02013
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67
+      hash: f56f5f80ff7f1544165a83b75a917972638956ed
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67
+        changelog-entry: Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to c8f7eb1fdd6b342cc816e7b2b7e0c60634de2e87
+      hash: ee10b8785d0d0e7587d869804736d7f62374c787
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c8f7eb1fdd6b342cc816e7b2b7e0c60634de2e87
+        changelog-entry: Update layers/meta-balena to c8f7eb1fdd6b342cc816e7b2b7e0c60634de2e87
+      author: Renovate Bot
+      nested: []
+    - subject: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
+      hash: cf96d77d08c3c96cc4dd0b0f9b3ba6b6d00e9bd2
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
+        changelog-entry: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
+      author: Renovate Bot
+      nested: []
+    - subject: Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4
+      hash: 4f92b143ae75551c1ecf3c59fe1c2d53ce465794
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4
+        changelog-entry: Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 7e98e8f49aee1f5538da16ff564c7d8fb009800e
+      hash: b804c8a21c1a7537b27a55c602632726def48c13
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7e98e8f49aee1f5538da16ff564c7d8fb009800e
+        changelog-entry: Update layers/meta-balena to 7e98e8f49aee1f5538da16ff564c7d8fb009800e
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+      hash: 929d7506e3b93e4aaaf419e1b0bebe849bbd7195
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+        changelog-entry: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 5399363b3758860b22ac93a4406d62de5d88b229
+      hash: c5e59cd524f4ff9f329574f446537b188f70c424
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5399363b3758860b22ac93a4406d62de5d88b229
+        changelog-entry: Update layers/meta-balena to 5399363b3758860b22ac93a4406d62de5d88b229
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to b6e9352e8784e433c647811d532d7ab3e2ee05e2
+      hash: 6d49d42844c3af146baedae42485883b8ca4c588
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b6e9352e8784e433c647811d532d7ab3e2ee05e2
+        changelog-entry: Update layers/meta-balena to b6e9352e8784e433c647811d532d7ab3e2ee05e2
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+      hash: b8c098f9472ff093fc07139ce41f50deb0f9779d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+        changelog-entry: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab
+      hash: 23eec4de98f0a43c04c941d4ca6d983cd5613b2e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab
+        changelog-entry: Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 96599b31001fc8f7e4eac7fc650a12d43ca39d21
+      hash: 0c5381b14f8872af25597a9e8d2360e8a350e22c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 96599b31001fc8f7e4eac7fc650a12d43ca39d21
+        changelog-entry: Update layers/meta-balena to 96599b31001fc8f7e4eac7fc650a12d43ca39d21
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to c98cda89f0be6c168599a2a155ec42a148d0a6cc
+      hash: 7e58227b957248ca29e3c0e5435ff314fb48c1b4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c98cda89f0be6c168599a2a155ec42a148d0a6cc
+        changelog-entry: Update layers/meta-balena to c98cda89f0be6c168599a2a155ec42a148d0a6cc
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+      hash: 69ce42c1379c00a0a12ccb178669c08ddbbb587c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+        changelog-entry: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566
+      hash: 3640a554da2da7c708d5fce00d2a45a1101415b4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566
+        changelog-entry: Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566
+      author: Renovate Bot
+      nested: []
+    - subject: Update layers/meta-balena to 42c71bfea112ba44e59488fe93284a583654622f
+      hash: dcba8aa2341b324f86c30c901d1e3754d327243d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 42c71bfea112ba44e59488fe93284a583654622f
+        changelog-entry: Update layers/meta-balena to 42c71bfea112ba44e59488fe93284a583654622f
+      author: Renovate Bot
+      nested: []
+  version: 2.100.11
+  title: "'Update contracts digest to 9db49d2'"
+  date: 2022-07-27T11:02:23.664Z
