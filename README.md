@@ -45,7 +45,7 @@ See [Issues](../../issues) section
 
 ### Pull requests
 
-To contribute send github pull requests targeting this repository.
+To contribute send github pull requests targeting this repository. It is mandatory that you create the PR from a branch of this repo and not from a fork of this repo in order to allow VersionBot to run the required checks.
 
 Please refer to: [Yocto Contribution Guidelines](https://wiki.yoctoproject.org/wiki/Contribution_Guidelines#General_Information) and try to use the commit log format as stated there. Example:
 ```
