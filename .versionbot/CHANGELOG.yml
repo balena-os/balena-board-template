@@ -1,4 +1,18 @@
 - commits:
+    - subject: Switch from balenaCI to flowzone
+      hash: 22987e3d54d81fd49e071d6de8da50b21ed36234
+      body: ""
+      footer:
+        Changelog-entry: Switch from balenaCI to flowzone
+        changelog-entry: Switch from balenaCI to flowzone
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.105.11+rev1
+  title: ""
+  date: 2022-10-14T16:33:28.509Z
+- commits:
     - subject: Update contracts to f9e017074a7d7e26f5b56642fa86d2533f349f33
       hash: b4dd3effb133802e121ed35c328a53ae27e5f5e7
       body: Update contracts
@@ -907,8 +921,7 @@
     - subject: Add build and deploy workflow
       hash: 909c872fee85ea4d9ba67a8d20202dd27286c383
       body: >
-        This workflow will launch a Jenkins build and draft deploy job when a
-        new
+        This workflow will launch a Jenkins build and draft deploy job when a new
 
         tag is made.
       footer:
