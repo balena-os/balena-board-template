@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update contracts to f9e017074a7d7e26f5b56642fa86d2533f349f33
+      hash: b4dd3effb133802e121ed35c328a53ae27e5f5e7
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to f9e017074a7d7e26f5b56642fa86d2533f349f33
+        changelog-entry: Update contracts to f9e017074a7d7e26f5b56642fa86d2533f349f33
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add Golang v1.19.2 and v1.18.7
+              hash: 1e430f1bbf3deb491540dca04057452f01cfbcfb
+              body: |
+                Drop v1.17.x
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+            - subject: Add node v18.11.0 and v16.18.0
+              hash: 6a6274f5e56535ff82d84bd7fad788b64ae96289
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.20
+          title: ""
+          date: 2022-10-14T09:22:14.221Z
+    - subject: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+      hash: e9b3264b80b6607a3ba007f7e911c8a4f08bc1e7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+        changelog-entry: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+      author: renovate[bot]
+      nested: []
+  version: 2.105.11
+  title: "'Update contracts digest to f9e0170'"
+  date: 2022-10-14T09:48:22.572Z
+- commits:
     - subject: Update build and deploy workflow to v0.0.12
       hash: 6087d1dbc57d137325319cbe1b967ee6c9c115d3
       body: |
