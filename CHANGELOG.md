@@ -1,6 +1,20 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v2.105.11+rev2
+## (2022-10-21)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 7c5b9c44fbd4039c3387c8b74e8efae8fa9f37d6 [renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.19.13
+> ### (2022-10-21)
+> 
+> * jenkins_build: Only deploy AMI after deploying a final release [Alex Gonzalez]
+> 
+</details>
+
 # v2.105.11+rev1
 ## (2022-10-14)
 
