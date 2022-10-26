@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to 38055be70d9113801797d97ddeac00012c5b151c
+      hash: e620b244dbe75bccb7fd66a2151d099f6bed374b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 38055be70d9113801797d97ddeac00012c5b151c
+        changelog-entry: Update layers/meta-balena to 38055be70d9113801797d97ddeac00012c5b151c
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "meta-resin-sumo: keep tpm2-tools in 5.0"
+              hash: 6c0596989bd182f26da1255ccfa7a55e45a0194e
+              body: >
+                Newer versions fail on the configuration step with:
+
+                Requested 'libcrypto >= 1.1.0' but version of OpenSSL-libcrypto is 1.0.2o
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.105.19
+          title: ""
+          date: 2022-10-26T01:25:34.955Z
+  version: 2.105.19
+  title: ""
+  date: 2022-10-26T04:28:29.252Z
+- commits:
     - subject: Update layers/meta-balena to ad75f015f985b1dff097568475d80c05924bfdae
       hash: f25a6e8c97815ca4d30099582beb5d91fd539601
       body: Update layers/meta-balena
