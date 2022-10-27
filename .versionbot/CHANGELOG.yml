@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 3690dee624859ed23f2ee9afaa112638cda5cee3
+      hash: af899d939fa492719db6e742269a3c6007706349
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 3690dee624859ed23f2ee9afaa112638cda5cee3
+        changelog-entry: Update contracts to 3690dee624859ed23f2ee9afaa112638cda5cee3
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Fix incorrect partials in device type contracts
+              hash: 23b23bf963943277e5d5c02bc78d2fb52b4ba7fd
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Micah Halter <micah@balena.io>
+                signed-off-by: Micah Halter <micah@balena.io>
+              author: Micah Halter
+          version: contracts-2.0.25
+          title: ""
+          date: 2022-10-27T16:05:36.897Z
+  version: 2.105.21+rev2
+  title: ""
+  date: 2022-10-27T16:13:55.320Z
+- commits:
     - subject: Update contracts to fec7a070ab16e9d5386b49a865f8f031e804edec
       hash: 214e8b65658f644d812950ebc9fded201d25a62b
       body: Update contracts
