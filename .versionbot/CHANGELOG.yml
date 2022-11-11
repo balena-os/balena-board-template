@@ -1,4 +1,51 @@
 - commits:
+    - subject: Update layers/meta-balena to 78f01e464e2d1003d276539dfba87def9c91a16b
+      hash: 54d710bfa6fcce562afda0a9d336a074b2189e04
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 78f01e464e2d1003d276539dfba87def9c91a16b
+        changelog-entry: Update layers/meta-balena to 78f01e464e2d1003d276539dfba87def9c91a16b
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "common: kernel-devsrc: fix pseudo abort"
+              hash: e5307d7c7459ac977914122edc11d9ae7222e54b
+              body: >
+                Yocto builds will abort due to inconsistencies between the pseudo
+
+                database and files modified outside of the pseudo context [0].
+
+
+                This will occasionally cause builds to fail in the do_deploy step of the
+
+                kernel-devsrc recipe. [1]
+
+
+                Fix this by not removing the kernel_source tarball in the do_deploy
+
+                step.
+
+
+                Fixes: https://github.com/balena-os/meta-balena/issues/2806
+
+
+                [0] https://wiki.yoctoproject.org/wiki/Pseudo_Abort
+
+                [1] https://github.com/balena-os/meta-balena/issues/2806
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.106.3
+          title: ""
+          date: 2022-11-11T08:21:56.144Z
+  version: 2.106.3
+  title: ""
+  date: 2022-11-11T14:46:07.053Z
+- commits:
     - subject: Update balena-yocto-scripts to 3fbd0884bd7d599664587d0ab25fea22d77323ba
       hash: 437f062a526bb4fc7d92bb0face028c988f27be9
       body: Update balena-yocto-scripts
