@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update layers/meta-balena to e3888e2b46676499f47c148431d9d457535c6871
+      hash: 1a4dd30c63dd0f8a066ad18e6aff771cb9b17e78
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e3888e2b46676499f47c148431d9d457535c6871
+        changelog-entry: Update layers/meta-balena to e3888e2b46676499f47c148431d9d457535c6871
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-image-flasher: Include LUKS variant of GRUB config with FDE in
+                place"
+              hash: 87b65de7f8506b0a7796d007145a230228b5ae06
+              body: >
+                There are two GRUB config variants - one for regular devices and one
+
+                for devices with FDE enabled. This commit makes flasher include the latter
+
+                in the boot partition when secure boot and FDE is included in the image.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.107.13
+          title: ""
+          date: 2022-11-29T13:54:47.975Z
+  version: 2.107.13
+  title: ""
+  date: 2022-11-29T19:57:04.899Z
+- commits:
     - subject: Update layers/meta-balena to 3e67facb7e983b198f29a67ae70a3ff5d9e7a90c
       hash: 2f9bf04284959bb6f5da3a42ec72d92fa9c0fb77
       body: Update layers/meta-balena
