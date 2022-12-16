@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v2.107.40
+## (2022-12-16)
+
+
+<details>
+<summary> Update layers/meta-balena to 6e039cdc2a8f60d117853db48327c166a0826518 [renovate[bot]] </summary>
+
+> ## meta-balena-2.107.40
+> ### (2022-12-16)
+> 
+> * Add upstream resolvconf 1.91 recipe for kirkstone [Zahari Petkov]
+> 
+
+</details>
+
 # v2.107.39+rev1
 ## (2022-12-16)
 

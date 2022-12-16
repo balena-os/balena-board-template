@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 6e039cdc2a8f60d117853db48327c166a0826518
+      hash: cc9671d74da12dcf7fc46586b28ba9c727d375ff
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6e039cdc2a8f60d117853db48327c166a0826518
+        changelog-entry: Update layers/meta-balena to 6e039cdc2a8f60d117853db48327c166a0826518
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add upstream resolvconf 1.91 recipe for kirkstone
+              hash: af89ddb51d7829dc045cd3434fb4cf0bec7fba37
+              body: >
+                Current resolvconf version is broken for kirkstone, which is fixed
+                upstream,
+
+                so we reuse the fixed version from upstream.
+
+
+                The symptom is that DNS servers provided by DHCP are not being used.
+
+
+                Closes #2907
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Add upstream resolvconf 1.91 recipe for kirkstone
+                changelog-entry: Add upstream resolvconf 1.91 recipe for kirkstone
+                Signed-off-by: Zahari Petkov <zahari@balena.io>
+                signed-off-by: Zahari Petkov <zahari@balena.io>
+              author: Zahari Petkov
+              nested: []
+          version: meta-balena-2.107.40
+          title: ""
+          date: 2022-12-16T16:09:54.407Z
+  version: 2.107.40
+  title: ""
+  date: 2022-12-16T18:24:50.724Z
+- commits:
     - subject: Update contracts to b6bdc537c9f9d224301152a0291682172320bf6a
       hash: 7162d31bfe89b61abdff7b84ec29b0ae25f94aa4
       body: Update contracts
