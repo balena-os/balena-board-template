@@ -1,4 +1,44 @@
 - commits:
+    - subject: Update layers/meta-balena to 1d8c6eeed258f1205d6b1e0b78088ea867308b80
+      hash: 6b64e27f2b0d592e4df331666e8f0143878c4cae
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1d8c6eeed258f1205d6b1e0b78088ea867308b80
+        changelog-entry: Update layers/meta-balena to 1d8c6eeed258f1205d6b1e0b78088ea867308b80
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "common: signing: improve debug output on failure"
+              hash: 18599bd74eacf844674f508c612014349575ba55
+              body: >
+                If the signing server's response is anything other than successful, such
+
+                as with an authentication failure or bad request, the HTTP status code
+
+                and response are hidden due to the --silent flag passed to cURL.
+
+
+                Drop the stdio redirect to the output file along with the --silent flag,
+
+                and instead use the -o parameter to output the response to the
+
+                appropriate file on success. This allows the status code and response to
+
+                be shown in the logs upon failure.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.108.1
+          title: ""
+          date: 2022-12-18T19:27:56.286Z
+  version: 2.108.1
+  title: ""
+  date: 2022-12-18T20:52:48.349Z
+- commits:
     - subject: Update layers/meta-balena to 1b3b0a273b8aeb2ac69805253657c7ec2ec670b4
       hash: 9bd12ff9c8b32bc4d18995c8ddb45bf7c034d1bf
       body: Update layers/meta-balena
