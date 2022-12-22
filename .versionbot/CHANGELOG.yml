@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
+      hash: 854b19115da7f30a8fe9ecab66c105ec888e7729
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
+        changelog-entry: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Fix owa5x slug
+              hash: a310eafb4ebf50b4c91f40dca5ba0122e0949949
+              body: |
+                Only use lowercase in slug name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.36
+          title: ""
+          date: 2022-12-22T11:15:02.988Z
+  version: 2.108.5+rev1
+  title: ""
+  date: 2022-12-22T12:50:22.803Z
+- commits:
     - subject: Update layers/meta-balena to 4f5dc08a949432990996fbb0e9955d261c1282b3
       hash: 73bdd970efcdd70d120b99172bcc9ff378754e79
       body: Update layers/meta-balena
