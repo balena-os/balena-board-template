@@ -1,4 +1,41 @@
 - commits:
+    - subject: Update layers/meta-balena to 3a45aa111217e64ef6ab8cbd16d34a12ece49a3c
+      hash: 3ac91b3ba9e4b12fcfc65743910ac98a768a99f4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3a45aa111217e64ef6ab8cbd16d34a12ece49a3c
+        changelog-entry: Update layers/meta-balena to 3a45aa111217e64ef6ab8cbd16d34a12ece49a3c
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "flasher: output logs to serial console"
+              hash: 131893e433ef64a1f3b05dfcd44b0e022f13646d
+              body: >
+                Improve debugging experience of flasher service by outputting logs to
+
+                serial console.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.108.6
+          title: ""
+          date: 2022-12-27T20:53:27.624Z
+    - subject: Update balena-yocto-scripts to 0f1d0265bbabdb2b869f6cf9363d418b52681ffc
+      hash: 54d6c25f95b0f41857578382297d9c88435a6bca
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 0f1d0265bbabdb2b869f6cf9363d418b52681ffc
+        changelog-entry: Update balena-yocto-scripts to 0f1d0265bbabdb2b869f6cf9363d418b52681ffc
+      author: renovate[bot]
+      nested: []
+  version: 2.108.6
+  title: ""
+  date: 2022-12-27T22:15:48.517Z
+- commits:
     - subject: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
       hash: 854b19115da7f30a8fe9ecab66c105ec888e7729
       body: Update contracts
