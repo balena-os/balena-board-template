@@ -1,6 +1,43 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v2.108.18
+## (2023-01-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6 [renovate[bot]] </summary>
+
+> ## meta-balena-2.108.18
+> ### (2023-01-09)
+> 
+> * Revert "flasher: output logs to serial console" [Joseph Kogut]
+> 
+> ## meta-balena-2.108.17
+> ### (2023-01-09)
+> 
+> * Update balena-os/balena-supervisor to v14.4.10 [renovate[bot]]
+> 
+
+</details>
+
+
+<details>
+<summary> Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b [renovate[bot]] </summary>
+
+> ## meta-balena-2.108.18
+> ### (2023-01-09)
+> 
+> * Revert "flasher: output logs to serial console" [Joseph Kogut]
+> 
+> ## meta-balena-2.108.17
+> ### (2023-01-09)
+> 
+> * Update balena-os/balena-supervisor to v14.4.10 [renovate[bot]]
+> 
+
+</details>
+
 # v2.108.15+rev3
 ## (2023-01-09)
 

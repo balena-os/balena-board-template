@@ -1,4 +1,88 @@
 - commits:
+    - subject: Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6
+      hash: 0dee553a1c5ad9d9a56761b48f76bd11b9da1dc3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6
+        changelog-entry: Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: 'Revert "flasher: output logs to serial console"'
+              hash: 406317b15726798d0c11928851897a530c980170
+              body: >
+                In development mode, the flasher service is killed by getty. Revert this
+
+                change to unbreak the flasher when OS development is enabled.
+
+
+                This reverts commit 131893e433ef64a1f3b05dfcd44b0e022f13646d.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.108.18
+          title: ""
+          date: 2023-01-09T22:49:31.599Z
+        - commits:
+            - subject: Update balena-os/balena-supervisor to v14.4.10
+              hash: ee049573aecb9004d53fd4134ec4aa8c21c99e6c
+              body: Update balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.108.17
+          title: ""
+          date: 2023-01-09T15:58:47.708Z
+    - subject: Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b
+      hash: 5ee680646b2aa9daf0ec0322e5062de2670c03dd
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b
+        changelog-entry: Update layers/meta-balena to 610fc18f387665f4077ce1bed538bd2da4ba516b
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: 'Revert "flasher: output logs to serial console"'
+              hash: 406317b15726798d0c11928851897a530c980170
+              body: >
+                In development mode, the flasher service is killed by getty. Revert this
+
+                change to unbreak the flasher when OS development is enabled.
+
+
+                This reverts commit 131893e433ef64a1f3b05dfcd44b0e022f13646d.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.108.18
+          title: ""
+          date: 2023-01-09T22:49:31.599Z
+        - commits:
+            - subject: Update balena-os/balena-supervisor to v14.4.10
+              hash: ee049573aecb9004d53fd4134ec4aa8c21c99e6c
+              body: Update balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.108.17
+          title: ""
+          date: 2023-01-09T15:58:47.708Z
+  version: 2.108.18
+  title: ""
+  date: 2023-01-10T01:15:52.613Z
+- commits:
     - subject: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
       hash: c065f79af5e359b7f6305ca99d534190a78934c7
       body: Update balena-yocto-scripts
