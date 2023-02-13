@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v2.111.2
+## (2023-02-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 3e652503831c517ed60bc838c250d2910f2de8fe [Renovate Bot] </summary>
+
+> ## meta-balena-2.111.2
+> ### (2023-02-13)
+> 
+> * docs: add section for sb/fde opt-in [Joseph Kogut]
+> 
+
+</details>
+
 # v2.111.1
 ## (2023-02-13)
 
