@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v2.112.1
+## (2023-02-15)
+
+
+<details>
+<summary> Update layers/meta-balena to dcef4ce75f4f77bdcf941d0c095487bc4bc128f4 [Renovate Bot] </summary>
+
+> ## meta-balena-2.112.1
+> ### (2023-02-15)
+> 
+> * Update aufs5 kernel patches for 5.10 versions [Florin Sarbu]
+> 
+
+</details>
+
 # v2.112.0
 ## (2023-02-14)
 
