@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update CI workflow to allow external contributions
+      hash: 39f0192970b7a925071b83909ba19c7f22fb269e
+      body: ""
+      footer:
+        Changelog-entry: Update CI workflow to allow external contributions
+        changelog-entry: Update CI workflow to allow external contributions
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 2.112.12+rev2
+  title: ""
+  date: 2023-02-21T17:56:08.277Z
+- commits:
     - subject: Update contracts to f32bce95ef31a6890812fbcf8f403a3ac2df95fd
       hash: eecca8cd19f59b92884ccdf3f7b36f6e371ed434
       body: Update contracts
