@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update contracts to a7fa4ca620414f2a2742210c5f97e0c207fa660b
+      hash: 09f0ab9ef0204f0ff53cc99feb12576cb121da73
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to a7fa4ca620414f2a2742210c5f97e0c207fa660b
+        changelog-entry: Update contracts to a7fa4ca620414f2a2742210c5f97e0c207fa660b
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "jetson-orin-nx-xavier-nx-devkit: Add contract for device type"
+              hash: ddae0174c36b0893d723308d948d72c276787ed5
+              body: |
+                The provisioning instructions are incomplete at this time, they
+                will be updated once the balenaOS integration is complete. The
+                device needs to be inspected in staging first.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.56
+          title: ""
+          date: 2023-04-04T08:46:42.967Z
+        - commits:
+            - subject: "iot-gate-imx8plus: Update provisioning instructions"
+              hash: 25cbb9cb1c96a96367a1d35615f6b679e4a20df5
+              body: |
+                Bring in the latest updates from the coffee file
+                in the device repository.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+          version: contracts-2.0.55
+          title: ""
+          date: 2023-03-29T18:35:00.091Z
+  version: 2.113.31+rev1
+  title: ""
+  date: 2023-04-04T09:12:16.338Z
+- commits:
     - subject: Update layers/meta-balena to c06fe0336f8582acf95c0615c48deafd4bed2731
       hash: b5e6a7db77593345628af57fef76794721ca0480
       body: Update layers/meta-balena
