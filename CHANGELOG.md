@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v2.114.1+rev1
+## (2023-04-12)
+
+* Clean up the contributing section from README.md [Florin Sarbu]
+
 # v2.114.1
 ## (2023-04-07)
 
