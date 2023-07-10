@@ -1,6 +1,25 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v3.0.8+rev1
+## (2023-07-10)
+
+
+<details>
+<summary> Update balena-yocto-scripts to bd00529da6d3037536f080fa185d3bc606636b3b [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.33
+> ### (2023-07-10)
+> 
+> * Update device-types package from v10.3.0 to v10.5.1 [Alex Gonzalez]
+> * barys: remove option to skip discontinued device types [Alex Gonzalez]
+> * balena-lib: remove balena_lib_get_dt_state [Alex Gonzalez]
+> * jenkins_build: remove discontinued device check [Alex Gonzalez]
+> * balena-deploy: remove discontinued check [Alex Gonzalez]
+> 
+
+</details>
+
 # v3.0.8
 ## (2023-07-10)
 
