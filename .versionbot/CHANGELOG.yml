@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 45e32821ac6e3efba81e24a21e417a375da5e154
+      hash: c23091f57a5d48599d6dd9de44b86e946a8b9c6c
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 45e32821ac6e3efba81e24a21e417a375da5e154
+        changelog-entry: Update balena-yocto-scripts to 45e32821ac6e3efba81e24a21e417a375da5e154
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Remove all traces of --skip-discontinued
+              hash: c0974ffb5f64818dcb5040d233348dd95c8e6c40
+              body: >
+                This option was removed in
+                https://github.com/balena-os/balena-yocto-scripts/pull/313
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Remove all traces of --skip-discontinued
+                changelog-entry: Remove all traces of --skip-discontinued
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+            - subject: "barys: Remove documenting the --skip-discontinued option"
+              hash: 0bd9144ebed207734e7eecb584306b74b25ed53d
+              body: >
+                This option was removed in
+                https://github.com/balena-os/balena-yocto-scripts/pull/313
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: balena-yocto-scripts-1.19.34
+          title: ""
+          date: 2023-07-12T07:04:24.994Z
+  version: 3.0.8+rev2
+  title: ""
+  date: 2023-07-12T07:13:50.394Z
+- commits:
     - subject: Update balena-yocto-scripts to bd00529da6d3037536f080fa185d3bc606636b3b
       hash: 7b398d6d9cf885a2b761e89a57e667dda526f639
       body: Update balena-yocto-scripts

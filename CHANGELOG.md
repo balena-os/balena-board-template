@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v3.0.8+rev2
+## (2023-07-12)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 45e32821ac6e3efba81e24a21e417a375da5e154 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.34
+> ### (2023-07-12)
+> 
+> * Remove all traces of --skip-discontinued [Florin Sarbu]
+> * barys: Remove documenting the --skip-discontinued option [Florin Sarbu]
+> 
+
+</details>
+
 # v3.0.8+rev1
 ## (2023-07-10)
 
