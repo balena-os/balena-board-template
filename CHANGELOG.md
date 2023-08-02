@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v3.1.6+rev1
+## (2023-08-02)
+
+
+<details>
+<summary> Update contracts to 4c166923fa0c507314e37ae7f7c4190c07d66aef [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.64
+> ### (2023-08-02)
+> 
+> * Remove OpenJDK v7 as it has been removed from alpine edge [Kyle Harding]
+> 
+
+</details>
+
 # v3.1.6
 ## (2023-08-02)
 
