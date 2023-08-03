@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v3.1.6+rev4
+## (2023-08-03)
+
+
+<details>
+<summary> Update contracts to bd81b500fe74976567485afa39f6bbab3e60dd77 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.67
+> ### (2023-08-03)
+> 
+> * Fix conditional when installing libssl1.1 [Kyle Harding]
+> 
+
+</details>
+
 # v3.1.6+rev3
 ## (2023-08-03)
 
