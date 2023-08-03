@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v3.1.6+rev3
+## (2023-08-03)
+
+
+<details>
+<summary> Update contracts to a8e2def01ed6486c23bb72b045fc082d31ca1dfd [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.66
+> ### (2023-08-03)
+> 
+> * Fix a condition where /etc/nsswitch.conf exists and the build fails [Kyle Harding]
+> 
+
+</details>
+
 # v3.1.6+rev2
 ## (2023-08-02)
 

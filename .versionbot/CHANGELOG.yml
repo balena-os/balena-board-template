@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to a8e2def01ed6486c23bb72b045fc082d31ca1dfd
+      hash: dc39996aa689635b424271298d5d1c97f78fe709
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to a8e2def01ed6486c23bb72b045fc082d31ca1dfd
+        changelog-entry: Update contracts to a8e2def01ed6486c23bb72b045fc082d31ca1dfd
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Fix a condition where /etc/nsswitch.conf exists and the build fails
+              hash: c8c521ae9fdb908fb37642154d5fbe73a2849985
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+          version: contracts-2.0.66
+          title: ""
+          date: 2023-08-03T20:04:14.870Z
+  version: 3.1.6+rev3
+  title: ""
+  date: 2023-08-03T20:13:34.823Z
+- commits:
     - subject: Update contracts to bf0ec3d5a42dae4babeed8485030a0ca50f6fde3
       hash: 2eb79bc8c644ca989ffd7932399128a3df61b8f9
       body: Update contracts
