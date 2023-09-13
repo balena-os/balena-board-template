@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to cd6279920e902422377cd21d81584ccf1791676c
+      hash: 16ffc5c80d7dc81bdea948a38389fcb1ff4c4b57
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cd6279920e902422377cd21d81584ccf1791676c
+        changelog-entry: Update layers/meta-balena to cd6279920e902422377cd21d81584ccf1791676c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: retry healthcheck disable"
+              hash: 19e9d67b642ca815b5da5315fcab84701a54c985
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-4.0.5
+          title: ""
+          date: 2023-09-13T14:15:00.133Z
+  version: 4.0.5
+  title: ""
+  date: 2023-09-13T15:17:17.141Z
+- commits:
     - subject: Update layers/meta-balena to 5ebb6671a99eaaa577e03fd16290d25493d05ee2
       hash: f67e5d216fd05b579937d7a3989dd02ad192c812
       body: Update layers/meta-balena
