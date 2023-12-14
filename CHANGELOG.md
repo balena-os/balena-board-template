@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.0.11
+## (2023-12-14)
+
+
+<details>
+<summary> Update layers/meta-balena to 6a73c51909f49e11abbce78ba645eb80d91d4bba [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.0.11
+> ### (2023-12-14)
+> 
+> * update-balena-supervisor: fix supervisor.conf when image already downloaded [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.0.10
 ## (2023-12-13)
 
