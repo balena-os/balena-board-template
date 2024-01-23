@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.1.13
+## (2024-01-23)
+
+
+<details>
+<summary> Update layers/meta-balena to 72975c8ab3de26d6a1a861c7c2d56a88e20b4a29 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.13
+> ### (2024-01-23)
+> 
+> * Start extract-balena-ca before os-config update [jaomaloy]
+> 
+
+</details>
+
 # v5.1.12
 ## (2024-01-19)
 

@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to 72975c8ab3de26d6a1a861c7c2d56a88e20b4a29
+      hash: b5cfca463a118971276f18f37c9955b05a947a03
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 72975c8ab3de26d6a1a861c7c2d56a88e20b4a29
+        changelog-entry: Update layers/meta-balena to 72975c8ab3de26d6a1a861c7c2d56a88e20b4a29
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Start extract-balena-ca before os-config update
+              hash: 1b43e70a712145abe11c6fe6332d29b4dde50c49
+              body: |
+                For os-config to use the OS wide ca certificate
+                instead of an existing balenaRootCA in the
+                config.json
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: jaomaloy
+              nested: []
+          version: meta-balena-5.1.13
+          title: ""
+          date: 2024-01-23T10:52:48.191Z
+  version: 5.1.13
+  title: ""
+  date: 2024-01-23T11:34:57.357Z
+- commits:
     - subject: Update layers/meta-balena to 5da94ac4606e72b1499ae2398515e7463f977870
       hash: e79573901e62671fe5529955412410445e13113e
       body: Update layers/meta-balena
