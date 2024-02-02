@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.1.22+rev2
+## (2024-02-02)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0ba4bf5f5c4597b21628dfb6206304d1f889468f [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.21.0
+> ### (2024-02-02)
+> 
+> * Return image id after pulling helper images [Kyle Harding]
+> * Build and publish helper images with Flowzone [Kyle Harding]
+> 
+
+</details>
+
 # v5.1.22+rev1
 ## (2024-02-02)
 
