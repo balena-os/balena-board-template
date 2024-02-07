@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.1.26+rev1
+## (2024-02-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 57b2f7c97e4d95e74b76a0827e910d46e3b3ce2f [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.21.1
+> ### (2024-02-07)
+> 
+> * balena-deploy: Remove docker.io when pulling image [Alexandru]
+> 
+
+</details>
+
 # v5.1.26
 ## (2024-02-06)
 
