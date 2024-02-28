@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 87036c0cd6a4e23b55300c64f62158328e0eb779
+      hash: 2fde8bb85a86fa12f9b5e55ec5d67153ba99d4e6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 87036c0cd6a4e23b55300c64f62158328e0eb779
+        changelog-entry: Update layers/meta-balena to 87036c0cd6a4e23b55300c64f62158328e0eb779
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Start os-config service after extracting CA
+              hash: 0a531b5787e9dfd11a851fa36babd5374135e935
+              body: |
+                OS-config should always run after extracting balena CA
+                to prevent race conditions
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: jaomaloy
+              nested: []
+          version: meta-balena-5.1.43
+          title: ""
+          date: 2024-02-28T09:12:11.684Z
+  version: 5.1.43
+  title: ""
+  date: 2024-02-28T10:32:39.677Z
+- commits:
     - subject: Update layers/meta-balena to 086ba32588bb45247bc4785eafcb6540115bbf2e
       hash: 629a38b4a00ef4330390c3940cde36b5b696b544
       body: Update layers/meta-balena
