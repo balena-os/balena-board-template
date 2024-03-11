@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update layers/meta-balena to 71c89b66afa1cbf4113ed369b2cb7dd7035791b4
+      hash: 64698e6eb1150ef115922ec055128c2e2d46db17
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 71c89b66afa1cbf4113ed369b2cb7dd7035791b4
+        changelog-entry: Update layers/meta-balena to 71c89b66afa1cbf4113ed369b2cb7dd7035791b4
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "images: balena-image-initramfs: remove uneeded kernel image"
+              hash: f1ac14d114955678b62a0cbe661f71297e32a621
+              body: |
+                Remove the kernel image from the initramfs to save space.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "classes: kernel-balena-noimage: add extra space"
+              hash: 3696a0d8ad5f6d67903e3918bbe186300a2245ff
+              body: >
+                When appending a variable a space needs to be prefixed to create
+                a
+
+                space separated list.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-5.1.52
+          title: ""
+          date: 2024-03-11T15:55:46.939Z
+  version: 5.1.52
+  title: ""
+  date: 2024-03-11T16:40:33.104Z
+- commits:
     - subject: Update layers/meta-balena to ae98ddffb1a8055d98b2104db2f2901e9eddc14c
       hash: 70af202e702133bb12b728cf1968f71dff5bc312
       body: Update layers/meta-balena
