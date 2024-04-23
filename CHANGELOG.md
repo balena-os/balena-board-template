@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.2.10
+## (2024-04-23)
+
+
+<details>
+<summary> Update layers/meta-balena to 5618489132d1e31652f7e018da32bdd5b7492e64 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.2.10
+> ### (2024-04-23)
+> 
+> * hostapp-update-hooks: check for logging helper [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.2.9
 ## (2024-04-22)
 
