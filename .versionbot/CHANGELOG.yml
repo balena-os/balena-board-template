@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to b5b12bc2f8e08f90634d766afe30623c9899f323
+      hash: b83872e124d73f8d090704364a86f07a4fc2a8aa
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to b5b12bc2f8e08f90634d766afe30623c9899f323
+        changelog-entry: Update balena-yocto-scripts to b5b12bc2f8e08f90634d766afe30623c9899f323
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Create workflow to build and deploy balenaOS
+              hash: 5868caaa3b7bf506381c8d22f7b0b4035f7e2658
+              body: ""
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.22.0
+          title: ""
+          date: 2024-06-06T17:24:03.676Z
+  version: 5.3.15+rev2
+  title: ""
+  date: 2024-06-06T18:34:25.296Z
+- commits:
     - subject: Update contracts to 8adfb6d81fb673d26e3ab7038b3ef2264c1d1fe7
       hash: 2dc5d5e26c1500df3252043447cbccfb026fe181
       body: Update contracts
