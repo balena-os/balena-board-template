@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.16+rev1
+## (2024-06-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2bb54e7c3c715176446a895ed765346c52d480b2 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.22.1
+> ### (2024-06-07)
+> 
+> * Prevent duplicate workflow runs for multiple triggers [Kyle Harding]
+> * Add catchall job to yocto-build-deploy for merge requirements [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.16
 ## (2024-06-06)
 
