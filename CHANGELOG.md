@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.21+rev5
+## (2024-06-26)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 7fa652ca218ce38ec260360c01064b483fa4dc8d [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.24.0
+> ### (2024-06-26)
+> 
+> * Support runner selection in the test matrix [Kyle Harding]
+> * Allow both combinatorial and include syntax for test_matrix [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.21+rev4
 ## (2024-06-26)
 
