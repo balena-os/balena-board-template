@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.21+rev4
+## (2024-06-26)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0bd64809b2cce6833f8732eecdd64d32921f1b4d [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.23.1
+> ### (2024-06-26)
+> 
+> * Refactor secrets and variables to use environments [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.21+rev3
 ## (2024-06-19)
 
