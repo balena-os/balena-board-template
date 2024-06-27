@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.21+rev6
+## (2024-06-27)
+
+
+<details>
+<summary> Update balena-yocto-scripts to a880342e40fe05d00a0f1cf2582a0699921152e0 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.24.1
+> ### (2024-06-27)
+> 
+> * Simplify check for secure boot [Leandro Motta Barros]
+> 
+
+</details>
+
 # v5.3.21+rev5
 ## (2024-06-26)
 
