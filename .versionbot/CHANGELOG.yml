@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 32b15f1729158dec8046b9861da37062c68ff292
+      hash: 1ff723d0426dd4e995a14741db8f8e7baa3c35f6
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 32b15f1729158dec8046b9861da37062c68ff292
+        changelog-entry: Update balena-yocto-scripts to 32b15f1729158dec8046b9861da37062c68ff292
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Remove dry-run flag from S3 upload
+              hash: cf0301996022ef58a9c19d40d002d72a1bbcf705
+              body: |
+                We are publishing hostapp releases to staging already, we should
+                start including the associated S3 files as well.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.25.2
+          title: ""
+          date: 2024-07-03T21:19:20.964Z
+  version: 5.3.23+rev4
+  title: ""
+  date: 2024-07-03T22:36:50.722Z
+- commits:
     - subject: Update balena-yocto-scripts to f7894d49a4f5e56fbf570e2ce81bb7c0f8743e61
       hash: 2e99993e12a0cc5b0a822ece53fe01fae178150c
       body: Update balena-yocto-scripts

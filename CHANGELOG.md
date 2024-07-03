@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.23+rev4
+## (2024-07-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 32b15f1729158dec8046b9861da37062c68ff292 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.2
+> ### (2024-07-03)
+> 
+> * Remove dry-run flag from S3 upload [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.23+rev3
 ## (2024-07-03)
 
