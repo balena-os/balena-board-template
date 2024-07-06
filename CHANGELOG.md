@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.25+rev1
+## (2024-07-06)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 3b4142ba334b6b1c767a6755c2742c980d2e6b16 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.4
+> ### (2024-07-06)
+> 
+> * balena-deploy: deploy secure boot lock artifacts if available [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.3.25
 ## (2024-07-06)
 
