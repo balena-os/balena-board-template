@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.3.28
+## (2024-07-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 4c376535a83f0b22b9757d835c4a7029cd758a77 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.28
+> ### (2024-07-10)
+> 
+> * Add GHA yocto workflows for common device types [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.27+rev1
 ## (2024-07-08)
 
