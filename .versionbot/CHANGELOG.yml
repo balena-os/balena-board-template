@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to a50a965b35d442ea18ef92ab59e41a7f237e850c
+      hash: 3b1908e67d4182e19d09e2986267b4a980cdca19
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to a50a965b35d442ea18ef92ab59e41a7f237e850c
+        changelog-entry: Update balena-yocto-scripts to a50a965b35d442ea18ef92ab59e41a7f237e850c
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.4.0+rev3
+  title: ""
+  date: 2024-07-16T20:34:35.717Z
+- commits:
     - subject: Update balena-yocto-scripts to 7c73eefe9aac870b5fd9050e5d429dd56b0ab4ff
       hash: 485856c326bfd2941dff12d5f1cfd0b25cebcefe
       body: Update balena-yocto-scripts
