@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update balena-yocto-scripts to d59fac4cce1dcff0b423ac97aeccbd7f4486b9c2
+      hash: f0815838d836cb164b420d1ef744c4a1523422b8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to d59fac4cce1dcff0b423ac97aeccbd7f4486b9c2
+        changelog-entry: Update balena-yocto-scripts to d59fac4cce1dcff0b423ac97aeccbd7f4486b9c2
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Use env vars BALENA_HOST and BALENACLOUD_SSH_URL when provided
+              hash: f04607fc0f50a99bb2fd14370a2e2dae0e3f7094
+              body: |
+                These currently differ between environments, and we will need
+                to start supporting environment names that are not the same
+                as the balena host.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.25.8
+          title: ""
+          date: 2024-07-17T19:56:20.231Z
+  version: 5.4.1+rev1
+  title: ""
+  date: 2024-07-17T20:34:05.308Z
+- commits:
     - subject: Update layers/meta-balena to eefb5c821b33171a468cd30e4de51e710a36ae7d
       hash: 7e54a6fbe161d014cf7a3d971f323796358c35eb
       body: Update layers/meta-balena
