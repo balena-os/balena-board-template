@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v5.4.1
+## (2024-07-17)
+
+
+<details>
+<summary> Update layers/meta-balena to eefb5c821b33171a468cd30e4de51e710a36ae7d [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.4.1
+> ### (2024-07-17)
+> 
+> * Add build-only GHA workflows for missing devices [Kyle Harding]
+> 
+
+</details>
+
 # v5.4.0+rev4
 ## (2024-07-16)
 
