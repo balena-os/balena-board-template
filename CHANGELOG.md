@@ -1,6 +1,44 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.5
+## (2024-07-22)
+
+
+<details>
+<summary> Update layers/meta-balena to 7c9d2c889576bf75a7b90fcbe3502541df286fe3 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-6.0.5
+> ### (2024-07-22)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.4.4 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-16.4.4
+>> #### (2024-07-17)
+>> 
+>> * Improve log message typing [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-16.4.3
+>> #### (2024-07-16)
+>> 
+>> * Logs: only truncate the message if it's possible it will need it [Pagan Gazzard]
+>> * Logs: skip setting default values if we're dropping as an invalid log [Pagan Gazzard]
+>> * Logs: only call `Date.now()` if a timestamp is not already present [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-16.4.2
+>> #### (2024-07-16)
+>> 
+>> * Cleanup images after state-engine tests [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.0.4
 ## (2024-07-22)
 
