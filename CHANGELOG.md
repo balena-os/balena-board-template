@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.3
+## (2024-07-22)
+
+
+<details>
+<summary> Update layers/meta-balena to 124539560c0d8d4561d4695d11cd1dc75ca42163 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-6.0.3
+> ### (2024-07-22)
+> 
+> * Update docker API version to match the v20.10 engine version [Alex Gonzalez]
+> * conf: distro: set default docker API version [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.0.2
 ## (2024-07-20)
 

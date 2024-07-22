@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to 124539560c0d8d4561d4695d11cd1dc75ca42163
+      hash: 3b878a5999679ebb365eb902f853b39ad230b679
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 124539560c0d8d4561d4695d11cd1dc75ca42163
+        changelog-entry: Update layers/meta-balena to 124539560c0d8d4561d4695d11cd1dc75ca42163
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update docker API version to match the v20.10 engine version
+              hash: b129f29043de773bf9f6b2259e30cd62487c3d41
+              body: >
+                Update the API version to the version set in the distro
+                configuration,
+
+                which must match the API version of the balena package.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "conf: distro: set default docker API version"
+              hash: 39194a01acb4bfaf51f6d59a0a77b1988519620f
+              body: >
+                This is used to match the API version used in the build pipeline
+                with
+
+                the balena version used in the image.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.0.3
+          title: ""
+          date: 2024-07-22T08:23:04.274Z
+  version: 6.0.3
+  title: ""
+  date: 2024-07-22T09:36:49.424Z
+- commits:
     - subject: Update layers/meta-balena to ba25d479aec53db0a1f20667026e57fe47461ebb
       hash: 680f90eab62a846ca77bdbd412ca8e0d174ec64a
       body: Update layers/meta-balena
