@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.4
+## (2024-07-22)
+
+
+<details>
+<summary> Update layers/meta-balena to 6d8bcf4d540d5ec5ecd6fbc826f5574ccd745deb [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-6.0.4
+> ### (2024-07-22)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.8 [Self-hosted Renovate Bot]
+> 
+
+</details>
+
 # v6.0.3
 ## (2024-07-22)
 
