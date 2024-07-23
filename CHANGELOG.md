@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.5+rev2
+## (2024-07-23)
+
+* Update balena-yocto-scripts to c48654074e6fce7e3d545f8d10a1b1503c5bc358 [Self-hosted Renovate Bot]
+
 # v6.0.5+rev1
 ## (2024-07-22)
 
