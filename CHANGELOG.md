@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.6+rev3
+## (2024-07-29)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 6053c5a45a392dd85789fc46815506e57219bf29 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.13
+> ### (2024-07-29)
+> 
+> * Update actions/checkout action to v4.1.7 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.6+rev2
 ## (2024-07-29)
 
