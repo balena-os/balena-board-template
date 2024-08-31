@@ -1,6 +1,37 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.19
+## (2024-08-31)
+
+
+<details>
+<summary> Update layers/meta-balena to 782207a721f505e9e414c7a79259c407e2d6c445 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.19
+> ### (2024-09-01)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.6.1 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.6.1
+>> #### (2024-08-29)
+>> 
+>> * Remove unused patchDevice function [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.6.0
+>> #### (2024-08-28)
+>> 
+>> * Add support for redsocks dnsu2t config [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.0.18
 ## (2024-08-31)
 
