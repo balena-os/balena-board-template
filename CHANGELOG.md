@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.20+rev1
+## (2024-09-01)
+
+
+<details>
+<summary> Update balena-yocto-scripts to cc1d2e4eec194181974a018588d154c41d7cd040 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.29
+> ### (2024-09-01)
+> 
+> * Restrict runners via yocto label, not 16cpu [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.20
 ## (2024-08-31)
 
