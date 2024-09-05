@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.21+rev5
+## (2024-09-05)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0f0b5cc033b03b5535c13082000225f179a60758 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.36
+> ### (2024-09-05)
+> 
+> * Update balena-os/leviathan digest to 5db2b5d [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.21+rev4
 ## (2024-09-04)
 
