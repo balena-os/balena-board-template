@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 8082486ee52f464cb11d9c7abc2c3654445087b3
+      hash: a889c319e7b7d87daa463b75adfa73c6c7cd2502
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 8082486ee52f464cb11d9c7abc2c3654445087b3
+        changelog-entry: Update balena-yocto-scripts to 8082486ee52f464cb11d9c7abc2c3654445087b3
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: only upload artifacts when test_matrix is defined
+              hash: 51751d241c7e845351e3a26c74e615157ad38f52
+              body: >
+                This prevents uploads of artifacts that will never be used - as
+                they are only used in the tests step, if there are no tests then
+                no need to upload
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.42
+          title: ""
+          date: 2024-09-18T11:05:33.621Z
+  version: 6.0.28+rev1
+  title: ""
+  date: 2024-09-18T11:38:29.038Z
+- commits:
     - subject: Update layers/meta-balena to 7c61b0f1e4af295d412a00d7965b106f4922d4f0
       hash: 999be3e5a1a9d2b4f64b5bdff7f7007d9c8c4bfd
       body: Update layers/meta-balena
