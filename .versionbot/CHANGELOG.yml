@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update contracts to 1fb0b0c4e488ba81fcdcfeacfda771730c3dad98
+      hash: 4b6ef72102fa7a8bce059e7980323e1c2a356ce4
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 1fb0b0c4e488ba81fcdcfeacfda771730c3dad98
+        changelog-entry: Update contracts to 1fb0b0c4e488ba81fcdcfeacfda771730c3dad98
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.33+rev1
+  title: ""
+  date: 2024-09-26T21:59:28.755Z
+- commits:
     - subject: Update layers/meta-balena to f2c72d6bbd312821f0bb97897fe7836c525950f7
       hash: 1ff85ce2420ccd1ebdbe10a45b821d807134a780
       body: Update layers/meta-balena

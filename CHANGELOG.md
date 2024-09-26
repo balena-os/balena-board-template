@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.33+rev1
+## (2024-09-26)
+
+* Update contracts to 1fb0b0c4e488ba81fcdcfeacfda771730c3dad98 [balena-renovate[bot]]
+
 # v6.0.33
 ## (2024-09-22)
 
