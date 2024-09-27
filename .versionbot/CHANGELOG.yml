@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update layers/meta-balena to f9f06afdd1c02bdd2f6d3fa7aada116b2bb97074
+      hash: 1d5ab533abc920cc98eb6e0689535c1a9381387a
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f9f06afdd1c02bdd2f6d3fa7aada116b2bb97074
+        changelog-entry: Update layers/meta-balena to f9f06afdd1c02bdd2f6d3fa7aada116b2bb97074
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "CI: Update checkout settings"
+              hash: 1bf597cd14ca59a1086c952cf03279d6d2046ca3
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+              nested: []
+          version: meta-balena-6.0.34
+          title: ""
+          date: 2024-09-27T15:27:30.053Z
+  version: 6.0.34
+  title: ""
+  date: 2024-09-27T17:41:51.316Z
+- commits:
     - subject: Update balena-yocto-scripts to 3b2b1bd6c51fd9662b5ea422ec85f523caf2d4ee
       hash: b2deb77abbb1048bca25dc28a14448a07355386f
       body: Update balena-yocto-scripts
