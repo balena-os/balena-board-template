@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.34+rev2
+## (2024-09-30)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 9646cf9ad0f3c6ac4b2ce11e0ef21b8fa9276149 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.47
+> ### (Invalid date)
+> 
+> * patch: Stop persisting credentials in actions/checkout [Vipul Gupta (@vipulgupta2048)]
+> 
+
+</details>
+
 # v6.0.34+rev1
 ## (2024-09-27)
 
