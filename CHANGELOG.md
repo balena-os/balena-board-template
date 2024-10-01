@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.36
+## (2024-10-01)
+
+
+<details>
+<summary> Update layers/meta-balena to 41a79d918e5a8b62b88b9e137ce7e47122ca6b28 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.36
+> ### (2024-10-01)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.49 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.35+rev2
 ## (2024-10-01)
 
