@@ -1,6 +1,23 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.35+rev2
+## (2024-10-01)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 50139f9c5a786a12e0852cadbd2bef6d4195c3b7 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.49
+> ### (2024-10-01)
+> 
+> * Only attempt to decrypt if we have encrypted in the build step [Ryan Cooke]
+> * Fetch full depth in order to checkout custom meta-balena-refs [Kyle Harding]
+> * Encrypt balenaOS artifacts at rest in GitHub [Anton Belodedenko]
+> 
+
+</details>
+
 # v6.0.35+rev1
 ## (2024-10-01)
 
