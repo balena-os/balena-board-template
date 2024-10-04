@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to e07b03c3d59770c73ed3c32bbcbc1046ce4438b6
+      hash: 9ac67ccb4de0d8f72e98792ac1a6454960e1cd3c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e07b03c3d59770c73ed3c32bbcbc1046ce4438b6
+        changelog-entry: Update layers/meta-balena to e07b03c3d59770c73ed3c32bbcbc1046ce4438b6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tpm2: ensure auth session contexts are flushed after use"
+              hash: 93f949ff05ecf745378a864a303a76278b0d1c27
+              body: >
+                The TPM is capable of storing a limited number of auth session
+                handles.
+
+                Ensure auth sessions are flushed after use, to prevent
+
+                tpm2_startauthsession from failing with 'out of session
+                handles'.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.0.38
+          title: ""
+          date: 2024-10-04T23:25:13.415Z
+  version: 6.0.38
+  title: ""
+  date: 2024-10-04T23:39:56.191Z
+- commits:
     - subject: Update layers/meta-balena to 1f1cb005309c4c7b1f08c472c5c9ee305aedef82
       hash: c2364cb7ad1425551bb04d924f7efdbaa6129d74
       body: Update layers/meta-balena

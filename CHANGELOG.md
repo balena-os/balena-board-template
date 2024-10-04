@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.38
+## (2024-10-04)
+
+
+<details>
+<summary> Update layers/meta-balena to e07b03c3d59770c73ed3c32bbcbc1046ce4438b6 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.38
+> ### (2024-10-04)
+> 
+> * tpm2: ensure auth session contexts are flushed after use [Joseph Kogut]
+> 
+
+</details>
+
 # v6.0.37
 ## (2024-10-04)
 
