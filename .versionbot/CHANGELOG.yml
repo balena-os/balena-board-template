@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 485ffc8622f1539031a3af4a78dca4bc20d9a752
+      hash: a11146a4bc5af0bd700d8c6f08b2a9ed12ab96d2
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 485ffc8622f1539031a3af4a78dca4bc20d9a752
+        changelog-entry: Update balena-yocto-scripts to 485ffc8622f1539031a3af4a78dca4bc20d9a752
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: fix balena deploy quotes
+              hash: aa40859d69147e04b99691028101ce650ccfb568
+              body: >
+                A previous commit added quotes to some of the `balena deploy`
+                command args - when $status or $_debug aren't defined, this
+                means empty quote gets passed as an arg, making the CLI fail.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.25.53
+          title: ""
+          date: 2024-10-07T15:31:38.815Z
+  version: 6.0.38+rev2
+  title: ""
+  date: 2024-10-07T16:48:24.242Z
+- commits:
     - subject: Update balena-yocto-scripts to a9654d395259d264d463c80d62bf53231776a0a1
       hash: 1681db997d2b1488f813d0179db27a01ee539eea
       body: Update balena-yocto-scripts
