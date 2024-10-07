@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.39
+## (2024-10-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 7c405cf89f87a7574fecf26769281c5f5b49d875 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.39
+> ### (2024-10-07)
+> 
+> * tests: hup: login with sdk before fetching image [Ryan Cooke]
+> 
+
+</details>
+
 # v6.0.38+rev2
 ## (2024-10-07)
 
