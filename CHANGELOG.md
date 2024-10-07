@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.38+rev1
+## (2024-10-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to a9654d395259d264d463c80d62bf53231776a0a1 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.52
+> ### (2024-10-07)
+> 
+> * Update Lock file maintenance [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.38
 ## (2024-10-04)
 
