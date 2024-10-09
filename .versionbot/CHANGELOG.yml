@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update contracts to 5ac053bb4bfe82519a1ea8bd53b9adb8e925051e
+      hash: 9a22e970e93acbc324dc7dcd87bf66d2d902d08c
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 5ac053bb4bfe82519a1ea8bd53b9adb8e925051e
+        changelog-entry: Update contracts to 5ac053bb4bfe82519a1ea8bd53b9adb8e925051e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "sw.os+hw.device-type: Update all Orin devices to r36.3 in
+                sources.list"
+              hash: f2b34b2d9c7c6a58b74984ca5c14217effe253d0
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+            - subject: "hw.device-type: Remove superfluous instructions for beagleplay"
+              hash: 3f400e0f27d792734a2db70cc53863ffeb87907c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+          version: contracts-2.0.114
+          title: ""
+          date: 2024-10-09T13:56:48.392Z
+  version: 6.0.41+rev1
+  title: ""
+  date: 2024-10-09T14:44:01.136Z
+- commits:
     - subject: Update layers/meta-balena to 1fcd66fe37f5d683c57d9187f3f819f139ff1baf
       hash: 2062a194e6476d8fea1bc39e10af18415eeb8f46
       body: Update layers/meta-balena
