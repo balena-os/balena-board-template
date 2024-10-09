@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to 15a45646141afad943093c3eaa5c1df85df3924b
+      hash: c03740c3f232dfaaeb6c282e6e165833a89ce5da
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 15a45646141afad943093c3eaa5c1df85df3924b
+        changelog-entry: Update layers/meta-balena to 15a45646141afad943093c3eaa5c1df85df3924b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "flasher: improve logging with secure boot"
+              hash: ebde0895df02810798d80c585d5496d3b8d72909
+              body: >
+                Print the PCR digest values used to create the PCR policy used
+                to seal
+
+                the LUKS passphrase during flashing. These values can be cross
+
+                referenced with the logs during secure boot to diagnose policy
+                check
+
+                failures.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.0.42
+          title: ""
+          date: 2024-10-09T18:02:04.416Z
+  version: 6.0.42
+  title: ""
+  date: 2024-10-09T18:47:20.768Z
+- commits:
     - subject: Update contracts to 5ac053bb4bfe82519a1ea8bd53b9adb8e925051e
       hash: 9a22e970e93acbc324dc7dcd87bf66d2d902d08c
       body: Update contracts

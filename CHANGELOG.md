@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.42
+## (2024-10-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 15a45646141afad943093c3eaa5c1df85df3924b [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.42
+> ### (2024-10-09)
+> 
+> * flasher: improve logging with secure boot [Joseph Kogut]
+> 
+
+</details>
+
 # v6.0.41+rev1
 ## (2024-10-09)
 
