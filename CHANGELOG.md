@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.43
+## (2024-10-10)
+
+
+<details>
+<summary> Update layers/meta-balena to ec5d469cfb7954bb684e764dfcd6aa004a818f66 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.43
+> ### (2024-10-10)
+> 
+> * initrdscripts: Wait for boot partition in the abroot script [Michal Toman]
+> 
+
+</details>
+
 # v6.0.42+rev1
 ## (2024-10-09)
 
