@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.44+rev2
+## (2024-10-11)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 6ed9e9bb080b7de8515da847682723b8ca07e2da [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.62
+> ### (2024-10-11)
+> 
+> * Fix concurrency and cancel in progress contexts [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.44+rev1
 ## (2024-10-10)
 
