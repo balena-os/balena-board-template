@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update balena-yocto-scripts to d9a810c7eb0d8e37c37b1bc27ecc0b4347a9dc21
+      hash: 6f68301c71ebdb3fd936fa8dc0c75c8168f8cc01
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to d9a810c7eb0d8e37c37b1bc27ecc0b4347a9dc21
+        changelog-entry: Update balena-yocto-scripts to d9a810c7eb0d8e37c37b1bc27ecc0b4347a9dc21
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Expose secure boot testing features via matrix input
+              hash: 922d1dd1e09c74e393962069bdac0ce69c17e9cb
+              body: >
+                Some device types (generic-armd64) need to run the test
+
+                suites twice for the same base image, once with secure boot
+
+                vars enabled in Leviathan, and once without.
+
+
+                Rather than run the suites in series, or require building the
+
+                image twice, we can allow the test matrix to define separate
+                runs
+
+                for the two modes.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.26.0
+          title: ""
+          date: 2024-10-15T14:38:39.423Z
+  version: 6.0.44+rev4
+  title: ""
+  date: 2024-10-15T15:47:42.474Z
+- commits:
     - subject: Update balena-yocto-scripts to 7571c6cc181cd909439d1364fb05c8e1d987a048
       hash: d7168141a2c47b8715e1c2f3432cfc3a4f5cb323
       body: Update balena-yocto-scripts
