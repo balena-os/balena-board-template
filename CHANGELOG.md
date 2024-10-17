@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.44+rev5
+## (2024-10-17)
+
+
+<details>
+<summary> Update contracts to 9cab0bbaafa974f15b8d8e0288b3b7659b1d1eaf [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.115
+> ### (2024-10-17)
+> 
+> * Add alpine 3.19 [Otavio Jacobi]
+> 
+
+</details>
+
 # v6.0.44+rev4
 ## (2024-10-15)
 
