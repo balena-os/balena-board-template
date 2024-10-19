@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 95f1922c199e99e1cfaddceee5392e16e14ee018
+      hash: a98d50a51fd2fcc28b29dfef512fda52ebdb3d84
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 95f1922c199e99e1cfaddceee5392e16e14ee018
+        changelog-entry: Update layers/meta-balena to 95f1922c199e99e1cfaddceee5392e16e14ee018
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-units-conf: Add os-fan-profile to units conf"
+              hash: 1424e413680f30a156bef66e46ead170562edaf4
+              body: |
+                This service needs to be restarted every time the
+                fan profile is modified in config.json, so that
+                it can apply the change and restart the device
+                specific fan control daemon. This is unlike the
+                power model service, which only runs once, at startup.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.0.46
+          title: ""
+          date: 2024-10-19T16:51:02.546Z
+  version: 6.0.46
+  title: ""
+  date: 2024-10-19T17:41:52.602Z
+- commits:
     - subject: Update layers/meta-balena to 87424b9f02968562b06c0fdd360262b481e519ae
       hash: c31489d455423e6f293aaa649ddeaeec9b54030d
       body: Update layers/meta-balena
