@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.47
+## (2024-10-21)
+
+
+<details>
+<summary> Update layers/meta-balena to d6ed535df8dc0cf2b928a7f2f908568702ecb2f2 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.47
+> ### (2024-10-21)
+> 
+> * hostapp-update-hooks: remove alternative bootloader environment files [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.0.46
 ## (2024-10-19)
 
