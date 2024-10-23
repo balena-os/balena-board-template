@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 01de6fcf24fc32ff9a5cf0265834adf4e68143b9
+      hash: 0d7ccf2e17ff0d0423cd5f5e09488830c6e72661
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 01de6fcf24fc32ff9a5cf0265834adf4e68143b9
+        changelog-entry: Update balena-yocto-scripts to 01de6fcf24fc32ff9a5cf0265834adf4e68143b9
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: remove CLI check if not deploying
+              hash: 074575784eb9ab6ae67c8b07cb3ce6c4366d85be
+              body: >
+                nitpicky fix, we don't use the CLI when not deploying - so no
+                need to check its version
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.27.1
+          title: ""
+          date: 2024-10-23T14:14:50.171Z
+  version: 6.0.47+rev2
+  title: ""
+  date: 2024-10-23T14:47:43.986Z
+- commits:
     - subject: Update balena-yocto-scripts to 64d7d9843bf3e1f9439a19fe4556e842b60e01d6
       hash: 2b9efab2158fafa3a2939cb7901fa99403d9138a
       body: Update balena-yocto-scripts

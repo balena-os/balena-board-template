@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.47+rev2
+## (2024-10-23)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 01de6fcf24fc32ff9a5cf0265834adf4e68143b9 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.27.1
+> ### (2024-10-23)
+> 
+> * remove CLI check if not deploying [rcooke-warwick]
+> 
+
+</details>
+
 # v6.0.47+rev1
 ## (2024-10-23)
 
