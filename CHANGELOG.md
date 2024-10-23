@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.0.47+rev1
+## (2024-10-23)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 64d7d9843bf3e1f9439a19fe4556e842b60e01d6 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.27.0
+> ### (2024-10-23)
+> 
+> * add review-commit-action to wait for approvals on PRT events [Ryan Cooke]
+> 
+
+</details>
+
 # v6.0.47
 ## (2024-10-21)
 
