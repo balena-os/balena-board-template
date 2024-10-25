@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 1f8d8cd8886b4e78762eb491eb5b00be6400ad4d
+      hash: f8daa22dfe0352459d184af9a2b68312fdd437cc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1f8d8cd8886b4e78762eb491eb5b00be6400ad4d
+        changelog-entry: Update layers/meta-balena to 1f8d8cd8886b4e78762eb491eb5b00be6400ad4d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/os: Add Jetson Orin device-specific fan and power mode smoke
+                tests"
+              hash: 87e5e8450911fbd3eb400ca76b1273f6b3deb15d
+              body: |
+                These tests are the same for all public Orin device types
+                and validate that the power mode and the fan profile can be
+                changed by writing directly to the config.json file
+                in the boot partition of an un-managed OS.
+              footer:
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.0.49
+          title: ""
+          date: 2024-10-25T13:54:52.420Z
+  version: 6.0.49
+  title: ""
+  date: 2024-10-25T14:42:44.636Z
+- commits:
     - subject: Update layers/meta-balena to e1f4de14afb2c9f605028ea41f58289d8b5c5101
       hash: 7679fb03ef062360cd0e20aecce47ab62a724b29
       body: Update layers/meta-balena
