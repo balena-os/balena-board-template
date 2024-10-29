@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 9ae5d6075069f8e5dec053701e2a1c6173bf78d7
+      hash: 285cb33e05ebc26560b45263371166e6d8c2f585
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 9ae5d6075069f8e5dec053701e2a1c6173bf78d7
+        changelog-entry: Update balena-yocto-scripts to 9ae5d6075069f8e5dec053701e2a1c6173bf78d7
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add pull request write permissions for workflow approvals
+              hash: 5e07998255f053630c5cce03057a64ac6ee27802
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.27.3
+          title: ""
+          date: 2024-10-29T15:54:58.766Z
+  version: 6.0.50+rev1
+  title: ""
+  date: 2024-10-29T16:43:37.251Z
+- commits:
     - subject: Update layers/meta-balena to bbfe78062182eaacc9a524383144a24b731a7372
       hash: b7ce6cb0a7d976bf045d0f20551f409c475aaa7d
       body: Update layers/meta-balena
