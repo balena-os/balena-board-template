@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 80964ecccdeb4cc3ffd7142ce82efb8a6c3dafc3
+      hash: 62dbec3784b5b5a01a54ac5b5b7eff9553754382
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 80964ecccdeb4cc3ffd7142ce82efb8a6c3dafc3
+        changelog-entry: Update balena-yocto-scripts to 80964ecccdeb4cc3ffd7142ce82efb8a6c3dafc3
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Use official aws cli binaries and commands
+              hash: 654d96e4746f42065d24d5fe47f0fd3fb54741e1
+              body: |
+                The modern awscli command is optimized for these
+                tasks and better maintained.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.27.6
+          title: ""
+          date: 2024-11-04T17:10:05.029Z
+  version: 6.1.0+rev2
+  title: ""
+  date: 2024-11-04T17:44:24.097Z
+- commits:
     - subject: Update balena-yocto-scripts to b47a507424dd4841a993018e1facc645259f3865
       hash: 3f649de8c92a2bd83b6c1d547f2c38f80ad2aaf6
       body: Update balena-yocto-scripts
