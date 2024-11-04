@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 8f13f3c1b829556c2595738742c755709e11430c
+      hash: 12b6ad9c6d8a414fb43e986d14603ddbcaacd28b
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 8f13f3c1b829556c2595738742c755709e11430c
+        changelog-entry: Update balena-yocto-scripts to 8f13f3c1b829556c2595738742c755709e11430c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update Pin product-os/review-commit-action action to 81db18c
+              hash: f8438cfe5656c7c50498dc697252553e4acafec7
+              body: |
+                Update product-os/review-commit-action
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.27.7
+          title: ""
+          date: 2024-11-04T18:29:00.633Z
+  version: 6.1.0+rev3
+  title: ""
+  date: 2024-11-04T18:50:20.817Z
+- commits:
     - subject: Update balena-yocto-scripts to 80964ecccdeb4cc3ffd7142ce82efb8a6c3dafc3
       hash: 62dbec3784b5b5a01a54ac5b5b7eff9553754382
       body: Update balena-yocto-scripts
