@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 2543e49b79e8161d5d2d9f4625ac70101594cd76
+      hash: 73b01128e6eb2b828a0b001b0ba58015db592a54
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 2543e49b79e8161d5d2d9f4625ac70101594cd76
+        changelog-entry: Update balena-yocto-scripts to 2543e49b79e8161d5d2d9f4625ac70101594cd76
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Set explicit permissions at the job level
+              hash: 9dc5aacccbd5ffdb154df3a1db172736cca36145
+              body: |
+                This is the more secure approach that defaults
+                to lowest possible permissions.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.27.10
+          title: ""
+          date: 2024-11-11T19:16:32.044Z
+  version: 6.1.2+rev1
+  title: ""
+  date: 2024-11-11T19:43:23.252Z
+- commits:
     - subject: Update layers/meta-balena to 767da5e6a765dc5bb922fc2ee6c3f338ca214628
       hash: cf20db3003214b78176a325a209ea0754861c46e
       body: Update layers/meta-balena

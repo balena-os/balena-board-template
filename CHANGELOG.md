@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.2+rev1
+## (2024-11-11)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2543e49b79e8161d5d2d9f4625ac70101594cd76 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.27.10
+> ### (2024-11-11)
+> 
+> * Set explicit permissions at the job level [Kyle Harding]
+> 
+
+</details>
+
 # v6.1.2
 ## (2024-11-11)
 
