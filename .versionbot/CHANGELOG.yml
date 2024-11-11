@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 767da5e6a765dc5bb922fc2ee6c3f338ca214628
+      hash: cf20db3003214b78176a325a209ea0754861c46e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 767da5e6a765dc5bb922fc2ee6c3f338ca214628
+        changelog-entry: Update layers/meta-balena to 767da5e6a765dc5bb922fc2ee6c3f338ca214628
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "modemmanager: Update outdated context of patches"
+              hash: 9c86d383ae2038f81f8459768a5ad3732fd171d4
+              body: >
+                We do this in preparation for the Scarthgap update because with
+                newer
+
+                Yocto versions the patches with outdated context will trigger
+                fatal build errors.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.1.2
+          title: ""
+          date: 2024-11-11T13:39:41.407Z
+  version: 6.1.2
+  title: ""
+  date: 2024-11-11T14:48:49.984Z
+- commits:
     - subject: Update balena-yocto-scripts to e5a831d9b3f8d324c6ad57974f3ddc001ea0927c
       hash: 205c229a4910c831451461f7c75f948e32b5a95b
       body: Update balena-yocto-scripts
