@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to a0f8d0f174767b9e69f35ba3ae7e142c4463d7bf
+      hash: 09adc09019198477569c0037990f929503de6aaa
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a0f8d0f174767b9e69f35ba3ae7e142c4463d7bf
+        changelog-entry: Update layers/meta-balena to a0f8d0f174767b9e69f35ba3ae7e142c4463d7bf
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-support/os-fan-profile: Don't print logs unless configured"
+              hash: dfc023721aefc427255e996f7589450296836de3
+              body: >
+                Supervisor PR #2382 adds log streaming for this service. Let's
+                not print
+
+                any logs in the dashboard for devices which don't support
+                configurable
+
+                fan profiles, unless a value is specified in config.json, to
+                avoid
+
+                any confusion.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+            - subject: Update tests/leviathan digest to 8234f44
+              hash: a27959f1322d02d874cfe42136853e8649872878
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.1.5
+          title: ""
+          date: 2024-11-13T15:09:19.450Z
+  version: 6.1.5
+  title: ""
+  date: 2024-11-13T15:41:51.492Z
+- commits:
     - subject: Update layers/meta-balena to e89bd184891acdab646ea490b84ab3e773fde14b
       hash: 46923a6ddb9df5e4a7de1e66d06ab487de3f3f7a
       body: Update layers/meta-balena

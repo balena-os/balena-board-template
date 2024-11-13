@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.5
+## (2024-11-13)
+
+
+<details>
+<summary> Update layers/meta-balena to a0f8d0f174767b9e69f35ba3ae7e142c4463d7bf [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.5
+> ### (2024-11-13)
+> 
+> * recipes-support/os-fan-profile: Don't print logs unless configured [Alexandru Costache]
+> * Update tests/leviathan digest to 8234f44 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.1.4
 ## (2024-11-12)
 
