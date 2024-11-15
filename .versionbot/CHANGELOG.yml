@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update layers/meta-balena to b54108c60a91e6a0cabf3b7e7f69e29d22963b0f
+      hash: a809a240f4b79f4d006ea4ce1d2ed4eea0cb07ab
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b54108c60a91e6a0cabf3b7e7f69e29d22963b0f
+        changelog-entry: Update layers/meta-balena to b54108c60a91e6a0cabf3b7e7f69e29d22963b0f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-kernel/linux-firmware: Package Intel AX210 firmware"
+              hash: 2ca4f0ebd247db9981d1c488327960cbde9d0e46
+              body: |
+                This was requested for the AGX Orin 64GB devkit image,
+                and will be included from the device repository.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.1.8
+          title: ""
+          date: 2024-11-15T11:29:41.983Z
+  version: 6.1.8
+  title: ""
+  date: 2024-11-15T11:42:10.734Z
+- commits:
     - subject: Update layers/meta-balena to e4b77f04adcf5d949cec850d2a497f7bb46a20b8
       hash: 94d80c11e1608f62da751bd97b515b01f713c030
       body: Update layers/meta-balena
