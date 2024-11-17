@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.10+rev1
+## (2024-11-17)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 4fa14172613c2fc7fa618b27f15eefae855feae2 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.27.11
+> ### (2024-11-17)
+> 
+> * github/workflows/yocto-build-deploy.yml: Add hostapp metadata to OS release [Florin Sarbu]
+> 
+
+</details>
+
 # v6.1.10
 ## (2024-11-15)
 
