@@ -1,6 +1,24 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.19
+## (2024-12-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 1206eb202fe7883eb5a915f01615a4c8de17e6e3 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.19
+> ### (2024-12-03)
+> 
+> * balena-image-initramfs: add zram module [Alex Gonzalez]
+> * initrdscripts: add zram module [Alex Gonzalez]
+> * resin-init-flasher: search /tmp explicitly [Joseph Kogut]
+> * kernel-balena: enable CRYPTO_ZSTD for zram [Joseph Kogut]
+> 
+
+</details>
+
 # v6.1.18
 ## (2024-12-03)
 
