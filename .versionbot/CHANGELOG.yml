@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 71b571836a27879545d0fbe42fc2803d829a4f02
+      hash: 0cb176515ea06ff9fd26ad37e9c128f17330b805
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 71b571836a27879545d0fbe42fc2803d829a4f02
+        changelog-entry: Update layers/meta-balena to 71b571836a27879545d0fbe42fc2803d829a4f02
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Explicitly set GITHUB_TOKEN permissions for yocto workflow
+              hash: 30dc4c7b07ec1c877ee7a8b3feb234942eddac0c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.1.18
+          title: ""
+          date: 2024-12-03T13:04:14.122Z
+  version: 6.1.18
+  title: ""
+  date: 2024-12-03T14:53:10.008Z
+- commits:
     - subject: Update layers/meta-balena to b6d27b0d06a7be0f47e42173627bdb8102938a52
       hash: 53b2b7bcb2d6517ecbf339d80ccff7f587146804
       body: Update layers/meta-balena
