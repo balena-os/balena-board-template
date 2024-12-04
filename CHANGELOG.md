@@ -1,6 +1,24 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.20
+## (2024-12-04)
+
+
+<details>
+<summary> Update layers/meta-balena to f208cd6b57462d3a987b5f8c1a47c8b7dd7040d4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.20
+> ### (2024-12-04)
+> 
+> * kernel-module-build: update to 3.0.1 [Alex Gonzalez]
+> * tests: secureboot: fix passing of kernel headers version [Alex Gonzalez]
+> * tests: secureboot: add dm devices support in FDE test [Alex Gonzalez]
+> * tests: secureboot: add imx specialization [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.1.19
 ## (2024-12-03)
 
