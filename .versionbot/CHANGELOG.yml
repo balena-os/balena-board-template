@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to fb251872ee048d5e5eb5558d47c1bae6771b95bd
+      hash: e6fdf0aa5432694779e735b9b4fae8dc5ec6cf86
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to fb251872ee048d5e5eb5558d47c1bae6771b95bd
+        changelog-entry: Update layers/meta-balena to fb251872ee048d5e5eb5558d47c1bae6771b95bd
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "os-helpers-fs: add function to erase disks"
+              hash: cb2e8b97f6451c40504543cc0b56130564394bc0
+              body: >
+                The function overwrites the first 16 MiB of each partition (the
+                default
+
+                LUKS2 header size), as well as the primary and backup GPT
+                partition
+
+                tables.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.1.22
+          title: ""
+          date: 2024-12-05T17:35:54.393Z
+  version: 6.1.22
+  title: ""
+  date: 2024-12-05T19:00:46.661Z
+- commits:
     - subject: Update layers/meta-balena to e6d699bfffea71667b9551a93f6ee40f56a8ad79
       hash: 57b408905ed7fe20f810f695d46cfbfecf0c4d5d
       body: Update layers/meta-balena

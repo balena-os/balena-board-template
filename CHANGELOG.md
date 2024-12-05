@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.22
+## (2024-12-05)
+
+
+<details>
+<summary> Update layers/meta-balena to fb251872ee048d5e5eb5558d47c1bae6771b95bd [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.22
+> ### (2024-12-05)
+> 
+> * os-helpers-fs: add function to erase disks [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.1.21
 ## (2024-12-05)
 
