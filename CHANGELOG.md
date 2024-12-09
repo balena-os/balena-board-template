@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.23+rev4
+## (2024-12-09)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 4b3036aab57f3a204049d79f38fc013302f66c12 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.28.0
+> ### (2024-12-09)
+> 
+> * Update the App Id and Private Key for ephemeral app tokens [Kyle Harding]
+> 
+
+</details>
+
 # v6.1.23+rev3
 ## (2024-12-09)
 
