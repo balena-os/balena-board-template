@@ -1,6 +1,43 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.25
+## (2024-12-11)
+
+
+<details>
+<summary> Update layers/meta-balena to ee7ac3e7582a4fcc7e40d459e212c7462c1d8728 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.25
+> ### (2024-12-11)
+> 
+> * github/workflows: Add yocto label to runs_on [Alexandru Costache]
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 3a37005 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.69
+>> #### (2024-12-10)
+>> 
+>> * os/balenaos: Update Xavier and Xavier NX boot partitions for JP5 [Alexandru]
+>> 
+>> ### leviathan-2.31.68
+>> #### (2024-12-07)
+>> 
+>> * Update balena-io/balena-cli to v20.0.9 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.67
+>> #### (2024-12-06)
+>> 
+>> * Make leviathan worker ref configurable via env var [Ryan Cooke]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.1.24
 ## (2024-12-11)
 
