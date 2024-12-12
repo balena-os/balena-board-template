@@ -1,4 +1,41 @@
 - commits:
+    - subject: Update layers/meta-balena to 5523e50b280d0182421b7d39392a61c253f00b79
+      hash: b2f6785a8bb6c110141f0931f661120ad79da7f3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5523e50b280d0182421b7d39392a61c253f00b79
+        changelog-entry: Update layers/meta-balena to 5523e50b280d0182421b7d39392a61c253f00b79
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to f308947
+              hash: 765f82092dfd8287b6b2e536d9dda5d6fb3d4bed
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update balena-io/balena-cli to v20.1.0
+                      hash: 8f2efe31f565c8d83d13a70556038c8205a37dbe
+                      body: |
+                        Update balena-io/balena-cli from 20.0.9 to 20.1.0
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.70
+                  title: ""
+                  date: 2024-12-12T14:36:37.767Z
+          version: meta-balena-6.1.26
+          title: ""
+          date: 2024-12-12T17:39:28.847Z
+  version: 6.1.26
+  title: ""
+  date: 2024-12-12T18:52:46.879Z
+- commits:
     - subject: Update layers/meta-balena to ee7ac3e7582a4fcc7e40d459e212c7462c1d8728
       hash: abd5cdd3cb5ac2d9fc89fc34b59f5f0f2cd7c419
       body: Update layers/meta-balena
