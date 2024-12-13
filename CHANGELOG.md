@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.26+rev2
+## (2024-12-13)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 8d5ff1ff1aad3148ef03bab6ea811e72525d60ff [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.29.1
+> ### (2024-12-13)
+> 
+> * re-enable AMI deploys [Ryan Cooke]
+> 
+
+</details>
+
 # v6.1.26+rev1
 ## (2024-12-13)
 
