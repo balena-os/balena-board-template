@@ -1,6 +1,25 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.26+rev1
+## (2024-12-13)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 242572671a2a8a98fd3cf75776c5ef49e3ceea1a [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.29.0
+> ### (2024-12-13)
+> 
+> * Use S3 sstate cache on self-hosted runners [Kyle Harding]
+> * Sync shared downloads to S3 to use as a sources mirror [Kyle Harding]
+> * Sync the shared sstate to github actions cache [Kyle Harding]
+> * Use legacy yocto NFS cache as a source mirror [Kyle Harding]
+> * Enable mirror tarballs bitbake feature [Kyle Harding]
+> 
+
+</details>
+
 # v6.1.26
 ## (2024-12-12)
 
