@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.27
+## (2024-12-14)
+
+
+<details>
+<summary> Update layers/meta-balena to 000eb51f9196fe15bbefa8c4ae7639639ccc8e48 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.27
+> ### (2024-12-14)
+> 
+> * README: Add fan profile and power mode info to docs [Alexandru Costache]
+> 
+
+</details>
+
 # v6.1.26+rev4
 ## (2024-12-14)
 
