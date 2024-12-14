@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 47f64ca1617288a0e4da6af73609155981865712
+      hash: 862d6c45795632448f50ca9d8dbd875adbff4961
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 47f64ca1617288a0e4da6af73609155981865712
+        changelog-entry: Update balena-yocto-scripts to 47f64ca1617288a0e4da6af73609155981865712
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Compress artifacts with gzip and zstd before encrypting
+              hash: b838c5782722dba194d1d6ff56d8986f5f918ec9
+              body: |
+                Otherwise encrypted images are unable to be compressed.
+                This saves a lot of space and time on uploading/downloading
+                artifacts.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.29.4
+          title: ""
+          date: 2024-12-14T00:35:39.056Z
+        - commits:
+            - subject: Update Pin dependencies
+              hash: fc31531088f22db582ed6c45a6127d172e59ff6a
+              body: |
+                Update actions/github-script
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.29.3
+          title: ""
+          date: 2024-12-13T23:23:55.009Z
+  version: 6.1.26+rev4
+  title: ""
+  date: 2024-12-14T01:12:55.386Z
+- commits:
     - subject: Update balena-yocto-scripts to 2834c521c45650392d84513ae66a8e0ea97cada9
       hash: 242578d6a1f49f41004f89422ee147c594e31f06
       body: Update balena-yocto-scripts

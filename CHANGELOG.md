@@ -1,6 +1,26 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.26+rev4
+## (2024-12-14)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 47f64ca1617288a0e4da6af73609155981865712 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.29.4
+> ### (2024-12-14)
+> 
+> * Compress artifacts with gzip and zstd before encrypting [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.29.3
+> ### (2024-12-13)
+> 
+> * Update Pin dependencies [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.1.26+rev3
 ## (2024-12-13)
 
