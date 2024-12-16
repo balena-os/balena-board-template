@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.0
+## (2024-12-16)
+
+
+<details>
+<summary> Update layers/meta-balena to 3033e1adebd2ec79f9528e83d616ccf27bee4035 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.2.0
+> ### (2024-12-16)
+> 
+> * resin-init-flasher: with secure boot, authenticate the inner image [Michal Toman]
+> 
+
+</details>
+
 # v6.1.27+rev1
 ## (2024-12-16)
 

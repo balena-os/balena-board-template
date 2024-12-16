@@ -1,4 +1,58 @@
 - commits:
+    - subject: Update layers/meta-balena to 3033e1adebd2ec79f9528e83d616ccf27bee4035
+      hash: 955db6fa4c9fe5bb6e7314862f22583422bdf4e2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3033e1adebd2ec79f9528e83d616ccf27bee4035
+        changelog-entry: Update layers/meta-balena to 3033e1adebd2ec79f9528e83d616ccf27bee4035
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "resin-init-flasher: with secure boot, authenticate the inner image"
+              hash: 1ae37ac158b93df836126030abec8c3d3f69d92b
+              body: >
+                At this moment resin-init-flasher just takes whatever image lies
+                in /opt
+
+                and dd's it to the target drive. This is fine for general use,
+                but with
+
+                secure boot enabled, we want to perform at least basic
+                authentication
+
+                of the image being written.
+
+
+                This patch gets the image signed at build time and makes flasher
+                verify
+
+                the signature against a key built-in the kernel trust store. At
+                this
+
+                very moment it fails hard if the signature does not match, but
+                this may
+
+                change in the future. Technically we only want to know if we are
+                about
+
+                to flash a balena-provided image or not, we might want to
+                support both
+
+                but behave slightly differently in each scenario.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.2.0
+          title: ""
+          date: 2024-12-16T14:06:35.499Z
+  version: 6.2.0
+  title: ""
+  date: 2024-12-16T14:51:27.280Z
+- commits:
     - subject: Update contracts to 9ce0ad766c4f9b46cd78462813ff01600a61cde5
       hash: 4b26484fcb566972e9cde96ee75d893c69f60f27
       body: Update contracts
