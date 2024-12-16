@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7fb20a1e615ef15b9a25be51805d6f4a45d71226
+      hash: 29ca87eaec166845d83bab50dc3ccac14ae60895
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7fb20a1e615ef15b9a25be51805d6f4a45d71226
+        changelog-entry: Update balena-yocto-scripts to 7fb20a1e615ef15b9a25be51805d6f4a45d71226
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove hostapp creation step
+              hash: 5f273a9350d826c9cd24bbcbceb0937b5cb3b535
+              body: >
+                This functionality never worked for various reasons - and
+                shouldn't be in this workflow anyway
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.29.5
+          title: ""
+          date: 2024-12-16T15:26:57.997Z
+  version: 6.2.0+rev1
+  title: ""
+  date: 2024-12-16T16:48:40.523Z
+- commits:
     - subject: Update layers/meta-balena to 3033e1adebd2ec79f9528e83d616ccf27bee4035
       hash: 955db6fa4c9fe5bb6e7314862f22583422bdf4e2
       body: Update layers/meta-balena

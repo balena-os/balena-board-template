@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.0+rev1
+## (2024-12-16)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 7fb20a1e615ef15b9a25be51805d6f4a45d71226 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.29.5
+> ### (2024-12-16)
+> 
+> * Remove hostapp creation step [Ryan Cooke]
+> 
+
+</details>
+
 # v6.2.0
 ## (2024-12-16)
 
