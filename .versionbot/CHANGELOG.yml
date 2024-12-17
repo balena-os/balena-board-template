@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 1c15d4194787879aeec7a84c22bf3dd2712f239a
+      hash: f402cfe7d9381cc34d20cc07535faafb3a7aa856
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 1c15d4194787879aeec7a84c22bf3dd2712f239a
+        changelog-entry: Update balena-yocto-scripts to 1c15d4194787879aeec7a84c22bf3dd2712f239a
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Unset AWS credentials to avoid overriding MinIO credentials
+              hash: 2d574e36504c57f8c0c4f9a68d5cc2a9993261f2
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.29.7
+          title: ""
+          date: 2024-12-17T19:29:24.417Z
+  version: 6.2.0+rev3
+  title: ""
+  date: 2024-12-17T20:46:59.188Z
+- commits:
     - subject: Update balena-yocto-scripts to 890851b95fef702fb41d180392e2ce02870e2421
       hash: ab3f589cfe465a05a179aa499ec3fba9c9ab0fd1
       body: Update balena-yocto-scripts

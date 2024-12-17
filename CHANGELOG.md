@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.0+rev3
+## (2024-12-17)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 1c15d4194787879aeec7a84c22bf3dd2712f239a [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.29.7
+> ### (2024-12-17)
+> 
+> * Unset AWS credentials to avoid overriding MinIO credentials [Kyle Harding]
+> 
+
+</details>
+
 # v6.2.0+rev2
 ## (2024-12-17)
 
