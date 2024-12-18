@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.0+rev6
+## (2024-12-18)
+
+
+<details>
+<summary> Update contracts to 9383b369225a93451dcb595930106a36f5b2dc45 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.121
+> ### (2024-12-18)
+> 
+> * hw.device-type: Fix compatibility with existing sdk structure [Alexandru Costache]
+> 
+
+</details>
+
 # v6.2.0+rev5
 ## (2024-12-18)
 
