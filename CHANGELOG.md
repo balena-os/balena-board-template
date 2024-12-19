@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.1+rev1
+## (2024-12-19)
+
+
+<details>
+<summary> Update balena-yocto-scripts to bb4e24d2a7d40ea9cd1723bc409e154946444f8f [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.0
+> ### (2024-12-19)
+> 
+> * Append to MIRRORS instead of PREMIRRORS to limit egress [Kyle Harding]
+> * Use dedicated AWS S3 buckets for download mirrors [Kyle Harding]
+> 
+
+</details>
+
 # v6.2.1
 ## (2024-12-19)
 

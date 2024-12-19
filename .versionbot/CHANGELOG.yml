@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update balena-yocto-scripts to bb4e24d2a7d40ea9cd1723bc409e154946444f8f
+      hash: c42d8c14ee423ee9e98601325bfcd48ebac9c1cb
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to bb4e24d2a7d40ea9cd1723bc409e154946444f8f
+        changelog-entry: Update balena-yocto-scripts to bb4e24d2a7d40ea9cd1723bc409e154946444f8f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Append to MIRRORS instead of PREMIRRORS to limit egress
+              hash: 345cdbbf64575fc39bca4251353e823e1bcec741
+              body: |
+                For the first deployment of the S3 download mirror we will
+                err on the side of cost savings, and use the mirror as a
+                fallback not the primary source of downloads.
+
+                Revert this if we want the benefits of using our own mirrors
+                as the primary source, like download speed and no rate limits.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Use dedicated AWS S3 buckets for download mirrors
+              hash: 07e02aef5af44f7d96e4f491ba8331a42214f654
+              body: ""
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.30.0
+          title: ""
+          date: 2024-12-19T18:57:58.502Z
+  version: 6.2.1+rev1
+  title: ""
+  date: 2024-12-19T20:47:50.048Z
+- commits:
     - subject: Update layers/meta-balena to aa715d098183a09e3f52467f5118f51646c796f6
       hash: b350a28978ca46fbfe56ae68a9f3dede2a6211e4
       body: Update layers/meta-balena
