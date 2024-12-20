@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.2
+## (2024-12-20)
+
+
+<details>
+<summary> Update layers/meta-balena to 304646d8e0c51a1ab6462c87d33e2e40bd68fdb0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.2.2
+> ### (2024-12-20)
+> 
+> * hostapp-update-hooks: fix path for grub_extraenv in blacklist [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.2.1+rev3
 ## (2024-12-20)
 

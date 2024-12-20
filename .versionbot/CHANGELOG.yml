@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 304646d8e0c51a1ab6462c87d33e2e40bd68fdb0
+      hash: 414b90e7dab522098e611bf31545b97f79e7eb28
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 304646d8e0c51a1ab6462c87d33e2e40bd68fdb0
+        changelog-entry: Update layers/meta-balena to 304646d8e0c51a1ab6462c87d33e2e40bd68fdb0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hostapp-update-hooks: fix path for grub_extraenv in blacklist"
+              hash: a3d5424af810b62a672f325ef666c366776b0502
+              body: >
+                The `grub_extraenv` file is actually either installed under
+                `/grub` for
+
+                MBR systems or `/EFI/BOOT` for EFI ones.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.2.2
+          title: ""
+          date: 2024-12-20T12:03:20.889Z
+  version: 6.2.2
+  title: ""
+  date: 2024-12-20T12:55:05.573Z
+- commits:
     - subject: Update balena-yocto-scripts to eaab5a2fccab6406d5f75a11d9a0575fd675c197
       hash: 84a38f55d449a62bb56e867e14bc80556aeac2ff
       body: Update balena-yocto-scripts
