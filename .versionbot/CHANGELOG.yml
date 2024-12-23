@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 8bd56512c375e2f39b532fdb3882a7b5243f7ece
+      hash: 424353b133fbbdcfe01ddd4a508ef010bd674a25
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 8bd56512c375e2f39b532fdb3882a7b5243f7ece
+        changelog-entry: Update contracts to 8bd56512c375e2f39b532fdb3882a7b5243f7ece
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: add Forecr DSB ORNX entries"
+              hash: aaacf7dde8997f5291da82aab537ca902a24267e
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Suykov <alex.suykov@sirinsoftware.com>
+                signed-off-by: Alex Suykov <alex.suykov@sirinsoftware.com>
+              author: Alex Suykov
+          version: contracts-2.0.122
+          title: ""
+          date: 2024-12-23T10:57:21.261Z
+  version: 6.2.3+rev1
+  title: ""
+  date: 2024-12-23T12:35:50.902Z
+- commits:
     - subject: Update layers/meta-balena to d958ab39c2c3e7fcc9a39c60961f933aeef2a189
       hash: 467d7f203fe1957019a9aa2d78f534e8bcbe471c
       body: Update layers/meta-balena
