@@ -1,6 +1,37 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.4
+## (2024-12-26)
+
+
+<details>
+<summary> Update layers/meta-balena to 88eebcdae6187f606db9c9c3bd6c9542ba4a9bec [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.2.4
+> ### (2024-12-26)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.10.3 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.10.3
+>> #### (2024-12-20)
+>> 
+>> * Update systeminformation to v5.23.8 [SECURITY] [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-16.10.2
+>> #### (2024-12-18)
+>> 
+>> * Wait for service dependencies to be running [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.2.3+rev1
 ## (2024-12-23)
 
