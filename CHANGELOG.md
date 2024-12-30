@@ -1,6 +1,32 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.5
+## (2024-12-30)
+
+
+<details>
+<summary> Update layers/meta-balena to 54af14ef4fbbe2355e3f93a0e443871a9f7c5759 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.2.5
+> ### (Invalid date)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c4feff6 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.77
+>> #### (Invalid date)
+>> 
+>> * Update core/contracts digest to 8bd5651 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.2.4+rev1
 ## (2024-12-30)
 
