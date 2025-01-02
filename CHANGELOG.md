@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.5+rev2
+## (2025-01-02)
+
+
+<details>
+<summary> Update contracts to 44bbd40a79c8ec2c55db8a1b46cf7ad4c8262d78 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.123
+> ### (2025-01-02)
+> 
+> * Forecr DSB ORNX: Update device name [Alexandru]
+> 
+
+</details>
+
 # v6.2.5+rev1
 ## (2024-12-30)
 
