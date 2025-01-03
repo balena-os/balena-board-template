@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.6
+## (2025-01-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 6917dadbeaae7d949db55eac399b84c27a7e8035 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.2.6
+> ### (2025-01-03)
+> 
+> * workflows/meta-balena-esr: fix version array bash [Ryan Cooke]
+> 
+
+</details>
+
 # v6.2.5+rev2
 ## (2025-01-02)
 

@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 6917dadbeaae7d949db55eac399b84c27a7e8035
+      hash: 9ae81287b6ac4e5720b627f324271d73778b0817
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6917dadbeaae7d949db55eac399b84c27a7e8035
+        changelog-entry: Update layers/meta-balena to 6917dadbeaae7d949db55eac399b84c27a7e8035
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows/meta-balena-esr: fix version array bash"
+              hash: 11c8daa43e30749fa943d142f787da64fda2882c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.2.6
+          title: ""
+          date: 2025-01-03T14:01:19.378Z
+  version: 6.2.6
+  title: ""
+  date: 2025-01-03T14:33:34.691Z
+- commits:
     - subject: Update contracts to 44bbd40a79c8ec2c55db8a1b46cf7ad4c8262d78
       hash: 0ebac160312bf42d6dcd6512c4908c64c932865b
       body: Update contracts
