@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to 1fb02321afaaea4e43e296ae556e628a1dfed530
+      hash: da6d67fbf71b294eb9308d8bea217c06e201b1c4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1fb02321afaaea4e43e296ae556e628a1dfed530
+        changelog-entry: Update layers/meta-balena to 1fb02321afaaea4e43e296ae556e628a1dfed530
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-image-flasher: depend on balena-image:do_image_complete"
+              hash: aa030228732392d81bab7ed297c68eeaa28c0175
+              body: >
+                At this moment balena-image-flasher depends on
+                do_image_sign_digest
+
+                and do_rootfs of balena-image, but this is not enough, as the
+                signature
+
+                symlink is only created by a postprocess script.
+
+
+                This patch replaces the two existing dependencies by
+                do_image_complete,
+
+                which should cover everything.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.2.7
+          title: ""
+          date: 2025-01-08T10:06:42.801Z
+  version: 6.2.7
+  title: ""
+  date: 2025-01-08T10:40:33.821Z
+- commits:
     - subject: Update contracts to b7d2bb88f3e7ca1aca02c0da5f358aaef4308189
       hash: 307893cb9c7a2b7eeed442adf73be89f292832ad
       body: Update contracts

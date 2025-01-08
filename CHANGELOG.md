@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.7
+## (2025-01-08)
+
+
+<details>
+<summary> Update layers/meta-balena to 1fb02321afaaea4e43e296ae556e628a1dfed530 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.2.7
+> ### (2025-01-08)
+> 
+> * balena-image-flasher: depend on balena-image:do_image_complete [Michal Toman]
+> 
+
+</details>
+
 # v6.2.6+rev4
 ## (2025-01-07)
 
