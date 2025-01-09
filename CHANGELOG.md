@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.2.8+rev1
+## (2025-01-09)
+
+
+<details>
+<summary> Update balena-yocto-scripts to fab87868acf44744c512df594be72d4dcdcc8b7a [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.8
+> ### (2025-01-09)
+> 
+> * Upload yocto build logs even on failure [Kyle Harding]
+> 
+
+</details>
+
 # v6.2.8
 ## (2025-01-08)
 
