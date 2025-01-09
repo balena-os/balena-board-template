@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.0
+## (2025-01-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 32f5b9ed66ba5d2336fe92e9ca91e62ccf595c0b [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.0
+> ### (2025-01-09)
+> 
+> * Update usb-modeswitch to version 2.6.1 [Florin Sarbu]
+> 
+
+</details>
+
 # v6.2.8+rev2
 ## (2025-01-09)
 
