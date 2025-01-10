@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.0+rev4
+## (2025-01-10)
+
+
+<details>
+<summary> Update balena-yocto-scripts to b929d4db634311c9e9ece78546a550657f2e1286 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.14
+> ### (2025-01-10)
+> 
+> * Update actions/upload-artifact action to v4.6.0 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.3.0+rev3
 ## (2025-01-10)
 
