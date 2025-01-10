@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.0+rev3
+## (2025-01-10)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 6646d94ffbc0aca01f4f142390ff61cbbcb15afb [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.13
+> ### (2025-01-10)
+> 
+> * workflows: yocto-build-deploy: add SSH key to environment [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.0+rev2
 ## (2025-01-09)
 
