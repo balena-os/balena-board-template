@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 59f6652dcaa645cbd629ed1199d1de956d2deab0
+      hash: 9f51f61724fc3903a4f2e67642ee9aea698864bf
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 59f6652dcaa645cbd629ed1199d1de956d2deab0
+        changelog-entry: Update layers/meta-balena to 59f6652dcaa645cbd629ed1199d1de956d2deab0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "peak: Update to version 8.19.0"
+              hash: dc52e74c24bb84b8c2ec38b334fbbf8d9e1df3c4
+              body: >
+                This is needed to have it compiled against kernel version
+                6.12.3,
+
+                which we will include in balena-generic.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.3.1
+          title: ""
+          date: 2025-01-13T06:54:44.804Z
+  version: 6.3.1
+  title: ""
+  date: 2025-01-13T08:39:00.194Z
+- commits:
     - subject: Update balena-yocto-scripts to b929d4db634311c9e9ece78546a550657f2e1286
       hash: b1f757a6efe88398472f506043ece08ffbbfcf8f
       body: Update balena-yocto-scripts

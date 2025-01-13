@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.1
+## (2025-01-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 59f6652dcaa645cbd629ed1199d1de956d2deab0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.1
+> ### (2025-01-13)
+> 
+> * peak: Update to version 8.19.0 [Florin Sarbu]
+> 
+
+</details>
+
 # v6.3.0+rev4
 ## (2025-01-10)
 
