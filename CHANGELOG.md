@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.1+rev2
+## (2025-01-13)
+
+
+<details>
+<summary> Update balena-yocto-scripts to f5ec6993fd683b9a933bda067594ae5de6208fbd [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.16
+> ### (2025-01-13)
+> 
+> * workflows: yocto-build-deploy: allow to pass barys arguments [Alex Gonzalez]
+> * barys: allow for custom templates [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.1+rev1
 ## (2025-01-13)
 

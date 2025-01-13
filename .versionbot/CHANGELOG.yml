@@ -1,4 +1,51 @@
 - commits:
+    - subject: Update balena-yocto-scripts to f5ec6993fd683b9a933bda067594ae5de6208fbd
+      hash: 10d672208611355d879c95cfe9f1709e16a5b0b9
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to f5ec6993fd683b9a933bda067594ae5de6208fbd
+        changelog-entry: Update balena-yocto-scripts to f5ec6993fd683b9a933bda067594ae5de6208fbd
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows: yocto-build-deploy: allow to pass barys arguments"
+              hash: 71b8b94141a41c70bc551d43be425502d30d6afe
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "barys: allow for custom templates"
+              hash: 2169419b13d4d6985d386292a4294e90a446d426
+              body: >
+                By default barys assumes there is only one integration layers
+                and looks
+
+                for the custom sample templates in there. This might not be the
+                case
+
+                if there are feature layers like adding secure boot support, so
+                this
+
+                commit allows to specify which layer to look the sample
+                templates from.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.30.16
+          title: ""
+          date: 2025-01-13T20:38:41.835Z
+  version: 6.3.1+rev2
+  title: ""
+  date: 2025-01-13T22:33:26.010Z
+- commits:
     - subject: Update balena-yocto-scripts to e43e9f09d25969dbdb1a01a49e4e466f08892953
       hash: d15bd5e577b1b3107643d4442dbea8a2338b4667
       body: Update balena-yocto-scripts
