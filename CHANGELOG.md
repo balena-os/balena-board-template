@@ -1,6 +1,23 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.1+rev1
+## (2025-01-13)
+
+
+<details>
+<summary> Update balena-yocto-scripts to e43e9f09d25969dbdb1a01a49e4e466f08892953 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.15
+> ### (2025-01-13)
+> 
+> * revert to building secure boot with cache [Alex Gonzalez]
+> * workflows: yocto-build-deploy: allow to override SIGN_GRUB_KEY_ID [Alex Gonzalez]
+> * workflows: yocto-build-deploy: add PKI signing key ID [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.1
 ## (2025-01-13)
 

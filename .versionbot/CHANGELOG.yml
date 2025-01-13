@@ -1,4 +1,79 @@
 - commits:
+    - subject: Update balena-yocto-scripts to e43e9f09d25969dbdb1a01a49e4e466f08892953
+      hash: d15bd5e577b1b3107643d4442dbea8a2338b4667
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to e43e9f09d25969dbdb1a01a49e4e466f08892953
+        changelog-entry: Update balena-yocto-scripts to e43e9f09d25969dbdb1a01a49e4e466f08892953
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: revert to building secure boot with cache
+              hash: cad0b71d6a2b26ff90d6ae5b0f8247c4b3237479
+              body: >
+                Secure boots builds used to end up with a mismatch between the
+                kernel
+
+                and modules signatures because of the use of cache - to avoid
+                this we
+
+                temporarily forced builds without cache.
+
+
+                With the fix in meta-balena
+                389054e84c0b1fd382d737c39fb2bb02c2b3e9b2,
+
+                kernel modules are always set not to use cache and this problem
+                should
+
+                no longer happen.
+
+
+                At least during the i.MX secure boot local builds with cache
+                never hit
+
+                the problem.
+
+
+                Remove the setting not to use cache.
+              footer:
+                Changelog-entry: revert to building secure boot with cache
+                changelog-entry: revert to building secure boot with cache
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "workflows: yocto-build-deploy: allow to override SIGN_GRUB_KEY_ID"
+              hash: 4368f04773413f56547548c3c1e46d3b80b79120
+              body: >
+                This allows to set specific environments for custom secrets
+                support.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "workflows: yocto-build-deploy: add PKI signing key ID"
+              hash: 43164296785261490c9c69873ecb1598436908eb
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.30.15
+          title: ""
+          date: 2025-01-13T17:06:53.149Z
+  version: 6.3.1+rev1
+  title: ""
+  date: 2025-01-13T18:35:27.117Z
+- commits:
     - subject: Update layers/meta-balena to 59f6652dcaa645cbd629ed1199d1de956d2deab0
       hash: 9f51f61724fc3903a4f2e67642ee9aea698864bf
       body: Update layers/meta-balena
