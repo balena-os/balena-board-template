@@ -1,6 +1,24 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.2
+## (2025-01-14)
+
+
+<details>
+<summary> Update layers/meta-balena to 89e024a74dce245954d881fa5555855b79319941 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.2
+> ### (2025-01-14)
+> 
+> * tests: secureboot: imx: refactor bootloader config integrity tests [Alex Gonzalez]
+> * tests: secureboot: imx: refactor bootloader integrity test [Alex Gonzalez]
+> * tests: secureboot: imx: support compressed files pattern replacement [Alex Gonzalez]
+> * tests: secureboot: fix function that confirms a failed boot [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.1+rev2
 ## (2025-01-13)
 
