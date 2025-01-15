@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to d752abb95a6c7b66777d348ccb9076e87e15fbe1
+      hash: ea3efc679b8a175fad1c7a645010c4d0bae441dd
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d752abb95a6c7b66777d348ccb9076e87e15fbe1
+        changelog-entry: Update layers/meta-balena to d752abb95a6c7b66777d348ccb9076e87e15fbe1
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: hup: rollback-altboot: replace while loop over SSH to speed up
+                tests"
+              hash: 65aba403ef0ae5d47510e5d8d11a5d4c0f7969c2
+              body: >
+                The altboot test often hangs for a long time during the altboot
+                test, after the DUT has booted into the old OS after the altboot
+                failure - the check to see if the rollback systemd services have
+                stopped hangs. This is an attempt to fix that, as I think
+                there's some strange interaction going on with the while loop
+                over ssh
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.3.3
+          title: ""
+          date: 2025-01-15T16:36:05.153Z
+  version: 6.3.3
+  title: ""
+  date: 2025-01-15T18:47:50.153Z
+- commits:
     - subject: Update contracts to cde8b8829cc36e1b98fe4a93eef5c901fc6e62c2
       hash: 607b14d88680c21f6ae191b3afd3dc6ee0563d7b
       body: Update contracts

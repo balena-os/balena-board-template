@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.3
+## (2025-01-15)
+
+
+<details>
+<summary> Update layers/meta-balena to d752abb95a6c7b66777d348ccb9076e87e15fbe1 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.3
+> ### (2025-01-15)
+> 
+> * tests: hup: rollback-altboot: replace while loop over SSH to speed up tests [Ryan Cooke]
+> 
+
+</details>
+
 # v6.3.2+rev1
 ## (2025-01-15)
 
