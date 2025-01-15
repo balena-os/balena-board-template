@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.2+rev1
+## (2025-01-15)
+
+
+<details>
+<summary> Update contracts to cde8b8829cc36e1b98fe4a93eef5c901fc6e62c2 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.125
+> ### (2025-01-15)
+> 
+> * hw.device-type: Switch to using markdown for links [Alexandru Costache]
+> 
+
+</details>
+
 # v6.3.2
 ## (2025-01-14)
 

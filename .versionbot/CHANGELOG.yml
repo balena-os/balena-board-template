@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update contracts to cde8b8829cc36e1b98fe4a93eef5c901fc6e62c2
+      hash: 607b14d88680c21f6ae191b3afd3dc6ee0563d7b
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to cde8b8829cc36e1b98fe4a93eef5c901fc6e62c2
+        changelog-entry: Update contracts to cde8b8829cc36e1b98fe4a93eef5c901fc6e62c2
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Switch to using markdown for links"
+              hash: 4c648636dd05ee31ea458b74df97207fc7b8d5c7
+              body: |
+                ... as per the internal thread
+                https://balena.zulipchat.com/#narrow/channel/350505-aspect.2Fgrowth/topic/Improving.20Jetson-flash.20documentation/near/493450821
+
+                Due to recent changes in the renderer, HTML links are no
+                longer displayed.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.125
+          title: ""
+          date: 2025-01-15T09:07:30.756Z
+  version: 6.3.2+rev1
+  title: ""
+  date: 2025-01-15T10:43:22.555Z
+- commits:
     - subject: Update layers/meta-balena to 89e024a74dce245954d881fa5555855b79319941
       hash: 4b88da8e6860531e7c7df1123bdedcd6c8cd48ea
       body: Update layers/meta-balena
