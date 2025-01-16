@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.5
+## (2025-01-16)
+
+
+<details>
+<summary> Update layers/meta-balena to 25e216d91a0fcb47eca6bd79acf4f47ef4f627ae [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.5
+> ### (2025-01-16)
+> 
+> * classes/kernel-balena: Avoid re-building kernel modules when not signed [Alexandru Costache]
+> 
+
+</details>
+
 # v6.3.4
 ## (2025-01-16)
 
