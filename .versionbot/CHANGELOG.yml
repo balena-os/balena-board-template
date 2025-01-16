@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to 9e9a4ca10eceb59d14866d87a1486b63f2c636ce
+      hash: 6df899f7f2ab0dafd4f8c49f8f6fc7d0c19ade26
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9e9a4ca10eceb59d14866d87a1486b63f2c636ce
+        changelog-entry: Update layers/meta-balena to 9e9a4ca10eceb59d14866d87a1486b63f2c636ce
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows: iot-gate-imx8: add custom template path"
+              hash: f206ad55df30f4939cbd2498fd6494aa8d05c60b
+              body: >
+                With the addition of the meta-balena-hab submodule there are
+                multiple
+
+                balena layers with custom templates - specify which one to use
+                to avoid
+
+                a build error.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.3.4
+          title: ""
+          date: 2025-01-16T16:14:51.120Z
+  version: 6.3.4
+  title: ""
+  date: 2025-01-16T18:34:59.388Z
+- commits:
     - subject: Update layers/meta-balena to d752abb95a6c7b66777d348ccb9076e87e15fbe1
       hash: ea3efc679b8a175fad1c7a645010c4d0bae441dd
       body: Update layers/meta-balena
