@@ -1,6 +1,37 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.7
+## (2025-01-20)
+
+
+<details>
+<summary> Update layers/meta-balena to 015a967f1e4a442bf7211cf9fcf9e8739c5cabf4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.7
+> ### (2025-01-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 03a7057 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.83
+>> #### (2025-01-09)
+>> 
+>> * Update balena-io/balena-cli to v20.2.1 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.82
+>> #### (2025-01-09)
+>> 
+>> * patch: Add retention & compression to Leviathan action artifacts [Vipul Gupta]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.3.6+rev1
 ## (2025-01-20)
 
