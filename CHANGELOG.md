@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.8
+## (2025-01-22)
+
+
+<details>
+<summary> Update layers/meta-balena to 15c5d3177f936cbe7dbe03141d46476cebc57c36 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.8
+> ### (2025-01-22)
+> 
+> * resin-init-flasher: add openssl dependency [Alex Gonzalez]
+> * initrdscript: copy image signature to memory if required [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.7
 ## (2025-01-20)
 

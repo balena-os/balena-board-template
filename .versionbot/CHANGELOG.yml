@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to 15c5d3177f936cbe7dbe03141d46476cebc57c36
+      hash: 01edfcf44536520300aeb4d72dd7a235c6f91ab7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 15c5d3177f936cbe7dbe03141d46476cebc57c36
+        changelog-entry: Update layers/meta-balena to 15c5d3177f936cbe7dbe03141d46476cebc57c36
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "resin-init-flasher: add openssl dependency"
+              hash: 49b2d8635d5c4837f651f16f97fae18bda50a3c1
+              body: >
+                This is required for openssl to be available on the initramfs so
+                that
+
+                migration can use it.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscript: copy image signature to memory if required"
+              hash: 6963166ed83138d15f39a7efd54beb2a6088febe
+              body: >
+                For migration to work on signed images, the signature needs to
+                be
+
+                available in memory.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.3.8
+          title: ""
+          date: 2025-01-22T16:04:48.428Z
+  version: 6.3.8
+  title: ""
+  date: 2025-01-22T16:35:51.664Z
+- commits:
     - subject: Update layers/meta-balena to 015a967f1e4a442bf7211cf9fcf9e8739c5cabf4
       hash: 81728ba14c118817ba0f8cc124be68b1e4e59519
       body: Update layers/meta-balena
