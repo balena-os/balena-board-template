@@ -1,6 +1,24 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.8+rev1
+## (2025-01-23)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0945f9d3a463721304aa52939fbe0f2ae3117173 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.18
+> ### (2025-01-23)
+> 
+> * barys: allow to specify custom templates paths directly [Alex Gonzalez]
+> * generate-conf-notes: simplify arguments [Alex Gonzalez]
+> * barys: do not build duplicated machines [Alex Gonzalez]
+> * workflows: yocto-build-deploy: distinguish machine from slug [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.8
 ## (2025-01-22)
 
