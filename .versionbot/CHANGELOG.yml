@@ -1,4 +1,80 @@
 - commits:
+    - subject: Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a
+      hash: 9c0f4484e678cad6a25dce0ca76c58caae103df6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a
+        changelog-entry: Update layers/meta-balena to d3c866fcafc664f0ac2d3dfeaf97c21d58ced86a
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 25370da
+              hash: 0d1300383c19f479b47fd6ce8d14ec03cb9b1ab4
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update actions/upload-artifact digest to 65c4c4a
+                      hash: 41ecb3c5112bc5b2b6d8e63dabb05fbf558c9df1
+                      body: |
+                        Update actions/upload-artifact
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.87
+                  title: ""
+                  date: 2025-01-26T14:28:56.808Z
+                - commits:
+                    - subject: Fix extractVersion renovate template
+                      hash: fc005a800f77b29dae553ef38d45ef705a011dbf
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Kyle Harding
+                      nested: []
+                  version: leviathan-2.31.86
+                  title: ""
+                  date: 2025-01-26T12:57:09.462Z
+                - commits:
+                    - subject: Update core/contracts digest to cde8b88
+                      hash: 4aad7b4af4fed4fc54ceb874330c0e8b2a86b70e
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.85
+                  title: ""
+                  date: 2025-01-24T18:32:12.098Z
+                - commits:
+                    - subject: "lib/components: Add partition index for Jetson TX2 NX types"
+                      hash: 3db19db2746a55855b6601f37f791f5d7e6e5487
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                        signed-off-by: Alexandru Costache <alexandru@balena.io>
+                      author: Alexandru Costache
+                      nested: []
+                  version: leviathan-2.31.84
+                  title: ""
+                  date: 2025-01-23T08:13:42.965Z
+          version: meta-balena-6.3.10
+          title: ""
+          date: 2025-01-27T16:33:22.765Z
+  version: 6.3.10
+  title: ""
+  date: 2025-01-27T18:38:30.504Z
+- commits:
     - subject: Update layers/meta-balena to 5052f0f427a65ee435f9a5bdaa37b5dc6a771557
       hash: 0b91fd980a7a7af220086350176fd5e2dec34d07
       body: Update layers/meta-balena
