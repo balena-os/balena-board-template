@@ -1,6 +1,41 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.11
+## (2025-01-27)
+
+
+<details>
+<summary> Update layers/meta-balena to 04172722f3e29375f2192b8d2718796339c34bad [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.11
+> ### (2025-01-27)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.12.0 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.12.0
+>> #### (2025-01-20)
+>> 
+>> * Update contrato to v0.12.0 [Felipe Lalanne]
+>> * Update alpine base image to 3.21 [Felipe Lalanne]
+>> * Update Node support to v22 [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.11.0
+>> #### (2025-01-14)
+>> 
+>> * Add support for `io.balena.update.requires-reboot` [Felipe Lalanne]
+>> * Move reboot breadcrumb check to device-state [Felipe Lalanne]
+>> * Refactor device-config as part of device-state [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.3.10
 ## (2025-01-27)
 
