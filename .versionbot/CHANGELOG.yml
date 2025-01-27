@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 5052f0f427a65ee435f9a5bdaa37b5dc6a771557
+      hash: 0b91fd980a7a7af220086350176fd5e2dec34d07
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5052f0f427a65ee435f9a5bdaa37b5dc6a771557
+        changelog-entry: Update layers/meta-balena to 5052f0f427a65ee435f9a5bdaa37b5dc6a771557
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows: iot-gate-imx8plus: add custom template path"
+              hash: 0aa5664c4edba93084e81c184119b1fc7a31fbc8
+              body: |
+                A custom template path has originally been added in
+                https://github.com/balena-os/meta-balena/pull/3599
+                for the iot-gate-imx8. The iot-gate-imx8plus needs
+                one as well because it's now using the meta-balena-hab
+                submodule.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.3.9
+          title: ""
+          date: 2025-01-27T09:32:28.028Z
+  version: 6.3.9
+  title: ""
+  date: 2025-01-27T10:34:32.377Z
+- commits:
     - subject: Update balena-yocto-scripts to 0e3ab8bae71aa2164e9f9998bfae4c06f2a70bfe
       hash: 2d01d32ee35854c86e67ab0392c2598ff797324e
       body: Update balena-yocto-scripts
