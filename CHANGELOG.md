@@ -1,6 +1,26 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.11+rev3
+## (2025-01-28)
+
+
+<details>
+<summary> Update contracts to b042ab7fbdd2b774e8b462f442c1c37fa6da1377 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.127
+> ### (2025-01-28)
+> 
+> * Mark alpine 3.21 as the default alpine version [Thodoris Greasidis]
+> 
+> ## contracts-2.0.126
+> ### (2025-01-28)
+> 
+> * Add alpine 3.21 [Felipe Lalanne]
+> 
+
+</details>
+
 # v6.3.11+rev2
 ## (2025-01-28)
 
