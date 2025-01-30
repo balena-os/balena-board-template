@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to a62daefb9f01eb0c494ec27b1efe051b40f1f54b
+      hash: f257edc0cf348c73ed8efc6db8967d2a15801017
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a62daefb9f01eb0c494ec27b1efe051b40f1f54b
+        changelog-entry: Update layers/meta-balena to a62daefb9f01eb0c494ec27b1efe051b40f1f54b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena.bbclass: silence regex escape warnings"
+              hash: 2b737fdc534da23c6f22efc83e1e64e109a8fb29
+              body: |
+                This patch converts the regex strings to raw strings to silence
+                `DeprecationWarning: invalid escape sequence \d`
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+            - subject: "kernel-balena.bbclass: Add aufs patches for 6.6 kernels"
+              hash: 54faaa0714db55ebe486a101eb2ad62e75679ffd
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.3.12
+          title: ""
+          date: 2025-01-30T11:44:21.994Z
+  version: 6.3.12
+  title: ""
+  date: 2025-01-30T12:35:59.174Z
+- commits:
     - subject: Update contracts to b042ab7fbdd2b774e8b462f442c1c37fa6da1377
       hash: fecf33a6f10196e80f94a1aee32838b4c6073d2d
       body: Update contracts
