@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to df69a1d75891f90de111f40fc279772b1ec14e39
+      hash: 0a93d60b7973d442cfd7461f48bb72eaf0f1b7af
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to df69a1d75891f90de111f40fc279772b1ec14e39
+        changelog-entry: Update layers/meta-balena to df69a1d75891f90de111f40fc279772b1ec14e39
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: secureboot: fix reference to unavailable kernel-module-headers"
+              hash: 7f49f8d3e780461e603196cc23917e41fe925bac
+              body: >
+                2.108.6 doesn't exist for generic-amd64. The tests used to still
+                work, because we werent acually passing the version to
+                kernel-module-build correctly, meaning that it would default to
+                the one in the kernel-module-build project. That was fixed in
+                4484c59fc924100232cc10303a4636ed0082760a , and now we are
+                passing the version correctly, we're looking for a nonexistant
+                version. Changing version to match the default.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.3.13
+          title: ""
+          date: 2025-02-01T09:17:38.671Z
+  version: 6.3.13
+  title: ""
+  date: 2025-02-01T10:35:19.155Z
+- commits:
     - subject: Update balena-yocto-scripts to 0789537c32942ad53f61c59388d71b87a831387d
       hash: c96d1ba785df8433b1f09a67d95f343f1a87f7de
       body: Update balena-yocto-scripts
