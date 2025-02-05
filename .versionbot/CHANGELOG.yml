@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to a73bffc3f96fd28c67a4ebf93adfac54ef86fb6a
+      hash: f5fe836fc6a58babf9b40996f6722002cf75c5e0
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a73bffc3f96fd28c67a4ebf93adfac54ef86fb6a
+        changelog-entry: Update layers/meta-balena to a73bffc3f96fd28c67a4ebf93adfac54ef86fb6a
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: secureboot: remove preload test for secureboot enabled DUTs"
+              hash: e6c5f14a2e6af02efb8e8766c4244a5bc1081b2e
+              body: >
+                Since 1ae37ac158b93df836126030abec8c3d3f69d92b using the flasher
+                image with secureboot and preloading doesn't work. Skipping
+                preloading tests will unblock users not using this combination
+                with the signed images.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.3.14
+          title: ""
+          date: 2025-02-05T20:53:09.987Z
+  version: 6.3.14
+  title: ""
+  date: 2025-02-05T22:33:36.312Z
+- commits:
     - subject: Update contracts to 1adfd1c331b3464969cc09a5c7cc3583ef1fe3de
       hash: 16c3fc01959a39136fe3ad97220c60df0f349523
       body: Update contracts
