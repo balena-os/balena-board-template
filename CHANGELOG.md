@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.14+rev1
+## (2025-02-06)
+
+
+<details>
+<summary> Update balena-yocto-scripts to acc0c1502f66b74eb61f72b800f2b3b5c1a078f6 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.25
+> ### (2025-02-06)
+> 
+> * generate-oscontracts: remove sw.os-image selector [Ryan Cooke]
+> 
+
+</details>
+
 # v6.3.14
 ## (2025-02-05)
 
