@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.16
+## (2025-02-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 85e629c383239e7219e7c8825aa0128cb29f1812 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.16
+> ### (2025-02-06)
+> 
+> * tests: os: swap: increase wiggle room in swap check [Ryan Cooke]
+> 
+
+</details>
+
 # v6.3.15
 ## (2025-02-06)
 

@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 85e629c383239e7219e7c8825aa0128cb29f1812
+      hash: 74b7b435a394fed9a60938e337aa76ee521f401e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 85e629c383239e7219e7c8825aa0128cb29f1812
+        changelog-entry: Update layers/meta-balena to 85e629c383239e7219e7c8825aa0128cb29f1812
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: swap: increase wiggle room in swap check"
+              hash: f13121bba5b413c932afd8f8db43f87ccb7bca0a
+              body: >
+                We encountered the variance in expected and measured swap in the
+                rpi5 to be higher than the allowed value of 10 - to make this
+                safe and allowing of more device types, changed the allowed
+                variation - still small enough to actually check the value is
+                right, but should reduce false negatives
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.3.16
+          title: ""
+          date: 2025-02-06T18:25:14.533Z
+  version: 6.3.16
+  title: ""
+  date: 2025-02-06T20:36:17.696Z
+- commits:
     - subject: Update layers/meta-balena to 2e98a6ae12d4b69bd4678f95a267a845991c579d
       hash: ac9f217676f70eb9178f502db3bfca6295466e0c
       body: Update layers/meta-balena
