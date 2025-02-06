@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.15
+## (2025-02-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 2e98a6ae12d4b69bd4678f95a267a845991c579d [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.15
+> ### (2025-02-06)
+> 
+> * tests: cloud: env vars: restart supervisor to speed up tests [Ryan Cooke]
+> 
+
+</details>
+
 # v6.3.14+rev2
 ## (2025-02-06)
 
