@@ -1,6 +1,37 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.17
+## (2025-02-07)
+
+
+<details>
+<summary> Update layers/meta-balena to c3ade7df866f0ad2cb4158f926a3c354a21571eb [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.17
+> ### (2025-02-07)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to ae96a7e [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.89
+>> #### (2025-02-06)
+>> 
+>> * Update balena-os/leviathan-worker to v2.9.57 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.88
+>> #### (2025-02-06)
+>> 
+>> * Fix running tests over local worker IP [Ryan Cooke]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.3.16+rev1
 ## (2025-02-07)
 

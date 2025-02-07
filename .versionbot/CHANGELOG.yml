@@ -1,4 +1,59 @@
 - commits:
+    - subject: Update layers/meta-balena to c3ade7df866f0ad2cb4158f926a3c354a21571eb
+      hash: 308ac35ed97843bf97954c17d346839cdff4b2ad
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c3ade7df866f0ad2cb4158f926a3c354a21571eb
+        changelog-entry: Update layers/meta-balena to c3ade7df866f0ad2cb4158f926a3c354a21571eb
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to ae96a7e
+              hash: 00cec0d947cd10e91d635e37a977dcaf68803852
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update balena-os/leviathan-worker to v2.9.57
+                      hash: b25a64d8d003c4f9eea7c4bd5f1b6438f12730f5
+                      body: |
+                        Update balena-os/leviathan-worker from 2.9.50 to 2.9.57
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.89
+                  title: ""
+                  date: 2025-02-06T20:21:54.156Z
+                - commits:
+                    - subject: Fix running tests over local worker IP
+                      hash: 0a642b8a0e21f9740ae8982f99da3506d62253a3
+                      body: >
+                        This has been broken since splitting the core from the
+                        worker - fixing it enables running tests with a local
+                        worker without the VPN, much faster and avoids VPN file
+                        transfer issues
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ryan Cooke <ryan@balena.io>
+                        signed-off-by: Ryan Cooke <ryan@balena.io>
+                      author: Ryan Cooke
+                      nested: []
+                  version: leviathan-2.31.88
+                  title: ""
+                  date: 2025-02-06T14:35:10.115Z
+          version: meta-balena-6.3.17
+          title: ""
+          date: 2025-02-07T14:19:23.643Z
+  version: 6.3.17
+  title: ""
+  date: 2025-02-07T16:36:47.168Z
+- commits:
     - subject: Update balena-yocto-scripts to c7f1eedcbda30d1e4031d1dff33176ce9be1e526
       hash: 0813e7415b6b65328cacb588b8937d7803724550
       body: Update balena-yocto-scripts
