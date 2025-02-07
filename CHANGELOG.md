@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.18
+## (2025-02-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 83093879d05654ba3a01c4409813f1cf0fe56206 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.18
+> ### (2025-02-07)
+> 
+> * Update actions/setup-python digest to 4237552 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.3.17
 ## (2025-02-07)
 
