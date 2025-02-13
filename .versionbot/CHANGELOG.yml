@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to da5f840db1f2dee4e4c5893f31ddf29c0bb9237f
+      hash: 17a5eb738820aae548b5ba3a00ce8f0320c8ac45
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to da5f840db1f2dee4e4c5893f31ddf29c0bb9237f
+        changelog-entry: Update layers/meta-balena to da5f840db1f2dee4e4c5893f31ddf29c0bb9237f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "wpa-supplicant: Update to recipe from Kirkstone"
+              hash: 95306535b424977c6f1f978b8cb37dca74cd8f55
+              body: >
+                We switch to the recipe from Kirkstone which is still at version
+                2.10
+
+                but has other patches applied to it.
+
+
+                The wpa_supplicant version from Kirkstone is from Poky revision
+
+                be48ef3d1bab50824c6678748bcfa897a2a6ca8a
+
+
+                This fixes auth issues we have seen on a Jetson TX2.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.3.19
+          title: ""
+          date: 2025-02-13T14:40:11.517Z
+  version: 6.3.19
+  title: ""
+  date: 2025-02-13T16:33:53.280Z
+- commits:
     - subject: Update balena-yocto-scripts to aa023bcecf7150e38137b401a6e4043c5ea7815d
       hash: 0a290c38e30b6aa32429f3523acb626b42b8d404
       body: Update balena-yocto-scripts
