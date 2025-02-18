@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update layers/meta-balena to b7c6be86cbba1562554b3e708025d3199cee9031
+      hash: a8425a737e09fa6e60eeb00bbd3fb1766388bfda
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b7c6be86cbba1562554b3e708025d3199cee9031
+        changelog-entry: Update layers/meta-balena to b7c6be86cbba1562554b3e708025d3199cee9031
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "resin-mounts: only run non-encrypted mount if partition exists"
+              hash: 8af007811087416a98826d138d6e654941d9716c
+              body: >
+                When signed images are used without opting in secure boot, we
+                don't want
+
+                the encrypted mount service to run and fail as there is no
+                encrypted
+
+                boot partition.
+
+
+                This commit adds a condition to the encrypted boot mount service
+                to only
+
+                run if the encrypted boot partition exists, similarly to what is
+
+                already done for EFI builds.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.3.20
+          title: ""
+          date: 2025-02-18T17:33:52.196Z
+  version: 6.3.20
+  title: ""
+  date: 2025-02-18T18:45:23.991Z
+- commits:
     - subject: Update balena-yocto-scripts to c071a7173ca278c851954cbbad15f17d831d12b0
       hash: 3a21d68b65d0befda8ea2111b44ffb324507296f
       body: Update balena-yocto-scripts

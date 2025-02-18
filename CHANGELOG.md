@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.20
+## (2025-02-18)
+
+
+<details>
+<summary> Update layers/meta-balena to b7c6be86cbba1562554b3e708025d3199cee9031 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.20
+> ### (2025-02-18)
+> 
+> * resin-mounts: only run non-encrypted mount if partition exists [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.3.19+rev2
 ## (2025-02-17)
 
