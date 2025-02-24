@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.22+rev1
+## (2025-02-24)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2620a0faf744cb9561c6e0b402c913c19b251ff6 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.30.33
+> ### (2025-02-24)
+> 
+> * Remove legacy yocto NFS cache host setup [Kyle Harding]
+> 
+
+</details>
+
 # v6.3.22
 ## (2025-02-24)
 
