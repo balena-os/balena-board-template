@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.23
+## (2025-02-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.3.23
+> ### (2025-02-25)
+> 
+> * modemmanager: patch for Cinterion port types [Kirill Zabelin]
+> 
+
+</details>
+
 # v6.3.22+rev1
 ## (2025-02-24)
 

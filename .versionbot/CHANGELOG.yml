@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0
+      hash: 7ba12e93065dc02a96b8c127c001c9de2eff4977
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0
+        changelog-entry: Update layers/meta-balena to 12c56bcfd6d3dbae81fafa8e3eb3641be575e7c0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "modemmanager: patch for Cinterion port types"
+              hash: 6cd7bdcef2405b836975d2a06cdd83cbb5177499
+              body: >
+                Patch with changes in udev rules for ALAS5 for proper support of
+                port types
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kirill Zabelin
+              nested: []
+          version: meta-balena-6.3.23
+          title: ""
+          date: 2025-02-25T10:26:55.368Z
+  version: 6.3.23
+  title: ""
+  date: 2025-02-25T12:50:34.735Z
+- commits:
     - subject: Update balena-yocto-scripts to 2620a0faf744cb9561c6e0b402c913c19b251ff6
       hash: 06286cf630a7ba937ccd286b4c835a0f6ccfa14d
       body: Update balena-yocto-scripts
