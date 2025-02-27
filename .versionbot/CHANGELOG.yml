@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 3db10c29a30b1dbb9457d364840e6d9a9ab38908
+      hash: 1a6c84be49be14259673aec4c62873f961b8bae8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 3db10c29a30b1dbb9457d364840e6d9a9ab38908
+        changelog-entry: Update balena-yocto-scripts to 3db10c29a30b1dbb9457d364840e6d9a9ab38908
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update Pin dependencies
+              hash: 9ad66c325cd50213bd128ed684684b8ad13f335d
+              body: |
+                Update actions/github-script
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.1
+          title: ""
+          date: 2025-02-27T18:02:39.719Z
+  version: 6.3.23+rev5
+  title: ""
+  date: 2025-02-27T18:34:41.614Z
+- commits:
     - subject: Update balena-yocto-scripts to 9ccb75bf7ad9f48048c969d33607e215efed88eb
       hash: 20c00b907568b6944d28ece9488e92988ae1877e
       body: Update balena-yocto-scripts
