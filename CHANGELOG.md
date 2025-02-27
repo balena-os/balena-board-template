@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.3.23+rev4
+## (2025-02-27)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 9ccb75bf7ad9f48048c969d33607e215efed88eb [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.0
+> ### (2025-02-27)
+> 
+> * Remove balena API key from yocto build step [Kyle Harding]
+> * Separate build jobs by environments [Kyle Harding]
+> 
+
+</details>
+
 # v6.3.23+rev3
 ## (2025-02-26)
 

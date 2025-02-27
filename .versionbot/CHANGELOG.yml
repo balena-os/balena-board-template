@@ -1,4 +1,63 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 9ccb75bf7ad9f48048c969d33607e215efed88eb
+      hash: 20c00b907568b6944d28ece9488e92988ae1877e
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 9ccb75bf7ad9f48048c969d33607e215efed88eb
+        changelog-entry: Update balena-yocto-scripts to 9ccb75bf7ad9f48048c969d33607e215efed88eb
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove balena API key from yocto build step
+              hash: 4beb0be8adddcf2dcac6e04f38a25b7e72ab7b05
+              body: >
+                This key was only used to fetch the supervisor image name from
+                the API,
+
+                but that endpoint does not need auth as the supervisor images
+                are public.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Separate build jobs by environments
+              hash: c91dc23ff49f1c7f07206709b5a4cda77fa7c26c
+              body: >
+                This allows more granular control over which environments are
+                used
+
+                for which steps, and avoids requiring a single environment to
+                define
+
+                how to build, sign, and publish.
+
+
+                This is better for security as it allows each job to only have
+
+                the secrets it needs, and not all secrets for all steps.
+
+
+                We retain backwards compatibility by falling back to the
+                original
+
+                monolith environment input for now.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.31.0
+          title: ""
+          date: 2025-02-27T14:28:24.783Z
+  version: 6.3.23+rev4
+  title: ""
+  date: 2025-02-27T16:39:22.312Z
+- commits:
     - subject: Update balena-yocto-scripts to 554a174f504e2e6aa0c51b59b9279efe8e16d8f0
       hash: 4a73b519e0b7bf1b449084d0f5824978a15eae9a
       body: Update balena-yocto-scripts
