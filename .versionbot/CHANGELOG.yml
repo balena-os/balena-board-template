@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 30d173e0cc80789ecaf0c11970f8bb4e3f93d486
+      hash: bc684109a96bfdd98403ae673639bbd0bf4dbb6b
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 30d173e0cc80789ecaf0c11970f8bb4e3f93d486
+        changelog-entry: Update balena-yocto-scripts to 30d173e0cc80789ecaf0c11970f8bb4e3f93d486
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Unset the new environment inputs until they have been deployed
+              hash: 5ee032a311e915b27420eb261d06f6d6555b9c8d
+              body: |
+                By setting defaults here we are overriding values that may
+                have been set at the device level via deploy-environment.
+
+                For now leave them blank until we have rolled out the new
+                environments to all the repositories.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.31.2
+          title: ""
+          date: 2025-02-27T20:42:14.925Z
+  version: 6.4.0+rev1
+  title: ""
+  date: 2025-02-27T22:39:12.189Z
+- commits:
     - subject: Update layers/meta-balena to 7f68a574d7fe5cd42aa29bf0c37e84a384521c4d
       hash: 24429dbca191b7fcdbfafa5782b12a77b0daf372
       body: Update layers/meta-balena

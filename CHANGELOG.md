@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.4.0+rev1
+## (2025-02-27)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 30d173e0cc80789ecaf0c11970f8bb4e3f93d486 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.2
+> ### (2025-02-27)
+> 
+> * Unset the new environment inputs until they have been deployed [Kyle Harding]
+> 
+
+</details>
+
 # v6.4.0
 ## (2025-02-27)
 
