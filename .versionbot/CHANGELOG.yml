@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update layers/meta-balena to c5c44af22a753a6678504d2f1d3c3f23d1405a45
+      hash: f86f0640b2005030d171d41e274f8d8fc299bd3e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c5c44af22a753a6678504d2f1d3c3f23d1405a45
+        changelog-entry: Update layers/meta-balena to c5c44af22a753a6678504d2f1d3c3f23d1405a45
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/device-tree: Rework test to not use the sysfs gpio interface"
+              hash: 2f65f40490329f6e9ab9e32778564f821eb6fb4e
+              body: >
+                The /sys/class/gpio interface is bound to be removed anytime so
+                let's
+
+                not use it anymore. Instead just make the test set the pin to
+                high then
+
+                check its value after reboot then set the pin to low and check
+                its value
+
+                again after the next reboot.
+
+
+                Also, when checking the pin value in /sys/kernel/debug/gpio lets
+                search
+
+                for the gpio using the GPIO label instead of grepping for a gpio
+                number
+
+                because various kernel versions may offset the gpios with a
+                base.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.4.1
+          title: ""
+          date: 2025-02-28T14:20:09.237Z
+  version: 6.4.1
+  title: ""
+  date: 2025-02-28T16:41:23.694Z
+- commits:
     - subject: Update balena-yocto-scripts to 30d173e0cc80789ecaf0c11970f8bb4e3f93d486
       hash: bc684109a96bfdd98403ae673639bbd0bf4dbb6b
       body: Update balena-yocto-scripts
