@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update balena-yocto-scripts to a3833c2e74cea22461c45feb790e7893858da70b
+      hash: a4de1171b69e85678c1348176783befbd5e172e7
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to a3833c2e74cea22461c45feb790e7893858da70b
+        changelog-entry: Update balena-yocto-scripts to a3833c2e74cea22461c45feb790e7893858da70b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Rename build environment to signing environment
+              hash: 3e545cbea7641d1f7cf9e7e12265be09a4cb5a50
+              body: |
+                This better aligns with the purpose.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Do not allow changing the S3 deploy environment
+              hash: a4aea6f919ff6e82d173defd0f31dbdd3b915f84
+              body: |
+                The AWS environment is always tied to the balenaCloud deploy
+                environment so exposing this to the device workflows is only
+                potential for issues, and no benefit.
+
+                For the time being, the deploy environment will contain
+                both the AWS and BC vars and secrets.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.31.3
+          title: ""
+          date: 2025-02-28T19:02:20.368Z
+  version: 6.4.1+rev1
+  title: ""
+  date: 2025-02-28T20:42:56.700Z
+- commits:
     - subject: Update layers/meta-balena to c5c44af22a753a6678504d2f1d3c3f23d1405a45
       hash: f86f0640b2005030d171d41e274f8d8fc299bd3e
       body: Update layers/meta-balena
