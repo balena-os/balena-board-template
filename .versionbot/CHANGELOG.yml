@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 15df9f8eae3005733daf7110c8128fc8a4541d1b
+      hash: 2e76c11ea3965e5e55f53c4f1acfed29890633e8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 15df9f8eae3005733daf7110c8128fc8a4541d1b
+        changelog-entry: Update balena-yocto-scripts to 15df9f8eae3005733daf7110c8128fc8a4541d1b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Unpack all artifacts for S3 upload
+              hash: 805891c5b292134fdab8e42c1d75f382b422bc1e
+              body: >
+                We need most of the files from the root of the artifacts
+
+                directory for the S3 upload, not just the files in the image
+                directory.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.31.4
+          title: ""
+          date: 2025-03-02T21:53:20.251Z
+  version: 6.4.1+rev2
+  title: ""
+  date: 2025-03-02T22:32:52.026Z
+- commits:
     - subject: Update balena-yocto-scripts to a3833c2e74cea22461c45feb790e7893858da70b
       hash: a4de1171b69e85678c1348176783befbd5e172e7
       body: Update balena-yocto-scripts

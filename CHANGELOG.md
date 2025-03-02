@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.4.1+rev2
+## (2025-03-02)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 15df9f8eae3005733daf7110c8128fc8a4541d1b [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.4
+> ### (2025-03-02)
+> 
+> * Unpack all artifacts for S3 upload [Kyle Harding]
+> 
+
+</details>
+
 # v6.4.1+rev1
 ## (2025-02-28)
 
