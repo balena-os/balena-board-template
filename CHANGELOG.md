@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.4.1+rev8
+## (2025-03-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 5a93484065f79a2277e6a0d003cc3effd84578e6 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.10
+> ### (2025-03-03)
+> 
+> * Update aws-actions/configure-aws-credentials action to v4.1.0 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.4.1+rev7
 ## (2025-03-03)
 
