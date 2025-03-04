@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update balena-yocto-scripts to a0963e8a0a86ba15eff836aa717e3bb6bb897109
+      hash: ec23b18655244b8a0e9dcf21e70f4b8e2a040f3b
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to a0963e8a0a86ba15eff836aa717e3bb6bb897109
+        changelog-entry: Update balena-yocto-scripts to a0963e8a0a86ba15eff836aa717e3bb6bb897109
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add signing environment to All Jobs context
+              hash: 592bf3a1261009519b101577c64258306e932f34
+              body: |
+                This is one of the unique identifiers for merge requirements.
+              footer:
+                CHange-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.31.13
+          title: ""
+          date: 2025-03-04T12:49:02.985Z
+  version: 6.4.1+rev11
+  title: ""
+  date: 2025-03-04T14:39:26.233Z
+- commits:
     - subject: Update balena-yocto-scripts to 4e8d58a64e996869301c996fd61aafe7496ebafc
       hash: 79b74d53ba39882ad614f71c5ff838d0b75569c7
       body: Update balena-yocto-scripts
