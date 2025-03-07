@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.4.1+rev15
+## (2025-03-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2dac8b83fc45756b7ff1327c71b15930281ba2c5 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.17
+> ### (2025-03-07)
+> 
+> * Update product-os/review-commit-action action to v0.2.2 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.4.1+rev14
 ## (2025-03-07)
 
