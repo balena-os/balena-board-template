@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.4.3+rev3
+## (2025-03-11)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 79fb7d5c8eaaebc8a0225157c1dafef95593dd6f [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.23
+> ### (2025-03-11)
+> 
+> * workflows: yocto-build-deploy: pass device type to build [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.4.3+rev2
 ## (2025-03-10)
 

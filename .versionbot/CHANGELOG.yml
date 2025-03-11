@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 79fb7d5c8eaaebc8a0225157c1dafef95593dd6f
+      hash: 6c359ca83eed3661573768a55feafd459d9912d9
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 79fb7d5c8eaaebc8a0225157c1dafef95593dd6f
+        changelog-entry: Update balena-yocto-scripts to 79fb7d5c8eaaebc8a0225157c1dafef95593dd6f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows: yocto-build-deploy: pass device type to build"
+              hash: 8670526bd57cd78c6c909f0b6fb1f2a5884cf84d
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.31.23
+          title: ""
+          date: 2025-03-11T16:42:32.413Z
+  version: 6.4.3+rev3
+  title: ""
+  date: 2025-03-11T18:37:49.472Z
+- commits:
     - subject: Update balena-yocto-scripts to b67855f2ca393dff231d3053814428b8136f7887
       hash: 71f276fdf581fe1cc09c8ecbc25d2d1d57e3d2fe
       body: Update balena-yocto-scripts
