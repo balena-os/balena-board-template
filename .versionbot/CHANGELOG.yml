@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update layers/meta-balena to 0d774efb495bf46ca48abb0aea94667825d74804
+      hash: b40ba84fc5d56e971d90152a71409911618c2fe6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 0d774efb495bf46ca48abb0aea94667825d74804
+        changelog-entry: Update layers/meta-balena to 0d774efb495bf46ca48abb0aea94667825d74804
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Differentiate MACHINE from DEVICE_TYPE
+              hash: 3fa237d98c8b4039f0616544686e4aba1a2d0839
+              body: >
+                Allow for device type names and machine to differ. Until know,
+                the
+
+                device type contract had to be named `$MACHINE.json`, and then
+                the
+
+                slug in it could be something else.
+
+
+                The DEVICE_TYPE variable that defaults to MACHINE for backwards
+
+                compatibility allows for the same MACHINE to build several
+                device types
+
+                by passing a different DEVICE_TYPE to the build.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.4.4
+          title: ""
+          date: 2025-03-12T10:14:34.113Z
+  version: 6.4.4
+  title: ""
+  date: 2025-03-12T12:41:16.215Z
+- commits:
     - subject: Update balena-yocto-scripts to a292126d6c30b703b4d999deff9d9604e7ea0ec2
       hash: c9421eec2af6d373dc5c79abed7c79ca2c4885f6
       body: Update balena-yocto-scripts
