@@ -1,4 +1,125 @@
 - commits:
+    - subject: Update layers/meta-balena to de218895272b288458d86bcba4358eb9a9558c17
+      hash: ceddcdc0e5eb364af80c10aa3e17347f80b4a3b2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to de218895272b288458d86bcba4358eb9a9558c17
+        changelog-entry: Update layers/meta-balena to de218895272b288458d86bcba4358eb9a9558c17
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 81e7f26
+              hash: e3ff6305b8db606870bd8271d00010945e771288
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update balena-io/balena-cli to v20.2.7
+                      hash: 451d57f30bf1e8b16b0a1bdacd9d0bd12b848b38
+                      body: |
+                        Update balena-io/balena-cli from 20.2.1 to 20.2.7
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.31.90
+                  title: ""
+                  date: 2025-02-25T23:03:19.812Z
+          version: meta-balena-6.5.1
+          title: ""
+          date: 2025-03-14T00:29:54.195Z
+        - commits:
+            - subject: "resin-init-flasher: Support devices using 3rd party UEFI drivers"
+              hash: 892fd4f6083b5dc6248f6a83fcdf60dd2528e5ec
+              body: >
+                At this moment, if anything is measured into PCR2 (OpROMs, UEFI
+                drivers)
+
+                the device will provision, but not be able to boot the first
+                time.
+
+                This is because the EFI applications measured in PCR2 need to
+                verify
+
+                against `db`, which means they will be loaded during
+                provisioning
+
+                (while secure boot is still off), but won't be loaded once
+                secure boot
+
+                is enabled. This changes the value of PCR2 between provisioning
+
+                and first boot, which means the encryption keys won't be
+                released.
+
+
+                This patch adds two new behaviors to flasher:
+
+                * By default ignore the PCR2 hashes during secure boot
+                provisioning,
+                  assuming none of the drivers will work with secure boot enabled.
+                * After an opt-in, read the hashes present in PCR2 and enroll
+                  them into `db` during provisioning.
+
+                The latter is an opt-in, as we have no control and no way to
+                know
+
+                what a UEFI driver does. Since these run at firmware level, they
+                have
+
+                enough privileges to bypass secure boot. All we can do is
+                blindly
+
+                whitelist everything present during provisioning, which might be
+                seen
+
+                as security risk, and the user should explicitly accept that.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+            - subject: "efitools: Allow building an ESL from a list of hashes"
+              hash: 3711e752054bc83ec869c0bd726157bf7fe8acb3
+              body: >
+                At this moment hash-to-efi-sig-list only allows to add hash to
+                an ESL
+
+                if the whole EFI application is presented, but this is
+                technically
+
+                not necessary. We want to be able to use raw hashes, because
+
+                for PCIe devices using 3rd party drivers, we only know the hash,
+
+                the full EFI application or driver is not accessible to
+                userspace.
+
+
+                This patch adds support to use raw hashes to
+                hash-to-efi-sig-list
+
+                and ships the tool with efitools-utils.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.5.0
+          title: ""
+          date: 2025-03-13T21:11:06.177Z
+  version: 6.5.1
+  title: ""
+  date: 2025-03-14T01:01:23.953Z
+- commits:
     - subject: Update balena-yocto-scripts to 3d0e54aaaec762612b0aab2c710d496636619f02
       hash: 010a60a2ad246cb6ebaa78083c78f36083a6b46e
       body: Update balena-yocto-scripts
