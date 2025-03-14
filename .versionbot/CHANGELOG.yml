@@ -1,4 +1,27 @@
 - commits:
+    - subject: Update contracts to de98cd4040268e71693710039c7c9c91b1a07cfc
+      hash: bd9aeb2a72a1fc1053b277a885e918fb20eb0055
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to de98cd4040268e71693710039c7c9c91b1a07cfc
+        changelog-entry: Update contracts to de98cd4040268e71693710039c7c9c91b1a07cfc
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Mark Bookworm as the default version for Debian
+              hash: a8bfdf9a34c4642608db6d3140fd95bbc629f477
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Thodoris Greasidis
+          version: contracts-2.0.129
+          title: ""
+          date: 2025-03-14T13:31:13.451Z
+  version: 6.5.1+rev2
+  title: ""
+  date: 2025-03-14T14:50:05.681Z
+- commits:
     - subject: Update balena-yocto-scripts to 757eaa82595c0a0570be90cf93782f2474aa954e
       hash: ad2df9dd8de9b3b1111075827bbb4e13afb94302
       body: Update balena-yocto-scripts
