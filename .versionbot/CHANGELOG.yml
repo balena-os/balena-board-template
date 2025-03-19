@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
+      hash: 58b21b3064b34681d8d6e2302a08a981f293bb2b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
+        changelog-entry: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena: enable CONFIG_MODULE_COMPRESS as needed"
+              hash: c2e44fac5f5a0a68116d6de04f011a43ec7856ab
+              body: >
+                CONFIG_MODULE_COMPRESS_ZSTD requires CONFIG_MODULE_COMPRESS in
+                kernel
+
+                v6.12. Enable it when necessary.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.5.2
+          title: ""
+          date: 2025-03-19T11:27:10.189Z
+  version: 6.5.2
+  title: ""
+  date: 2025-03-19T12:46:47.507Z
+- commits:
     - subject: Update balena-yocto-scripts to 01049fdfdc3ab64c734ed00a9746d9e2522225e6
       hash: 99ad458d40112a7afd5a1d916f41303b92eb295f
       body: Update balena-yocto-scripts

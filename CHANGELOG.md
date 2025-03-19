@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.2
+## (2025-03-19)
+
+
+<details>
+<summary> Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.2
+> ### (2025-03-19)
+> 
+> * kernel-balena: enable CONFIG_MODULE_COMPRESS as needed [Joseph Kogut]
+> 
+
+</details>
+
 # v6.5.1+rev7
 ## (2025-03-18)
 
