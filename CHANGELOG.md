@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.2+rev11
+## (2025-03-26)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 11b5392d2cef1cce26998089b18adfb4d8540f61 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.44
+> ### (2025-03-26)
+> 
+> * Update tespkg/actions-cache action to v1.8.0 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.2+rev10
 ## (2025-03-25)
 
