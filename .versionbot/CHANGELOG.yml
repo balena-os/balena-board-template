@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to d07781855aec29f2508be51a04573b7832af8c90
+      hash: 25703b00a8f0955afda8ddd6268260ecce164578
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to d07781855aec29f2508be51a04573b7832af8c90
+        changelog-entry: Update contracts to d07781855aec29f2508be51a04573b7832af8c90
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Update links to docs for UEFI version checking"
+              hash: cd8fa068d9e3a1a5d8aeda35829973963fc4e204
+              body: |
+                ... also include the L4T minor revision in the UEFI version
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.130
+          title: ""
+          date: 2025-03-28T11:36:03.120Z
+  version: 6.5.4+rev3
+  title: ""
+  date: 2025-03-28T14:43:10.157Z
+- commits:
     - subject: Update balena-yocto-scripts to 5c72c82f232990eefadb1bbe7f4e13b57a2ec5e6
       hash: eeedd82288c786d8d28bebacbdf86a30e70eff84
       body: Update balena-yocto-scripts
