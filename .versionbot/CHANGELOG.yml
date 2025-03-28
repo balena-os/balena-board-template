@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 5c72c82f232990eefadb1bbe7f4e13b57a2ec5e6
+      hash: eeedd82288c786d8d28bebacbdf86a30e70eff84
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 5c72c82f232990eefadb1bbe7f4e13b57a2ec5e6
+        changelog-entry: Update balena-yocto-scripts to 5c72c82f232990eefadb1bbe7f4e13b57a2ec5e6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "Leviathan: Allow specifying alternative image to test"
+              hash: 30ad694fa8b688a5df5cad8a8db82fafad3ecff6
+              body: >
+                This is for use in at least 3 device types - where the customer
+                requires a non-flasher image to be available by default via
+                downloads, but for testing purposes we need ot use the flasher
+                image. This change allows for selecting the flasher image using
+                the test_matrix input - i.e image: balena-flasher.img
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.31.50
+          title: ""
+          date: 2025-03-28T12:22:02.875Z
+  version: 6.5.4+rev2
+  title: ""
+  date: 2025-03-28T12:56:43.824Z
+- commits:
     - subject: Update balena-yocto-scripts to 997914219e3404df25c1813dc7806badd347ac84
       hash: 25dab0c6df37d8fcd32444e13fbac01aa5396d24
       body: Update balena-yocto-scripts
