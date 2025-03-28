@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 74203827f9be6576986de0a496c058eacd21f75a
+      hash: 6f5ec56b799fe2d31e8e449758c4d156316a4dbf
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 74203827f9be6576986de0a496c058eacd21f75a
+        changelog-entry: Update balena-yocto-scripts to 74203827f9be6576986de0a496c058eacd21f75a
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update easimon/maximize-build-space digest to c28619d
+              hash: 6de76326f162839ef2458fd2d92cc244906c6915
+              body: |
+                Update easimon/maximize-build-space
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.53
+          title: ""
+          date: 2025-03-28T20:40:56.919Z
+  version: 6.5.4+rev6
+  title: ""
+  date: 2025-03-28T22:32:41.253Z
+- commits:
     - subject: Update balena-yocto-scripts to fe94b9aa2374e8fec9bb06278933d2a52af2485f
       hash: 9fcf2fbbe68624e3fcd42725b9fd76288aca1d41
       body: Update balena-yocto-scripts
