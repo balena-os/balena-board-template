@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 0c657af51fe6209c35447ed13870dfca4e38b19b
+      hash: 8296ed145223aad8e8964c0a89915555cecf1a6b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 0c657af51fe6209c35447ed13870dfca4e38b19b
+        changelog-entry: Update layers/meta-balena to 0c657af51fe6209c35447ed13870dfca4e38b19b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "initrdscripts: Force migration with secure boot enabled"
+              hash: a664a14d3e788f086f8572a312a72e5603faf0db
+              body: >
+                As a part of secure boot hardening, we want to avoid flasher
+                running
+
+                userspace from an external drive, and always provision from
+                memory.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.5.5
+          title: ""
+          date: 2025-03-30T12:42:16.341Z
+  version: 6.5.5
+  title: ""
+  date: 2025-03-30T14:33:20.263Z
+- commits:
     - subject: Update balena-yocto-scripts to 18950a768d42f7d39ebd6128a1054da6947c5eed
       hash: 6f83f63fd974462df755a849c0ddae0be6b9df97
       body: Update balena-yocto-scripts
