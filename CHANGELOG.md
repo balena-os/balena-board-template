@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.9+rev8
+## (2025-04-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to aeff117458bc63d486c6a85fb3e383f0c9c4432b [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.66
+> ### (2025-04-07)
+> 
+> * workflows: yocto-build-deploy: provide header files to test suite [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.5.9+rev7
 ## (2025-04-07)
 
