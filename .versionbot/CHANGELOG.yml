@@ -1,4 +1,38 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 3fe6f73924db30095f4a6980e36b850c6057b83d
+      hash: 2374bc968a1999bad6e98272e7cf60f15e96ac86
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 3fe6f73924db30095f4a6980e36b850c6057b83d
+        changelog-entry: Update balena-yocto-scripts to 3fe6f73924db30095f4a6980e36b850c6057b83d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "build/barys: Fix builds for older Poky variants"
+              hash: 0bcdad7ea22ce796b80891824783b288b345fd2e
+              body: >
+                Commit 8d9f26fb switched to using the wildcard * char inside
+                quotes,
+
+                which makes ls fail to find the intended directory and thus all
+                builds
+
+                for older Poky revisions fail. We can fix this by removing the
+                quotes.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: balena-yocto-scripts-1.31.68
+          title: ""
+          date: 2025-04-08T07:25:00.234Z
+  version: 6.5.9+rev10
+  title: ""
+  date: 2025-04-08T08:48:39.532Z
+- commits:
     - subject: Update balena-yocto-scripts to 9c6efc52769cec4b0454a50ae928cbcba14785eb
       hash: 1374346df8d824a68e142ffdb796261b6f30dd21
       body: Update balena-yocto-scripts

@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.9+rev10
+## (2025-04-08)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 3fe6f73924db30095f4a6980e36b850c6057b83d [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.68
+> ### (2025-04-08)
+> 
+> * build/barys: Fix builds for older Poky variants [Alexandru Costache]
+> 
+
+</details>
+
 # v6.5.9+rev9
 ## (2025-04-07)
 
