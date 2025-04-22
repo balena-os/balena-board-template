@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 688d07fe8d3304534022c2e28578b097d3b49379
+      hash: eb1230c3c8b0ba14f5923d27e169108d94837a66
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 688d07fe8d3304534022c2e28578b097d3b49379
+        changelog-entry: Update layers/meta-balena to 688d07fe8d3304534022c2e28578b097d3b49379
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/setup-python digest to 8d9ed9a
+              hash: 50dd1e53238b004511d2854291c81afa6bd9604e
+              body: >
+                Update actions/setup-python to
+                8d9ed9ac5c53483de85588cdf95a591a75ab9f55
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.5.23
+          title: ""
+          date: 2025-04-22T10:52:53.386Z
+  version: 6.5.23
+  title: ""
+  date: 2025-04-22T12:43:20.969Z
+- commits:
     - subject: Update balena-yocto-scripts to 4b8835af9cd78184a0460b45b586037a661251b8
       hash: e3fe1d12d61c80f73ab23f70618a01dd9c33fb19
       body: Update balena-yocto-scripts
