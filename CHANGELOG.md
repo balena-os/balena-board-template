@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.24+rev6
+## (2025-04-30)
+
+
+<details>
+<summary> Update contracts to a1e8b75d3ed6714ac854a9d95cd4fc458ca33646 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.132
+> ### (Invalid date)
+> 
+> * imx6ul-var-dart: Update provisioning instructions [Alexandru]
+> 
+
+</details>
+
 # v6.5.24+rev5
 ## (2025-04-30)
 
