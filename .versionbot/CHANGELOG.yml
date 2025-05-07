@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update balena-yocto-scripts to af5a025a8c9dd192c5470cf4ef8b9ef9a22e5572
+      hash: 02af6806acf8bca9632f5821b9c7b93f6daffe13
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to af5a025a8c9dd192c5470cf4ef8b9ef9a22e5572
+        changelog-entry: Update balena-yocto-scripts to af5a025a8c9dd192c5470cf4ef8b9ef9a22e5572
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update aws/aws-cli to v2.27.10
+              hash: ad04c2a299700fa469039114ee97c9daf091cafd
+              body: |
+                Update aws/aws-cli from 2.27.8 to 2.27.10
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.32.1
+          title: ""
+          date: 2025-05-07T22:45:59.670Z
+        - commits:
+            - subject: Remove legacy Jenkins deploy scripts
+              hash: 43645a8075784913dfa522ea60b14ab4556f21e9
+              body: |
+                These scripts have been unrolled into the GitHub Action workflow
+                and are no longer kept up-to-date or tested.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.32.0
+          title: ""
+          date: 2025-05-07T18:38:01.404Z
+  version: 6.5.28+rev1
+  title: ""
+  date: 2025-05-07T23:08:30.798Z
+- commits:
     - subject: Update layers/meta-balena to 5fdd86b4ff4fbaedf08ce545b33df191c932294d
       hash: 64974f61a87aa71096a636402ba4d2b4ae72430f
       body: Update layers/meta-balena
