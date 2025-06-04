@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.35+rev2
+## (2025-06-04)
+
+
+<details>
+<summary> Update balena-yocto-scripts to f6f1688b12108d263e2edf65ae93d249c0d549e3 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.33.13
+> ### (2025-06-04)
+> 
+> * AMI deploy: remove secureboot reference from AMI name [Ryan Cooke]
+> 
+
+</details>
+
 # v6.5.35+rev1
 ## (2025-06-03)
 

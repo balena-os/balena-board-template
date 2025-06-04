@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update balena-yocto-scripts to f6f1688b12108d263e2edf65ae93d249c0d549e3
+      hash: 1908c0ddda2147022e9280a1370ffe8a61ceed3e
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to f6f1688b12108d263e2edf65ae93d249c0d549e3
+        changelog-entry: Update balena-yocto-scripts to f6f1688b12108d263e2edf65ae93d249c0d549e3
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "AMI deploy: remove secureboot reference from AMI name"
+              hash: ed09169ad436883013d57a378b699f80d2c32386
+              body: >
+                We have disabled secureboot AMIs in
+                31b55b59824a4e7a20ee223fe9d4d6fd5e7aa5e4 - so we need to remove
+                it from the AMI name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.33.13
+          title: ""
+          date: 2025-06-04T14:12:03.067Z
+  version: 6.5.35+rev2
+  title: ""
+  date: 2025-06-04T16:47:51.910Z
+- commits:
     - subject: Update balena-yocto-scripts to 9f43641fe15e1f7f8f059b65b1c33569a89115a9
       hash: 25fa640aece7f5525b8e9c7e988d3efb1463de24
       body: Update balena-yocto-scripts
