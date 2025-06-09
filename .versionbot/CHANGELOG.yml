@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 1503c909a6164f06e503990aaf08fff30f65b39e
+      hash: 0d40cd7358b91b4d21dea4bd1c4b7c46a84bc2d2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1503c909a6164f06e503990aaf08fff30f65b39e
+        changelog-entry: Update layers/meta-balena to 1503c909a6164f06e503990aaf08fff30f65b39e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 2c6c6ef
+              hash: 31b6a51e1a0e635377b3f5e6025a75ca054c49b6
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+            - subject: "tests: hup: enable specifying image type"
+              hash: fe0c0c5c2542e3eb325f217c9b3439f2c2a473d0
+              body: >
+                Allows selecting image type (flasher vs raw) in the hup suite,
+                to hup from
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.5.37
+          title: ""
+          date: 2025-06-09T13:51:50.387Z
+  version: 6.5.37
+  title: ""
+  date: 2025-06-09T22:35:31.593Z
+- commits:
     - subject: Update balena-yocto-scripts to e5c7085d5cd7f4162cb87ac0a1b77a0f85358f0f
       hash: 70668aded488470cf862a78bf9cfb4390fefabaa
       body: Update balena-yocto-scripts
