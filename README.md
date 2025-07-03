@@ -8,6 +8,8 @@ or
 * Run "git clone" and then "git submodule update --init --recursive". This will
 bring in all the needed dependencies.
 
+Refer to [balena-os/meta-cyclonedx](https://github.com/balena-os/meta-cyclonedx) for details on how to use the SBOM and VEX generator
+
 ## Build information
 
 balenaOS currently only builds with cgroups v1. If your distribution defaults
