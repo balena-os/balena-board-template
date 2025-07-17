@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.44+rev7
+## (2025-07-17)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 972d8235cfde35394f24df80486c6e8ba5e056e5 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.36.7
+> ### (2025-07-16)
+> 
+> * Update aws/aws-cli to v2.27.53 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.44+rev6
 ## (2025-07-16)
 
