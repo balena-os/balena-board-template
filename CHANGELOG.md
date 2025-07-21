@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.44+rev12
+## (2025-07-21)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 3a56d5d7a7af9f9f753d2a32436549f3668b04fa [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.36.12
+> ### (2025-07-21)
+> 
+> * Update balena-io/balena-cli to v22.1.3 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.44+rev11
 ## (2025-07-21)
 
