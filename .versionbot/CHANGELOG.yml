@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to c9e34938a2e82ae75002592388725d1eb68c1393
+      hash: 6adc0036376585b52f9d3deffc6729dc4d0a33cc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c9e34938a2e82ae75002592388725d1eb68c1393
+        changelog-entry: Update layers/meta-balena to c9e34938a2e82ae75002592388725d1eb68c1393
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "linux-firmware: Ensure Intel AX210 firmware can be installed"
+              hash: f54f1988aaa46746c70ad8b4cf63a88218d4f983
+              body: |
+                ... on devices which enable firmware compression.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.6.2
+          title: ""
+          date: 2025-08-26T08:56:53.219Z
+  version: 6.6.2
+  title: ""
+  date: 2025-08-26T10:56:30.371Z
+- commits:
     - subject: Update layers/meta-balena to 2768e974381299086254e6199991bdc8be26dee4
       hash: 4f1ccd29052c1fd1e523c3a1dc32b71b3fde993e
       body: Update layers/meta-balena

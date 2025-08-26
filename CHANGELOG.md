@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.6.2
+## (2025-08-26)
+
+
+<details>
+<summary> Update layers/meta-balena to c9e34938a2e82ae75002592388725d1eb68c1393 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.6.2
+> ### (2025-08-26)
+> 
+> * linux-firmware: Ensure Intel AX210 firmware can be installed [Alexandru Costache]
+> 
+
+</details>
+
 # v6.6.1
 ## (2025-08-25)
 
