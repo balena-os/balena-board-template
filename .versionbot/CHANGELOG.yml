@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to b1c36acfd089516c641261096cf432438fecbaf1
+      hash: d0448561b268884c4bf261038fb7f339d8baddeb
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to b1c36acfd089516c641261096cf432438fecbaf1
+        changelog-entry: Update balena-yocto-scripts to b1c36acfd089516c641261096cf432438fecbaf1
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/github-script action to v8
+              hash: 3b22e3e976623ace4f926fd6f9c640409657cec4
+              body: |
+                Update actions/github-script from 7.0.1 to 8.0.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.38.17
+          title: ""
+          date: 2025-09-04T17:00:16.232Z
+  version: 6.6.4+rev4
+  title: ""
+  date: 2025-09-04T18:45:58.071Z
+- commits:
     - subject: Update balena-yocto-scripts to 9aad155bf43a75cc48eb3b90eb6b472cae7864a9
       hash: 4c5a9402cb3172a59e920b2b579e53aaa3b5c0d9
       body: Update balena-yocto-scripts
