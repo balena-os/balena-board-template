@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.6.10+rev1
+## (2025-10-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 92ddd91d4b6c5b431dfab42ad76ab639f05a9311 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.38.36
+> ### (2025-10-07)
+> 
+> * Fix check for present test matrix when checking test results [Ryan Cooke]
+> 
+
+</details>
+
 # v6.6.10
 ## (2025-10-03)
 
