@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 1184d75bd1a0e77591f2f2d87af755e5d035f7a6
+      hash: 9a2455ff39d7826be71c38562d5cef0e2e31f686
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 1184d75bd1a0e77591f2f2d87af755e5d035f7a6
+        changelog-entry: Update balena-yocto-scripts to 1184d75bd1a0e77591f2f2d87af755e5d035f7a6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update Pin actions/download-artifact action to 018cc2c
+              hash: cf5fd8eb8074dc1f4abe003aa3a1978fa909d18d
+              body: |
+                Update actions/download-artifact
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.38.71
+          title: ""
+          date: 2025-11-01T04:13:16.655Z
+  version: 6.6.16+rev6
+  title: ""
+  date: 2025-11-01T06:36:55.306Z
+- commits:
     - subject: Update balena-yocto-scripts to e34b54bbf4d05008e1fed910dd1078fe043f4048
       hash: ddb0e81bcef4d97fed8c78bcc7e5625672e0dbd9
       body: Update balena-yocto-scripts
