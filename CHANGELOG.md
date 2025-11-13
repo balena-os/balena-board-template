@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.7.6
+## (2025-11-13)
+
+
+<details>
+<summary> Update layers/meta-balena to ffa081034b9066c287cb23020c03354bed643ac9 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.6
+> ### (2025-11-13)
+> 
+> * Update actions/setup-python action to v6 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.7.5+rev1
 ## (2025-11-13)
 
