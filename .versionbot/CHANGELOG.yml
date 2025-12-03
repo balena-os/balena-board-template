@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 2c9a51d7ad90ba4625e859aefd503dff0ff6b678
+      hash: 9f357dce1da3c9c43ef6437aab6f0688cc5455f5
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 2c9a51d7ad90ba4625e859aefd503dff0ff6b678
+        changelog-entry: Update balena-yocto-scripts to 2c9a51d7ad90ba4625e859aefd503dff0ff6b678
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: verify that keys from SIGN_KMOD_KEY_APPEND ends up properly in kernel
+              hash: 25cbd8c85b7acc45c3d117b2a7f260b6e67419d1
+              body: ""
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: balena-yocto-scripts-1.39.0
+          title: ""
+          date: 2025-12-03T14:35:00.598Z
+  version: 6.8.4+rev1
+  title: ""
+  date: 2025-12-03T16:48:14.178Z
+- commits:
     - subject: Update layers/meta-balena to fe80fe27ae9c207378a35f566c40fc8423129a30
       hash: 8546a6be72c8246c444375d80b9e323c9c5128bc
       body: Update layers/meta-balena
