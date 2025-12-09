@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 9ccfacb101b2537a5ea9ebb66fa87ce1aa570e3b
+      hash: aa34a1ec1a430d531cf2752d290b3acf0bf27df8
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9ccfacb101b2537a5ea9ebb66fa87ce1aa570e3b
+        changelog-entry: Update layers/meta-balena to 9ccfacb101b2537a5ea9ebb66fa87ce1aa570e3b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/setup-python digest to 83679a8
+              hash: 8732123a80a7b55c3d790d17c2dd70777d551a9c
+              body: >
+                Update actions/setup-python to
+                83679a892e2d95755f2dac6acb0bfd1e9ac5d548
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.9.3
+          title: ""
+          date: 2025-12-09T03:13:51.940Z
+  version: 6.9.3
+  title: ""
+  date: 2025-12-09T04:43:23.398Z
+- commits:
     - subject: Update layers/meta-balena to 6bfa26bd140e368e06d72af56cbfc8133f9f0b33
       hash: 41068cbc38f943ab861b1d3a8c325269d1f46ff9
       body: Update layers/meta-balena
