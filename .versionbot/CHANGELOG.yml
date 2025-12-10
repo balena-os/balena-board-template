@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 2d0309124aa7e782a40477ce4db90a443775ce83
+      hash: f46038edc2402990658bbb75a068b16a05475740
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 2d0309124aa7e782a40477ce4db90a443775ce83
+        changelog-entry: Update layers/meta-balena to 2d0309124aa7e782a40477ce4db90a443775ce83
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: fix initramfs rootfs script wrong indent
+              hash: 4204dd9590e5bfeb740088ad2285edc67a634986
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: meta-balena-6.9.5
+          title: ""
+          date: 2025-12-10T18:36:27.261Z
+  version: 6.9.5
+  title: ""
+  date: 2025-12-10T20:54:20.495Z
+- commits:
     - subject: Update layers/meta-balena to 2e6f430bd9727edef17e6a268e461bca3a2bdb0e
       hash: 959a0b0a06098a3321414ea2caad9c0ae302fba2
       body: Update layers/meta-balena

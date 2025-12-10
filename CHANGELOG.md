@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.9.5
+## (2025-12-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 2d0309124aa7e782a40477ce4db90a443775ce83 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.9.5
+> ### (2025-12-10)
+> 
+> * fix initramfs rootfs script wrong indent [Yann CARDAILLAC]
+> 
+
+</details>
+
 # v6.9.4
 ## (2025-12-10)
 
