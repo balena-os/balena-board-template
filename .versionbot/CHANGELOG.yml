@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 2e406edb7c4176625542b371fb1007c7ffe2d266
+      hash: 2681f5e11ce8401c48ec4ec0e017b7762febac53
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 2e406edb7c4176625542b371fb1007c7ffe2d266
+        changelog-entry: Update balena-yocto-scripts to 2e406edb7c4176625542b371fb1007c7ffe2d266
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update GitHub Actions
+              hash: 903567ebe732b29780f63a255f3be2c52a4fef53
+              body: |
+                Update actions/checkout from 6.0.0 to 6.0.1
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.39.4
+          title: ""
+          date: 2025-12-29T18:00:41.800Z
+  version: 6.10.6+rev1
+  title: ""
+  date: 2025-12-29T18:46:44.507Z
+- commits:
     - subject: Update layers/meta-balena to 8cd6c8ecaae04beabee77873db6407b8eda4d805
       hash: a983e3d24e7adf21b23ea5e755faccf305812069
       body: Update layers/meta-balena
