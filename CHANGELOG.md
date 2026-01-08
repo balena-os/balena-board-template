@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.10.13
+## (2026-01-08)
+
+
+<details>
+<summary> Update layers/meta-balena to d8e6c3344e1befd254005d7f10bdaba1faec3581 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.13
+> ### (2026-01-08)
+> 
+> * tests/extra-firmware: Skip post-reboot extra-firmware check for a specific device [Alexandru Costache]
+> 
+
+</details>
+
 # v6.10.12
 ## (2026-01-08)
 
