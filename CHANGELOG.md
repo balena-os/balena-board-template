@@ -1,6 +1,33 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.10.12
+## (2026-01-08)
+
+
+<details>
+<summary> Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.12
+> ### (2026-01-08)
+> 
+> * Reduce the size of the balena bootloader by removing unused functionality [Florin Sarbu]
+> 
+
+</details>
+
+
+<details>
+<summary> Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.12
+> ### (2026-01-08)
+> 
+> * Reduce the size of the balena bootloader by removing unused functionality [Florin Sarbu]
+> 
+
+</details>
+
 # v6.10.10
 ## (2026-01-06)
 

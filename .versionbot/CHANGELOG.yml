@@ -1,4 +1,86 @@
 - commits:
+    - subject: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
+      hash: a32a8c704abcc3d75d511ddedda48d609b6107e7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
+        changelog-entry: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Reduce the size of the balena bootloader by removing unused
+                functionality
+              hash: e658d4b92cb1622009fc5529d573345a426ff09b
+              body: >
+                Newer meta-balena updates are failing for iot-gate-imx8plus-sb
+                with the error:
+
+                ERROR: balena-image-flasher-1.0-r0
+                do_resin_boot_dirgen_and_deploy: resin-boot: Not enough space
+                for atomic copy operations.
+
+
+                In order to have the size reduction available for all
+                balena-bootloader users we do these changes
+
+                directly here in the balena-bootloader class.
+              footer:
+                Changelog-entry: Reduce the size of the balena bootloader by removing unused
+                  functionality
+                changelog-entry: Reduce the size of the balena bootloader by removing unused
+                  functionality
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.10.12
+          title: ""
+          date: 2026-01-08T09:48:14.494Z
+    - subject: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
+      hash: fa6250d132ad74c7e54e376a3ff9a8fc20c62cb1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
+        changelog-entry: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Reduce the size of the balena bootloader by removing unused
+                functionality
+              hash: e658d4b92cb1622009fc5529d573345a426ff09b
+              body: >
+                Newer meta-balena updates are failing for iot-gate-imx8plus-sb
+                with the error:
+
+                ERROR: balena-image-flasher-1.0-r0
+                do_resin_boot_dirgen_and_deploy: resin-boot: Not enough space
+                for atomic copy operations.
+
+
+                In order to have the size reduction available for all
+                balena-bootloader users we do these changes
+
+                directly here in the balena-bootloader class.
+              footer:
+                Changelog-entry: Reduce the size of the balena bootloader by removing unused
+                  functionality
+                changelog-entry: Reduce the size of the balena bootloader by removing unused
+                  functionality
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.10.12
+          title: ""
+          date: 2026-01-08T09:48:14.494Z
+  version: 6.10.12
+  title: ""
+  date: 2026-01-08T10:46:32.436Z
+- commits:
     - subject: Update layers/meta-balena to 7054e72ec48b6e64ad89547b1a4ed44602348efb
       hash: 151c1df406d31f518317a8f0cb9a646143a6eb9f
       body: Update layers/meta-balena
