@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update layers/meta-balena to e512a0e8408220005e47cc1f7eec5411e034efc4
+      hash: 8f6cc7f92ad699199549007051fdb87e4ff133cb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e512a0e8408220005e47cc1f7eec5411e034efc4
+        changelog-entry: Update layers/meta-balena to e512a0e8408220005e47cc1f7eec5411e034efc4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Further reduce the size of the balena bootloader by removing PTP clock
+                support
+              hash: 793ab6bf9a64f1a27418c301a5c920454fd75f85
+              body: >
+                This disables support for PTP clock since it's not something
+
+                I foresee us needing in the balena bootloader.
+
+
+                Additionaly, fix the actual bootloader shrinking since the
+                initial
+
+                commit which introduced this did not effectively add the
+                disabling
+
+                of these options to the .config
+              footer:
+                Changelog-entry: Further reduce the size of the balena bootloader by removing
+                  PTP clock support
+                changelog-entry: Further reduce the size of the balena bootloader by removing
+                  PTP clock support
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.10.19
+          title: ""
+          date: 2026-01-23T05:03:51.721Z
+  version: 6.10.19
+  title: ""
+  date: 2026-01-23T10:56:36.588Z
+- commits:
     - subject: Update balena-yocto-scripts to 8dab33579c6e2fbafed0ca57735a6b0c0da40379
       hash: a941a5d398f84103d091414c352b7c3fd36ca0f9
       body: Update balena-yocto-scripts
