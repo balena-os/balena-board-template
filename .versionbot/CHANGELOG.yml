@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-os/github-workflows to v0.1.2
+      hash: c745e4d1f5ae4a41491d761f54b9ea63b36cf61e
+      body: Update balena-os/github-workflows
+      footer:
+        Changelog-entry: Update balena-os/github-workflows to v0.1.2
+        changelog-entry: Update balena-os/github-workflows to v0.1.2
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.10.19+rev1
+  title: ""
+  date: 2026-01-24T01:20:45.612Z
+- commits:
     - subject: Update layers/meta-balena to e512a0e8408220005e47cc1f7eec5411e034efc4
       hash: 8f6cc7f92ad699199549007051fdb87e4ff133cb
       body: Update layers/meta-balena
