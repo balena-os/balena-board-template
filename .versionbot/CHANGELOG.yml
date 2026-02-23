@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
+      hash: 14c5ec8a113c366239908d92f011677368b859ba
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
+        changelog-entry: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/modem: Skip modem test on unsupported Orin device-type"
+              hash: e72616cea3600a8781bf094c6f10316ebe8f3325
+              body: |
+                This particular device-type has an e-SIM and cannot be tested
+                in our autokit, because a custom setup is required.
+
+                Connectivity will thus be tested by the vendor.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+              nested: []
+          version: meta-balena-6.11.4
+          title: ""
+          date: 2026-02-23T14:31:12.414Z
+  version: 6.11.4
+  title: ""
+  date: 2026-02-23T15:08:37.683Z
+- commits:
     - subject: Update layers/meta-balena to da0ec5aac21ee02dab8be843a37dee512ff37ffe
       hash: 552b969745d38c91ecd8293fd3be3061851beb6e
       body: Update layers/meta-balena
