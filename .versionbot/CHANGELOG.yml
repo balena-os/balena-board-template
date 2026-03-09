@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 73054ac4debf63ab177d662ece5d43deb11364c6
+      hash: 149fbf51e8c5cf76f51bfbcdc556d4112d09c8af
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 73054ac4debf63ab177d662ece5d43deb11364c6
+        changelog-entry: Update contracts to 73054ac4debf63ab177d662ece5d43deb11364c6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "contracts/raspberrypi5: Update device name to mention CM5 support"
+              hash: 5b3c3bb100da7a717be67e9acb168cc3d5721af3
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+          version: contracts-2.0.138
+          title: ""
+          date: 2026-03-09T10:27:43.239Z
+  version: 6.11.10+rev1
+  title: ""
+  date: 2026-03-09T11:14:25.940Z
+- commits:
     - subject: Update layers/meta-balena to 1c606f58f07b6746f6548bcc7c9301482cdced64
       hash: f1d5c80734d814c80edf2da38c80615c7e5039fe
       body: Update layers/meta-balena
