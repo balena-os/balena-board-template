@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 28c9591e69a47f17f0827980b33d5bfc567eeb0c
+      hash: 99cc2a356764e6eee7c3e41fe2c82aa1c0ed7152
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 28c9591e69a47f17f0827980b33d5bfc567eeb0c
+        changelog-entry: Update layers/meta-balena to 28c9591e69a47f17f0827980b33d5bfc567eeb0c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update actions/checkout digest to de0fac2
+              hash: 71b5d16d84c284c2fdb2d50ec6fce0b5ebe6eb5a
+              body: >
+                Update actions/checkout to
+                de0fac2e4500dabe0009e67214ff5f5447ce83dd
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.12.6
+          title: ""
+          date: 2026-04-10T11:35:57.174Z
+  version: 6.12.6
+  title: ""
+  date: 2026-04-10T13:18:00.730Z
+- commits:
     - subject: Update contracts to 9f5b551e773cd8143cf5d4e86407238c2a1a20e9
       hash: cf0b8ed67f09c9ca6eb2fc6001961e8134a2b7a3
       body: Update contracts
