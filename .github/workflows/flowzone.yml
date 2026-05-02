@@ -16,7 +16,7 @@ on:
 jobs:
   flowzone:
     name: Flowzone
-    uses: product-os/flowzone/.github/workflows/flowzone.yml@cc4936e8ac3698c559b19cdaeb8295baf5dcbe4d # master
+    uses: product-os/flowzone/.github/workflows/flowzone.yml@4b69bf10c6a124979d7c283321f65dd96a6ae09b # master
     # prevent duplicate workflow executions for pull_request and pull_request_target
     if: |
       (
