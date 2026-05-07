@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.0.0+rev8
+## (2026-05-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 50033716c5e2384d71a896205465d0a1223f3bed [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.34
+> ### (2026-05-07)
+> 
+> * Dockerfile_yocto-build-env: Switch to docker-ce, pin 28.5.2 [Kyle Harding]
+> 
+
+</details>
+
 # v7.0.0+rev7
 ## (2026-05-02)
 
