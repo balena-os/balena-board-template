@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.0.1
+## (2026-05-08)
+
+
+<details>
+<summary> Update layers/meta-balena to f9a1cd0090e778084298dfc8b68f0b74286ffb47 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.0.1
+> ### (2026-05-08)
+> 
+> * kernel-balena: address CVE-2026-31431 [Alex Gonzalez]
+> 
+
+</details>
+
 # v7.0.0+rev8
 ## (2026-05-07)
 

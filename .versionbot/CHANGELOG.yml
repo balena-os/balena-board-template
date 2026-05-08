@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to f9a1cd0090e778084298dfc8b68f0b74286ffb47
+      hash: a042dd812fe3ef66696d5e670d772dbbaaf7fae6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f9a1cd0090e778084298dfc8b68f0b74286ffb47
+        changelog-entry: Update layers/meta-balena to f9a1cd0090e778084298dfc8b68f0b74286ffb47
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena: address CVE-2026-31431"
+              hash: d95ef53e5e65cabc0dcbb87db994463367bd2bad
+              body: |
+                Unconditionally remove CONFIG_CRYPTO_USER_API_AEAD.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-7.0.1
+          title: ""
+          date: 2026-05-08T11:09:20.703Z
+  version: 7.0.1
+  title: ""
+  date: 2026-05-08T13:33:08.677Z
+- commits:
     - subject: Update balena-yocto-scripts to 50033716c5e2384d71a896205465d0a1223f3bed
       hash: a0d596963506def780b658dfd792f698885e0178
       body: Update balena-yocto-scripts
