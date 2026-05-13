@@ -1,4 +1,56 @@
 - commits:
+    - subject: Update layers/meta-balena to 1dddc5142dd7c41755be8f2ee17bc43014fec9c6
+      hash: 38da1e83a68cae707969b479b721423ed32f572d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1dddc5142dd7c41755be8f2ee17bc43014fec9c6
+        changelog-entry: Update layers/meta-balena to 1dddc5142dd7c41755be8f2ee17bc43014fec9c6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "plymouth: start after udev settle"
+              hash: 2c223c726e75bc0ecf0aafbf850bde5907e4107b
+              body: >
+                In commit 72706964b8dd308b6c1772fa22c4e89d1680d205 we have
+                reworked
+
+                the plymouth unit files to use drop-in configs and avoid the
+                need
+
+                to patch the sources.
+
+
+                During this process we have lost the plymouth-start's depenency
+
+                on systemd-udev-settle.service which creates a race condition
+                around
+
+                the GPU initialization. Sometimes plymouth starts too early,
+                displays
+
+                the splash screen on the early boot SW framebuffer, which then
+                gets
+
+                lost when the actual GPU driver takes over.
+
+
+                This patch re-adds the dependency on systemd-udev-settle.service
+
+                which should address the issue.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-7.0.3
+          title: ""
+          date: 2026-05-13T11:48:58.719Z
+  version: 7.0.3
+  title: ""
+  date: 2026-05-13T16:13:20.106Z
+- commits:
     - subject: Update layers/meta-balena to 3f363dc14666d0d39b8f039b194198b5f5cf81f7
       hash: 10bf07bdfdbde854379d3c354d2e6f4c270077db
       body: Update layers/meta-balena
