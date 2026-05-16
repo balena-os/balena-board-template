@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone to 52950052c36516d5ddd634a10929293160f6d42e
+      hash: 9584f81e29f94dd312e0694bfe9ffcb88fd94ec0
+      body: Update product-os/flowzone
+      footer:
+        Changelog-entry: Update product-os/flowzone to 52950052c36516d5ddd634a10929293160f6d42e
+        changelog-entry: Update product-os/flowzone to 52950052c36516d5ddd634a10929293160f6d42e
+      author: balena-renovate[bot]
+      nested: []
+  version: 7.0.3+rev1
+  title: ""
+  date: 2026-05-16T01:55:38.060Z
+- commits:
     - subject: Update layers/meta-balena to 1dddc5142dd7c41755be8f2ee17bc43014fec9c6
       hash: 38da1e83a68cae707969b479b721423ed32f572d
       body: Update layers/meta-balena
