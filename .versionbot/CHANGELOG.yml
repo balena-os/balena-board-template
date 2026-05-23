@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone
+      hash: 07b747f51b5080478e41e9569c0defc96e0ff0c7
+      body: Update product-os/flowzone
+      footer:
+        Changelog-entry: Update product-os/flowzone
+        changelog-entry: Update product-os/flowzone
+      author: balena-renovate[bot]
+      nested: []
+  version: 7.0.5+rev2
+  title: ""
+  date: 2026-05-23T03:49:03.068Z
+- commits:
     - subject: unpin flowzone, track @master
       hash: 2d2644c5fcfbe633e7c57b2a7bb6f3c5365b1871
       body: |
