@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update layers/meta-balena to d9e900a0a9141b112436c1780377579593277ee0
+      hash: 9e42d97ba80f50d39dc1b6c2b7f272b2811d8f47
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d9e900a0a9141b112436c1780377579593277ee0
+        changelog-entry: Update layers/meta-balena to d9e900a0a9141b112436c1780377579593277ee0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove some docs in favor of moving them directly to the product docs
+              hash: 48b0fc4b2fff441067d9601219cef747b431c74d
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Matthew Yarmolinsky
+              nested: []
+          version: meta-balena-7.1.1
+          title: ""
+          date: 2026-05-28T14:15:39.228Z
+  version: 7.1.1
+  title: ""
+  date: 2026-05-28T19:59:40.592Z
+- commits:
     - subject: Update layers/meta-balena to b5497e219f307a9dadf3ec6c51b4f07f42c7bddc
       hash: 75a91993895d5083eda7ada7b75c1da7b9cb3b62
       body: Update layers/meta-balena
