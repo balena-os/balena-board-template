@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to d73fe53b5bcd894a8d9bb8794233484432e30115
+      hash: 4ff82ae1b5a4f187491d1d681582245c58130585
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to d73fe53b5bcd894a8d9bb8794233484432e30115
+        changelog-entry: Update balena-yocto-scripts to d73fe53b5bcd894a8d9bb8794233484432e30115
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Make release asset upload step required
+              hash: e23ba4eee20843a54f278e7b720c2894f2e018cc
+              body: |
+                Release assets are now the primary artifact format and direct S3
+                is deprecated pending future removal.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.40.0
+          title: ""
+          date: 2026-06-02T17:11:29.468Z
+  version: 7.2.0+rev2
+  title: ""
+  date: 2026-06-02T18:20:21.278Z
+- commits:
     - subject: Update product-os/flowzone to ead3735a95070ffb7410abbfdd17641ed67ff59b
       hash: e3d54098a01666bb2abc19b1420752a1479820dc
       body: Update product-os/flowzone
