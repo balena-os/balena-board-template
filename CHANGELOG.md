@@ -1,6 +1,22 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.5.5+rev1
+## (2026-06-23)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2302959db55d04e9112e75d04f10ec4b4e5268ed [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.41.4
+> ### (2026-06-23)
+> 
+> * Decode base64-encoded GitHub App private key before token generation [Kyle Harding]
+> * Update actions/create-github-app-token action to v3 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v7.5.5
 ## (2026-06-22)
 
