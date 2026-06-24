@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 940bdd4cd47f199544a8980807320b2528fc1abe
+      hash: 4ab33f50443e20a472c8dc8dcbefac2dd4798231
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 940bdd4cd47f199544a8980807320b2528fc1abe
+        changelog-entry: Update layers/meta-balena to 940bdd4cd47f199544a8980807320b2528fc1abe
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "classes/image-balena: Cleanup issue file in Wrynose"
+              hash: f5591ed2b60d1bddd07152e1ac6ad5806d34566a
+              body: |
+                Commit https://git.openembedded.org/openembedded-core/commit/?id=b650bd2c94f9aefd4dec82b27285ed1d439778bc
+                introduces an empty root  password note in /etc/issue
+                at build time, if passwordless root login is enabled.
+
+                The Scarthgap bbclass does not include this note at all
+                and in Wrynose it breaks the /etc/issue file tests. It also
+                is only meaningful if developmentMode is set to 'true'.
+
+                We thus remove the note altogether to keep the /etc/issue file clean
+                and consistent across all versions.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-7.5.7
+          title: ""
+          date: 2026-06-24T16:43:04.211Z
+  version: 7.5.7
+  title: ""
+  date: 2026-06-24T19:36:15.834Z
+- commits:
     - subject: Update layers/meta-balena to 41e6fc31b605eea5a1754290dac2b9b4a529c424
       hash: 1b159ca1e007cf237df7f03f7ebe249003baecde
       body: Update layers/meta-balena
