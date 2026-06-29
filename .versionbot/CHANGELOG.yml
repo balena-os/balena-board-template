@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7d1760c79d5584f3d6bf9a1c2d0e796b6a5b5d82
+      hash: 361bc7051a809f69469a7ebdeeb0c5bb14d771a9
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7d1760c79d5584f3d6bf9a1c2d0e796b6a5b5d82
+        changelog-entry: Update balena-yocto-scripts to 7d1760c79d5584f3d6bf9a1c2d0e796b6a5b5d82
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "yocto-build-deploy: replace pattern based all history first parent
+                match"
+              hash: b3c08ee1850c7013706a2e945f529aa28f329b1d
+              body: >
+                Instead, resolve the PR commit by walking the pushed ref's own
+
+                first-parent history.
+
+
+                Pattern search returns the youngest match reachable from ANY
+                ref,
+
+                so it can jump onto an unrelated branch (e.g. an ESR PR) whose
+                commit is
+
+                not even an ancestor of this tag.
+
+
+                Also,  match any `#<num>` instead of the literal "Merge pull
+                request"
+
+                prefix, so squash merged and custom titled merges
+
+                (like "Update GitHub Actions (#759)") are found, but not
+                version-bump
+
+                commits made by bots.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.41.5
+          title: ""
+          date: 2026-06-29T15:55:45.595Z
+  version: 7.5.7+rev5
+  title: ""
+  date: 2026-06-29T16:03:25.385Z
+- commits:
     - subject: Update balena-os/github-workflows to v0.1.11
       hash: f3044b3a1cf23352c94f1edb1a0c27bfe08e66f4
       body: Update balena-os/github-workflows
