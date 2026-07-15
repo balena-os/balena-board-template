@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to 8657261fc9d135b152e38a0db058e1bc66ea196b
+      hash: 5d0146368d89b5f56560fc6f31d6b95962d6c087
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 8657261fc9d135b152e38a0db058e1bc66ea196b
+        changelog-entry: Update layers/meta-balena to 8657261fc9d135b152e38a0db058e1bc66ea196b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "mobynit: update to v1.0.1"
+              hash: d65e6a18847b96ff1258c8942bf7ee15a2e3fb31
+              body: |
+                This version add kernel ABI extension filtering.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-7.6.0
+          title: ""
+          date: 2026-07-14T15:48:07.936Z
+  version: 7.6.0
+  title: ""
+  date: 2026-07-15T07:54:38.118Z
+- commits:
     - subject: Update balena-yocto-scripts to b82363e38d36ba5f76b739b906f67f6d0b729464
       hash: 7706037e0c16d8f807ed79b2a73fe5e16b49fe4f
       body: Update balena-yocto-scripts
