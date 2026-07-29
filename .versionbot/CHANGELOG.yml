@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to 05f71c5607f293a7bc162db6570f40bd5522393f
+      hash: 5d9967458f7801a9896806eaecfb77ad73e0341c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 05f71c5607f293a7bc162db6570f40bd5522393f
+        changelog-entry: Update layers/meta-balena to 05f71c5607f293a7bc162db6570f40bd5522393f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "mobynit: update to v1.1.0"
+              hash: b7f6b20d99d0bdd7ed489cb839324884acc920a2
+              body: |
+                Update from v1.0.1 to v1.1.0
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-7.8.0
+          title: ""
+          date: 2026-07-29T07:22:20.789Z
+  version: 7.8.0
+  title: ""
+  date: 2026-07-29T10:07:58.462Z
+- commits:
     - subject: Update balena-os/github-workflows to v0.1.12
       hash: 8de51c2a0c03196cfbc6c206d330e67d2417bba2
       body: Update balena-os/github-workflows
