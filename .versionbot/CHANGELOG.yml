@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 410a252de768cef05e71bde5417361819dda50e1
+      hash: dfb7ee0fbbe19f25e990a1ae68cbe1d3106ee15a
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 410a252de768cef05e71bde5417361819dda50e1
+        changelog-entry: Update contracts to 410a252de768cef05e71bde5417361819dda50e1
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add device family and manufacturer metadata
+              hash: a74ddb06557df9e0c19f8201d095be10828ef47a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Pranas Ziaukas <pranas@balena.io>
+                signed-off-by: Pranas Ziaukas <pranas@balena.io>
+              author: Pranas Ziaukas
+          version: contracts-2.0.147
+          title: ""
+          date: 2026-08-04T04:57:52.384Z
+  version: 7.8.1+rev2
+  title: ""
+  date: 2026-08-04T05:58:01.151Z
+- commits:
     - subject: Update product-os/flowzone to e0ec2375c91683be2cfe8cbae4289623c61ec6b1
       hash: fe0817ffe460857b0814eb8dd5f9857b95ad0558
       body: Update product-os/flowzone
