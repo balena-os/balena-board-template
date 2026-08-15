@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone to b42698ab1f79604815841124d94b840df1b45e59
+      hash: 57151abe0efee4153333717bd41dbe378a3f270a
+      body: Update product-os/flowzone
+      footer:
+        Changelog-entry: Update product-os/flowzone to b42698ab1f79604815841124d94b840df1b45e59
+        changelog-entry: Update product-os/flowzone to b42698ab1f79604815841124d94b840df1b45e59
+      author: balena-renovate[bot]
+      nested: []
+  version: 7.9.4+rev4
+  title: ""
+  date: 2026-08-15T01:00:22.031Z
+- commits:
     - subject: Update balena-yocto-scripts to 4b858287c2b8eb6ffb7bedb66908ddde47525605
       hash: 9ca704da0f71fb61bae8c04ed2041a4806c3b097
       body: Update balena-yocto-scripts
