@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to 362e27ca6a40dacf7a696456136e1fe52b29a7c1
+      hash: 4e56048b92b0e483362c8da962cf865209190b5f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 362e27ca6a40dacf7a696456136e1fe52b29a7c1
+        changelog-entry: Update layers/meta-balena to 362e27ca6a40dacf7a696456136e1fe52b29a7c1
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena: use AtomicWriteFile to save volume options"
+              hash: 130aa0d717e5a2eaf970718a819fb44d86d53a2d
+              body: |
+                Backport moby/moby#48034 to balenaEngine v25
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-8.0.1
+          title: ""
+          date: 2026-08-20T16:35:41.933Z
+  version: 8.0.1
+  title: ""
+  date: 2026-08-20T19:11:39.243Z
+- commits:
     - subject: Update balena-yocto-scripts to 6ea43b88e510d849952538fb77a60544fbfc3b77
       hash: 888e90889830f8c5bce5ca4fc89501481419a486
       body: Update balena-yocto-scripts
