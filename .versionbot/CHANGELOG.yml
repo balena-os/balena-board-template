@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update layers/meta-balena to ffa8bb2d616eeca2d95de130933b1177268686ec
+      hash: 90d6505dfc296f22310a5202d75bf9c1d0d0deaa
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ffa8bb2d616eeca2d95de130933b1177268686ec
+        changelog-entry: Update layers/meta-balena to ffa8bb2d616eeca2d95de130933b1177268686ec
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hostapp.yml: Set network_mode none on the hostapp service"
+              hash: 81c16302ee5f63da19081bc04ab04066d58d5532
+              body: >
+                Without it, compose-go adds a default network to the published
+
+                composition and the supervisor creates a real bridge whose
+                subnet can
+
+                collide with the device's LAN.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Christina Ying Wang <christina@balena.io>
+                signed-off-by: Christina Ying Wang <christina@balena.io>
+              author: Christina Ying Wang
+              nested: []
+          version: meta-balena-8.0.4
+          title: ""
+          date: 2026-08-26T21:32:57.241Z
+  version: 8.0.4
+  title: ""
+  date: 2026-08-27T00:01:55.140Z
+- commits:
     - subject: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
       hash: bbe8ae7faf9ce5c26b112fbf964b1d340c3bf814
       body: Update layers/meta-balena
