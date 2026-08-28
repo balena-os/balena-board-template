@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v8.0.4+rev1
+## (2026-08-28)
+
+
+<details>
+<summary> Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.149
+> ### (2026-08-28)
+> 
+> * revpi-connect-4: remove led [Alex Gonzalez]
+> 
+
+</details>
+
 # v8.0.4
 ## (2026-08-27)
 
