@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v8.0.4+rev5
+## (2026-08-29)
+
+* Update balena-os/github-workflows to v0.1.13 [balena-renovate[bot]]
+
 # v8.0.4+rev4
 ## (2026-08-29)
 
