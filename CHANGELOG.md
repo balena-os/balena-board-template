@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v8.0.7+rev1
+## (2026-09-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to e040066f030e2ba6577fe9bc481c22e614ec336a [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.13
+> ### (2026-09-03)
+> 
+> * yocto-build-deploy: Use authenticated user to update submodules [Kyle Harding]
+> 
+
+</details>
+
 # v8.0.7
 ## (2026-09-03)
 
