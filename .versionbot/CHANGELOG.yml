@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to f4c04af13a62af042062c35ed6f4c84534d82cf8
+      hash: c97c0a211bbb660611f9c2696bd1e1d5c3182681
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f4c04af13a62af042062c35ed6f4c84534d82cf8
+        changelog-entry: Update layers/meta-balena to f4c04af13a62af042062c35ed6f4c84534d82cf8
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to bac9173
+              hash: fea14a2f8ca70d46bf1f50a5b12d343357a4f36d
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: "core/contracts: Update to v2.0.150"
+                      hash: 18fd631e06246b8194fc5af204094aea3d9a6c19
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                        signed-off-by: Alexandru Costache <alexandru@balena.io>
+                      author: Alexandru Costache
+                      nested: []
+                  version: leviathan-2.36.133
+                  title: ""
+                  date: 2026-09-22T06:46:24.856Z
+          version: meta-balena-8.0.11
+          title: ""
+          date: 2026-09-22T15:05:20.715Z
+  version: 8.0.11
+  title: ""
+  date: 2026-09-22T19:01:38.661Z
+- commits:
     - subject: Update product-os/flowzone to 16aae6b9d98cd62fd48bd4f8686c5bbea46d9de2
       hash: 83532d3dc1456a58366cf6ff779f1f354aae3bcb
       body: Update product-os/flowzone
