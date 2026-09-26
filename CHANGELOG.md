@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v8.0.13+rev1
+## (2026-09-26)
+
+* Update product-os/flowzone to 2035df4dacdfd23ad194f2c2c26f92de3ec0df14 [balena-renovate[bot]]
+
 # v8.0.13
 ## (2026-09-25)
 
