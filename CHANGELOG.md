@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v8.0.15
+## (2026-10-15)
+
+
+<details>
+<summary> Update layers/meta-balena to 52f083b4e98caa4d6ed35ec75c6bfc20fe84a466 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.15
+> ### (2026-10-15)
+> 
+> * classes/balena-bootloader: Don't include SDMA driver [Alexandru Costache]
+> 
+
+</details>
+
 # v8.0.14+rev6
 ## (2026-10-13)
 
