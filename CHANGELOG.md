@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v9.1.0+rev5
+## (2026-11-17)
+
+
+<details>
+<summary> Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.152
+> ### (2026-11-17)
+> 
+> * Mark revpi-connect-4 and revpi-connect-s as legacy [Nicolai Buchwitz]
+> 
+
+</details>
+
 # v9.1.0+rev4
 ## (2026-11-15)
 
