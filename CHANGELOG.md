@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v9.1.1+rev9
+## (2026-11-24)
+
+
+<details>
+<summary> Update balena-yocto-scripts to ac62fde95212b8eb2c40b385b530fefbd765846f [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.44.0
+> ### (2026-11-24)
+> 
+> * yocto-build-deploy: Attach all service assets under flat keys [Kyle Harding]
+> 
+
+</details>
+
 # v9.1.1+rev8
 ## (2026-11-21)
 
