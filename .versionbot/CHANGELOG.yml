@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update layers/meta-balena to 2c5bb6e19fb0b26a962e9a0a4b662345cb38e89d
+      hash: f223e3021e9c3f30a7f246393f94cbaf0ac6839f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 2c5bb6e19fb0b26a962e9a0a4b662345cb38e89d
+        changelog-entry: Update layers/meta-balena to 2c5bb6e19fb0b26a962e9a0a4b662345cb38e89d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: chrony: Check sync status via chronyc instead of timedatectl"
+              hash: d54bedfff5b30f1769c6c8c6c1f683d4bec785b4
+              body: >
+                The timedatectl binary queries the hardware RTC and aborts with
+
+                "Failed to read RTC: Invalid argument" on boards with an
+                uninitialized
+
+                or faulty RTC crystal (e.g. MCP7941x with a stopped oscillator),
+                even
+
+                when chronyd has already synchronized the system clock.
+
+
+                Query "chronyc tracking" directly for a "Normal" leap status and
+                remove
+
+                the redundant second command invocation after waitUntil.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-9.1.2
+          title: ""
+          date: 2026-11-25T20:19:10.842Z
+  version: 9.1.2
+  title: ""
+  date: 2026-11-25T20:55:44.963Z
+- commits:
     - subject: Update balena-yocto-scripts to ac62fde95212b8eb2c40b385b530fefbd765846f
       hash: 0a5e75ccb6d3b0c06c3dca072d769d79f11c90a8
       body: Update balena-yocto-scripts
