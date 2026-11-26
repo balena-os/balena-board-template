@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v9.1.2+rev2
+## (2026-11-26)
+
+* Update balena-yocto-scripts to 215a1ecb049b1aeb3bff89d057ea78cec12a51c6 [balena-renovate[bot]]
+
 # v9.1.2+rev1
 ## (2026-11-26)
 
