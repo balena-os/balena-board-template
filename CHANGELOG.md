@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v9.1.3
+## (2026-11-27)
+
+
+<details>
+<summary> Update layers/meta-balena to 6be8de835e4262e4cc81d7d95bee76813810f413 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-9.1.3
+> ### (2026-11-27)
+> 
+> * tests: cloud: wait for supervisor to be stable [Ryan Cooke]
+> 
+
+</details>
+
 # v9.1.2+rev5
 ## (2026-11-27)
 
