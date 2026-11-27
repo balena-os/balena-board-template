@@ -1,6 +1,33 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v9.1.2+rev3
+## (2026-11-27)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0bf5764fb40947925781012d10bf3e514569d898 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.44.3
+> ### (2026-11-27)
+> 
+> * Update coffee-script to ~1.12.0 [balena-renovate[bot]]
+> 
+
+</details>
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2b61da2bf062e3395e7a660d622331d135b2091e [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.44.3
+> ### (2026-11-27)
+> 
+> * Update coffee-script to ~1.12.0 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v9.1.2+rev2
 ## (2026-11-26)
 
